@@ -11,22 +11,23 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Geosciences, UniLaSalle (formerly Institut Polytechnique LaSalle Beauvais, Beauvais, France) - 2012
+* M.S. in Mining Geology, UniLaSalle and Laurentian University (Sudbury, Ontario, Canada) - 2015
+* Ph.D in Athmospheric Sciences and Global Change, University of Edinburgh, 2016 - Current
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2015: Ore Deposit Characterisation
+  * Arcelor Mittal
+  * Duties included: Applied research on weathering in BIFs deposits
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+
+* 2013: Technician - surface geophysic
+  * SolData Geophysic - Vinci
+  * Duties included: acquisition, processing and analysis of Electrical and Seismic tomography
+
+*WORK IN PROGRESS*
+
 Skills
 ======
 * Skill 1
