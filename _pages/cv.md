@@ -13,29 +13,45 @@ Education
 ======
 * B.S. in Geosciences, UniLaSalle (formerly Institut Polytechnique LaSalle Beauvais, Beauvais, France) - 2012
 * M.S. in Mining Geology, UniLaSalle and Laurentian University (Sudbury, Ontario, Canada) - 2015
-* Ph.D in Athmospheric Sciences and Global Change, University of Edinburgh, 2016 - Current
+* Ph.D in Atmospheric Sciences and Global Change, University of Edinburgh, 2016 - 2020
 
-Work experience
+Work experience (Research)
 ======
-* 2015: Ore Deposit Characterisation
+
+* 2020 - current: Post-Doctoral Fellow (GFZ - Potsdam)
+  * Developing methods for Landscape Evolution Modeling and topographic analysis
+  * Source to sink at landscapes scale
+  * Complex landscapes (lithologic heterogeneity, multiple forcings, ...)
+
+* 2019 - 2020: Research Software Engineer for the FORESEE project (University of Edinburgh - Telespazio)
+  * 7 months (cumulated)
+  * Prediciton of landslide using remote sensing and numerical models
+  * Development of the software backend (implementation of the model and topographic analysis)
+  * Integration of C++ code to python
+
+Work experience (Industry)
+======
+* 2015: Iron Ore Deposit Characterisation
   * Arcelor Mittal
-  * Duties included: Applied research on weathering in BIFs deposits
+  * Duties included: Applied research on weathering in Banded Iron Formations deposits
 
-
-* 2013: Technician - surface geophysic
-  * SolData Geophysic - Vinci
+* 2013: Technician - surface geophysics
+  * SolData Geophysics - Vinci
   * Duties included: acquisition, processing and analysis of Electrical and Seismic tomography
 
-*WORK IN PROGRESS*
 
-Skills
+Programming skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python: advanced level
+  * Data analysis and visualisation (e.g. matplotlib, scipy, scikit-learn, interactive jupyter widget development, multiprocessing)
+  * backend optimisation (e.g. numba, cython, xtensor(-python), numexpr, dask)
+  * Dataset management (e.g. pandas, xarray-data)
+  * Geospatial (e.g. rasterio, gdal, geopandas, fiona, shapely)
+  * Portage/bindings of C/C++/Fortran to python (cython, f2py, xtensor)
+  * Package distribution (conda, pip, with cross-pltform binaries)
+* C++: intermediate level
+  * Development and adaptation of large research softwares (e.g. LSDTopoTools, RichDEM, fastscapelib)
+* Occasional use when needed: C, R, Fortran, MATLAB, Julia, Java, Javascript
 
 Publications
 ======
@@ -43,7 +59,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
@@ -53,8 +69,8 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
