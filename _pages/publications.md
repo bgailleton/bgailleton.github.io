@@ -25,7 +25,9 @@ Van der Wal, J. L., Nottebaum, V. C., **Gailleton, B.**, Stauch, G., Weismüller
 
 Harries, R. M., **Gailleton, B.**, Kirstein, L. A., Attal, M., Whittaker, A. C., and Mudd, S. M. Impact of climate on landscape form, sediment transfer and the sedimentary record. Earth Surf Process Landforms. 2021; 46: 990– 1006. [DOI](https://doi.org/10.1002/esp.5075.)
 
-## 2019
+## 2019	
+
+Bernard, T., Sinclair, H. D., **Gailleton, B.**, Mudd, S. M., & Ford, M. (2019). Lithological control on the post-orogenic topography and erosion history of the Pyrenees. Earth and Planetary Science Letters, 518, 53-66.
 
 **Gailleton, B.**, Mudd, S.M., Clubb, F.J, Hurst, M.D., and Pfeifer, D. A segmentation approach for the reproducible extraction and quantification of knickpoints from river long profiles, _Earth Surface Dynamics Discussion_
 
