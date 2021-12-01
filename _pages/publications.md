@@ -15,13 +15,14 @@ author_profile: true
 
 Bernard, T., Sinclair, H. D., **Gailleton, B.**, & Fox, M. (2021). Formation of longitudinal river valleys and the fixing of drainage divides in response to exhumation of crystalline basement. Geophysical Research Letters, 48. [DOI](https://doi.org/10.1029/2020GL092210)
 
-**Gailleton, B.**, Mudd, S.M., Clubb, F.J., Grieve, S.W.D. and Hurst, M.D. (2021, _in review_). Impact of changing concavity indices on channel steepness and divide migration metrics. Earth and Space Science Open Archive ESSOAr.
+**Gailleton, B.**, Mudd, S. M., Clubb, F. J., Grieve, S. W. D., & Hurst, M. D. (2021). Impact of changing concavity indices on channel steepness and divide migration metrics. Journal of Geophysical Research: Earth Surface, 126, e2020JF006060. [DOI](https://doi.org/10.1029/2020JF006060) - _Open access thanks the the DEAL projekt_
+
+**Gailleton, B.**, Sinclair, H. D., Mudd, S. M., Graf, E. L. S., & Mațenco, L. C. (2021). Isolating lithologic versus tectonic signals of river profiles to test orogenic models for the Eastern and Southeastern Carpathians. Journal of Geophysical Research: Earth Surface, 126, e2020JF005970. [DOI](https://doi.org/10.1029/2020JF005970) - _Open access thanks the the DEAL projekt_
+
 
 ## 2020
 
 Van der Wal, J. L., Nottebaum, V. C., **Gailleton, B.**, Stauch, G., Weismüller, C., Batkhishig, O., ... & Reicherter, K. (2020). Morphotectonics of the northern Bogd fault and implications for Middle Pleistocene to modern uplift rates in southern Mongolia. Geomorphology, 367, 107330.
-
-**Gailleton, B.**, Sinclair, H. D., Mudd, S. M., Graf, E. L., & Matenco, L. (2020, _in review_). Isolating lithologic versus tectonic signals of river profiles to test orogenic models for the Eastern and Southeastern Carpathians. Earth and Space Science Open Archive ESSOAr.
 
 Harries, R. M., **Gailleton, B.**, Kirstein, L. A., Attal, M., Whittaker, A. C., and Mudd, S. M. Impact of climate on landscape form, sediment transfer and the sedimentary record. Earth Surf Process Landforms. 2021; 46: 990– 1006. [DOI](https://doi.org/10.1002/esp.5075.)
 
@@ -38,6 +39,8 @@ Mudd, S. M., Clubb, F. J., **Gailleton, B.**, and Hurst, M. D. (2018) How concav
 # Conference paper
 
 ## 2018
+
+_few missing here (WIP)_
 
 **Gailleton, B.**, Sinclair, H.D., Mudd, S.M. (2018) Differential post-orogenic topography along the Romanian Carpathians, EGU General Assembly Conference Abstracts, 20, 8835 
 

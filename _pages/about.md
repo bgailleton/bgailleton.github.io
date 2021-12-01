@@ -8,13 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-# Current position: Post-Doctoral researcher at the GFZ
+I am a postdoctoral researcher at the GFZ institute, in the [Earth Surface Process Modelling section](https://www.gfz-potsdam.de/en/staff/boris-gailleton/). My main research focus is on developing methods, algorithms and research software packages to deal with digital topography, _i.e._ either to process existing analysis with topographic analysis, or to simulate topography with landscape evolution models. 
 
-I am a postdoctoral researcher at the GFZ institute, in the [Earth Surface Process Modelling section](https://www.gfz-potsdam.de/sektion/erdoberflaechenprozessmodellierung/ueberblick/). My main work at the moment is the development of a framework for Landscape Evolution Modelling designed for studying complex landscapes together with Luca Malatesta, Jean Braun and Guillaume Cordonnier. By complex landscapes, I mean landscapes where such things as internal lakes, lithologic heterogeneity or complex feedbacks between tools and cover are complexifying the whole source-to-sink system. The technical principle is simple: we plan to run particules of surface-processes on the landscapes and apply all equations at each movement of these. It will allow us to always know the composition of these particules in term of water, sediment or any other elements no matter which law is utilised. We can threfore dynamically manage lake filling and deposition, or adapt the model behavior function of the composition of the sediment flux.
+<!-- Feel free to have a look on my [Research Projects]https://bgailleton.github.io/Research/) for details! -->
 
-# PhD at the University of Edinburgh
+# Research Softwares
 
-I did my PhD at the University of Edinburgh with Simon Mudd, Hugh Sinclair and Mikael Attal, focusing on extracting geomorphometrics in lithologically and/or tectonically heterogeneous landscapes, in order to unravel both signals from the shape of the river network. Three publications are in the pipeline in this general purpose of dealing with complex landscapes. _De facto_, and courtesy to Prof. Mudd, I spent most of my time coding in `python` and `c++` within the [LSDTopoTools](https://lsdtopotools.github.io) framework, the fastscape framework as well as my own ones. I wrote a `python` binder for these tools, `lsdtopytools`, available cross-platform from `conda-forge` and binding the main fluvial algorithms for LSDTopoTools. 
+Here is a very brief summary of my ongoing, mature and/or side software projects. Feel free to contact me if any of those is interesting for you, the amount of work I put in each is dependent on my ongoing projects!
+
+## Topographic Analysis
+
+- [LSDTopoTools](https://lsdtopotools.github.io): I actively worked on the core development of LSDTopoTools, a c++ framework to process topographic analysis for which I developped a lot of tools around the use of Chi coordinate, channel steepness, concavity index, watershed identification or other general-purpose geomorphic algorithm.
+
+- `lsdtopytools`: a python binding of LSDTopoTools bringing a number of LSDTopoTools to interactive python using `xtensor`.
+
+- 
 
 # Research Software in the pipeline
 
