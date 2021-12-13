@@ -20,14 +20,14 @@ Here is a very brief summary of my ongoing, mature and/or side software projects
 
 - [LSDTopoTools](https://lsdtopotools.github.io): I actively worked on the core development of LSDTopoTools, a c++ framework to process topographic analysis for which I developped a lot of tools around the use of Chi coordinate, channel steepness, concavity index, watershed identification or other general-purpose geomorphic algorithm.
 
-- `lsdtopytools`: a python binding of LSDTopoTools bringing a number of LSDTopoTools to interactive python using `xtensor`.
+- `lsdtopytools`: a python binding of LSDTopoTools bringing a number of its algorithms to interactive python using `xtensor`. I distribute it via a cross-platform `conda` package, hosted by `conda-forge`, to make it easy to use. I will write a small tutorial with explanations on this website in a bit. In the meantime, please check [this repo](https://github.com/LSDtopotools/lsdtt_notebooks/tree/master/lsdtopytools) for instructions and examples.
 
-- 
+- A `numba` portage of some of these tools to provide python-only implementation. Contact me if interested: I have already a core of function ready to be used, but this project is on hold at the moment.
 
-# Research Software in the pipeline
+## Numerical Modelling
 
-I have several research softwares in the pipeline: (i) `name_to_be_determine_v1` which is a `c++` + `xsimlab` code prototyping my postdoc model (80% finished, publication to come soon hopefully), (ii) `name_to_be_determine_v2` which will follow shortly after and will be a full `python` and generic version of that model to allow further developments, optimisations and friendliness of the code (for users and myself) and (iii) `lsdnumbatools` or `xarray-lsd` a full `python` engine for topographic analysis part of the `LSDTopoTools` framework (more to come soon, I don;t want to oversell it).
+- `CHONK`: a directed cellular-automata frameworks for landscapes evolution. Mixing existing methods with cellular automata brings a whole new world of technical possibilities from solving lakes to tracking or exploring dynamic feedbacks while remining quite instinctive. This frameworks intends to be flexible, modular and fast. A first publication explaining the principle and demonstrating its advantages is getting ready while a full-fledged `c++/python` framework is WIP.
 
-I plan in this website to write few blog posts about `python`, `c++` LEMs, DEMs, topographic analysis and LSDTopoTools. Or not. I plan to, at least the intention is there.
+- Other more minor contributions to `fastscape` or `MuddPILE`.
 
 **Feel free to contact me: boris.gailleton@gfz-potsdam.de**
