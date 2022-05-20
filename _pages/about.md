@@ -16,6 +16,13 @@ I am a postdoctoral researcher at the GFZ institute, in the [Earth Surface Proce
 
 Here is a very brief summary of my ongoing, mature and/or side software projects. Feel free to contact me if any of those is interesting for you, the amount of work I put in each is dependent on my ongoing projects!
 
+
+## Numerical Modelling
+
+- `CHONK`: a directed cellular-automata frameworks for landscapes evolution. Mixing existing methods with cellular automata brings a whole new world of technical possibilities from solving lakes to tracking or exploring dynamic feedbacks while remining quite instinctive. This frameworks intends to be flexible, modular and fast. A first publication explaining the principle and demonstrating its advantages is getting ready while a full-fledged `c++/python` framework is WIP.
+
+- Other more minor contributions to `fastscape` or `MuddPILE`.
+
 ## Topographic Analysis
 
 - [LSDTopoTools](https://lsdtopotools.github.io): I actively worked on the core development of LSDTopoTools, a c++ framework to process topographic analysis for which I developped a lot of tools around the use of Chi coordinate, channel steepness, concavity index, watershed identification or other general-purpose geomorphic algorithm.
@@ -24,10 +31,6 @@ Here is a very brief summary of my ongoing, mature and/or side software projects
 
 - A lightweight `python` and web portage of some of these tools via the compilation of a common `c++` core with `pybind11` and `webassembly`. Contact me if interested: I have already a core of function ready to be used, but this is a side project. See [this example page](https://bgailleton.github.io/three_test/) for a sneak pic of what it can do.
 
-## Numerical Modelling
 
-- `CHONK`: a directed cellular-automata frameworks for landscapes evolution. Mixing existing methods with cellular automata brings a whole new world of technical possibilities from solving lakes to tracking or exploring dynamic feedbacks while remining quite instinctive. This frameworks intends to be flexible, modular and fast. A first publication explaining the principle and demonstrating its advantages is getting ready while a full-fledged `c++/python` framework is WIP.
-
-- Other more minor contributions to `fastscape` or `MuddPILE`.
 
 **Feel free to contact me: boris.gailleton@gfz-potsdam.de**

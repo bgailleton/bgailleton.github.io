@@ -4,7 +4,7 @@ title: "CHONK"
 permalink: /chonk/
 author_profile: true
 redirect_from:
-  - /model
+  - /model/
 ---
 
 
