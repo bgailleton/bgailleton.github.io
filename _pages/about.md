@@ -22,7 +22,7 @@ Here is a very brief summary of my ongoing, mature and/or side software projects
 
 - `lsdtopytools`: a python binding of LSDTopoTools bringing a number of its algorithms to interactive python using `xtensor`. I distribute it via a cross-platform `conda` package, hosted by `conda-forge`, to make it easy to use. I will write a small tutorial with explanations on this website in a bit. In the meantime, please check [this repo](https://github.com/LSDtopotools/lsdtt_notebooks/tree/master/lsdtopytools) for instructions and examples.
 
-- A `numba` portage of some of these tools to provide python-only implementation. Contact me if interested: I have already a core of function ready to be used, but this project is on hold at the moment.
+- A lightweight `python` and web portage of some of these tools via the compilation of a common `c++` core with `pybind11` and `webassembly`. Contact me if interested: I have already a core of function ready to be used, but this is a side project. See [this example page](https://bgailleton.github.io/three_test/) for a sneak pic of what it can do.
 
 ## Numerical Modelling
 
