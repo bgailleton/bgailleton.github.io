@@ -24,7 +24,7 @@ Work experience (Research)
   * Complex landscapes (lithologic heterogeneity, multiple forcings, ...)
 
 * 2019 - 2020: Research Software Engineer for the FORESEE project (University of Edinburgh - Telespazio)
-  * 7 months (cumulated)
+  * 7 months
   * Prediciton of landslide using remote sensing and numerical models
   * Development of the software backend (implementation of the model and topographic analysis)
   * Integration of C++ code to python
@@ -49,11 +49,15 @@ Programming skills
   * Geospatial (e.g. rasterio, gdal, geopandas, fiona, shapely)
   * Portage/bindings of C/C++/Fortran to python (cython, f2py, xtensor)
   * Package distribution (conda, pip, with cross-pltform binaries)
-* C++: intermediate level
+* C++: advanced level
   * Development and adaptation of large research softwares (e.g. LSDTopoTools, RichDEM, fastscapelib)
-* Occasional use when needed: C, R, Fortran, MATLAB, Julia, Java, Javascript
+  * Developement of Landscape Evolution Modelling Framework
+  * Template-heavy header-only
+* HTML/CSS/Javascript:
+	* Currently developping a web-only topographic analysis toolbox
+* Occasional use when needed: C, R, Fortran, MATLAB, Julia, Java
 
-Publications
+Publications (need updates)
 ======
 
 
