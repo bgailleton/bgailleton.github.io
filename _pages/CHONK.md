@@ -43,6 +43,14 @@ Again, because we always know what is inside the cell, we can express feedback b
 *Illustration of non-local effect linked to the tool effect.* 
 
 
+## Next steps
+
+The illustrations you can see on this page are part of a publication we are finalising for publication. It describes the methods and a prototype of codes with the main applications of the model.
+
+In parallel we are developing the generic and flexible version of the framework. Some aspects of it works but the interface is constantly evolving and we will release it once more stable. Feel free to contact us if interested!
+
+**Please see [this job offer](https://www.gfz-potsdam.de/karriere/stellenangebote/job-detail/6131) if you are interested to work with us on developing a groundwater module with CHONK**
+
 
 
 
