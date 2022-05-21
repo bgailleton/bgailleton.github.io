@@ -20,7 +20,58 @@ The cellular-automata structure and the intended flexibility add an inevitable c
 
 ### Endorehism, internally drained basins and local minima
 
-At any point in the simulation, we can know the final state of fluxes in the cell. If water and sediments are part of the cell we can use them to fill local minima with a finite amount of water and sediment to know what will be transferred downstream. This level of detail is not necessary for all studies and we provide different methods to deal with local minima. Using [Cordonnier et al. 2019](https://esurf.copernicus.org/articles/7/549/2019/), we provide an _implicit_ lake solver. It reroutes flow from the bottom of a depression to its outlet either directly, or via carving/filling algorithms. This methods intends to ensure flow continuity (i.e. water does not simply stops at the local minima) but does not consider explicitly the lake topography. We developed another method, inspired from [Barnes et al., 2020](https://esurf.copernicus.org/articles/8/431/2020/) which builds local binary trees of depression systems to being able to know the volume each single depression or depression system can store. Mixed with graph theory, we can calculate a topological order and process cells from upstream to downstream. 
+At any point in the simulation, we can know the final state of fluxes in the cell. If water and sediments are part of the cell we can use them to fill local minima with a finite amount of water and sediment to know what will be transferred downstream. This level of detail is not necessary for all studies and we provide different methods to deal with local minima. Using [Cordonnier et al. 2019](https://esurf.copernicus.org/articles/7/549/2019/), we provide an _implicit_ lake solver. It reroutes flow from the bottom of a depression to its outlet either directly, or via carving/filling algorithms. This methods intends to ensure flow continuity (i.e. water does not simply stops at the local minima) but does not consider explicitly the lake topography. We developed another method, inspired from [Barnes et al., 2020](https://esurf.copernicus.org/articles/8/431/2020/) which builds local binary trees of depression systems to being able to know the volume each single depression or depression system can store. It allows us to process lake as fully separated domains with dedicated process law, including potentially evaporation. Mixed with graph theory, we can calculate a topological order and process cells from upstream to downstream. You can find bellow a comparative study in a case where acknowledging explicitly lakes is important (Note that it does not mean it is crucial for ALL case studies).
 
 
-![alt text](/files/CHONK_figure_lake.jpg) 
+![alt text](/files/CHONK_figure_lake.jpg)
+*Different results for different lake solver on a landscapes with an internal normal fault*.
+
+
+### Tracking fluxes and quantities
+
+As all the process laws affecting fluxes and quantities are processed at once, it makes the tracking of elements easier. Theoretically these could be anything geochemical, provenance, timing, ... . This tracking can also be done in the stratigraphy as the model allows the stacking of information in the stratigraphy. We tested this tracking capabilities by simply adding a "granitoid-like" patch of rock and investigating where does it go.
+
+
+![alt text](/files/CHONK_figure_tracking.jpg)
+*Detailed tracking of the provenance the granitoids*
+
+### Internal dynamic feedbacks
+
+Again, because we always know what is inside the cell, we can express feedback between the different properties. For example, as a simple exercise, we can roughly approximate a "tool effect" by modulating fluvial erosion function of the rock type of the mobile sediments. With a similar scenario than above, we consider our "granitoid" as a harder rock than the surrounding bedrock. When the mobile sediment flux contains granitoids sediment and erode less resistant basement, we increase fluvial erosivity, and we decrease it in the opposite scenario. We then observed the final river long profile and compared it to a vanilla scenario.
+
+![alt text](CHONK_figure_teffect.jpg)
+*Illustration of non-local effect linked to the tool effect.* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end of file -->
