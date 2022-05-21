@@ -39,7 +39,7 @@ As all the process laws affecting fluxes and quantities are processed at once, i
 
 Again, because we always know what is inside the cell, we can express feedback between the different properties. For example, as a simple exercise, we can roughly approximate a "tool effect" by modulating fluvial erosion function of the rock type of the mobile sediments. With a similar scenario than above, we consider our "granitoid" as a harder rock than the surrounding bedrock. When the mobile sediment flux contains granitoids sediment and erode less resistant basement, we increase fluvial erosivity, and we decrease it in the opposite scenario. We then observed the final river long profile and compared it to a vanilla scenario.
 
-![alt text](CHONK_figure_teffect.jpg)
+![alt text](/files/CHONK_figure_teffect.jpg)
 *Illustration of non-local effect linked to the tool effect.* 
 
 
