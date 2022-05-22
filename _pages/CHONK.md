@@ -11,7 +11,7 @@ redirect_from:
 
 *This page gets updated regularly with info about CHONK and will point to the model documentation soon*
 
-![alt text](/files/pretty_3D.jpg)
+<!-- ![alt text](/files/pretty_3D.jpg) -->
 
 ## What is CHONK?
 
