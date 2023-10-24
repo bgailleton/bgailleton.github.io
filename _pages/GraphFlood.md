@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "GraphFlood"
-permalink: /graphflood/
+permalink: /Softwares/graphflood/
 author_profile: true
 redirect_from:
-  - /model/
+  - /graphflood/
 ---
 
 

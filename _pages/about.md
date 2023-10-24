@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**Coming from my [EGU Presentation](https://meetingorganizer.copernicus.org/EGU22/EGU22-3594.html)? [Click here](https://bgailleton.github.io/chonk/) for details about CHONK LEM**
+<!-- **Coming from my [EGU Presentation](https://meetingorganizer.copernicus.org/EGU22/EGU22-3594.html)? [Click here](https://bgailleton.github.io/chonk/) for details about CHONK LEM** -->
 
 
 I am a postdoctoral researcher at the GFZ institute, in the [Earth Surface Process Modelling section](https://www.gfz-potsdam.de/en/staff/boris-gailleton/). My main research focus is on developing methods, algorithms and research software packages to deal with digital topography, _i.e._ either to process existing analysis with topographic analysis, or to simulate topography with landscape evolution models. I will be starting a new post-doc position in Rennes in July 2022.
