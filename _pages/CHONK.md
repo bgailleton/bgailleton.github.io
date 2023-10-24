@@ -1,19 +1,23 @@
 ---
 layout: archive
-title: "CHONK LEM"
+title: "Numerical tools"
 permalink: /chonk/
 author_profile: true
 redirect_from:
   - /model/
 ---
 
-*B. Gailleton, L. Malatesta, G. Cordonnier, J. Braun, B. Bovy*
+
+
+
+
+<!-- *B. Gailleton, L. Malatesta, G. Cordonnier, J. Braun, B. Bovy*
 
 *This page gets updated regularly with info about CHONK and will point to the model documentation soon*
-
+ -->
 <!-- ![alt text](/files/pretty_3D.jpg) -->
 
-## What is CHONK?
+<!-- ## What is CHONK?
 
 CHONK is a numerical framework for Landscape Evolution Modelling (LEM) currently in development. A numerical framework provides tools and numerical structure to design, run and analyse model - for example [LANDLAB](https://esurf.copernicus.org/articles/8/379/2020/) is a mature LEM framework. CHONK mixes classic LEM principles and algorithms - e.g. graph theory controlling cell topology - with cellular automata data structure. The latter is the novelty: every aspect of the simulation is expressed in a cell referential. To build a cell, the user only needs to define **properties** (e.g. elevation, drainage area, erosion, tracker) and **functions** (e.g. fluvial erosion, water transport, diffusion) describing how the properties interact within the cell and with the neighbourhood. 
 
@@ -64,7 +68,7 @@ In parallel we are developing the generic and flexible version of the framework.
 
 
 
-
+ -->
 
 
 
