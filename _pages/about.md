@@ -13,7 +13,7 @@ redirect_from:
 
 I am a postdoctoral researcher at the [Géosciences Rennes](https://geosciences.univ-rennes.fr/demode-defis-de-modelisation) (Université de Rennes). I am a geomorphologist working on numerical analysis of landscapes in order to understand the relationship between landforms, surface processes and the different climatic and tectonic forcings controlling them. 
 
-![alt text](/images/GF1.png)
+![alt text](/images/ksn_carp.png)
 *Statistical representation of channel steepness, long story short, brighter colours can be linked to either higher erosion (and surface uplift) or higher rock strength. See Gailleton et al., 2021*. 
 
 Focusing mainly on fluvial geomorphology, I developped and applied numerical methods (within the [LSDTopoTools framework](https://lsdtopotools.github.io/)) to extract fluvial network and its characteristics and link them to tectonic forcing in heterogeneous landscapes (e.g. Himalayas, Carpathians). I am also interested in simulating the evolution of such landscapes where multiple processes coexist and I developed a number of numerical method designed to embrace these heterogeneities. `CHONK` for example is designed to simulate and monitor the evolution of water and sediment fluxes affected by multiple processes (e.g. different rock types, erosion laws) and traversing different domains (e.g. lake, multiple flow, single flow).
