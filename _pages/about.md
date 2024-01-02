@@ -11,11 +11,15 @@ redirect_from:
 <!-- **Coming from my [EGU Presentation](https://meetingorganizer.copernicus.org/EGU22/EGU22-3594.html)? [Click here](https://bgailleton.github.io/chonk/) for details about CHONK LEM** -->
 
 
-I am a postdoctoral researcher at the GFZ institute, in the [Earth Surface Process Modelling section](https://www.gfz-potsdam.de/en/staff/boris-gailleton/). My main research focus is on developing methods, algorithms and research software packages to deal with digital topography, _i.e._ either to process existing analysis with topographic analysis, or to simulate topography with landscape evolution models. I will be starting a new post-doc position in Rennes in July 2022.
+I am a postdoctoral researcher at the [Géosciences Rennes](https://geosciences.univ-rennes.fr/demode-defis-de-modelisation) (Université de Rennes). I am a geomorphologist working on numerical analysis of landscapes in order to understand the relationship between landforms, surface processes and the different climatic and tectonic forcings controlling them. Focusing mainly on fluvial geomorphology, I developped and applied numerical methods (within the [LSDTopoTools framework](https://lsdtopotools.github.io/)) to extract fluvial network and its characteristics and link them to tectonic forcing in heterogeneous landscapes (e.g. Himalayas, Carpathians). I am also interested in simulating the evolution of such landscapes where multiple processes coexist and I developed a number of numerical method designed to embrace these heterogeneities. `CHONK` for example is designed to simulate and monitor the evolution of water and sediment fluxes affected by multiple processes (e.g. different rock types, erosion laws) and traversing different domains (e.g. lake, multiple flow, single flow). My PhD at the University of Edinburgh and my first postdoc at the GFZ Potsdam targetted long-term processes ($>10^5$ yrs) at every scales (reach to mountain ranges). I am now working on bridging the gap between these long term change in forcings (e.g. change of surface uplift, base level fall following global temperature cooling) and short-term more extreme events (e.g. series of landslides following an earthquake, high flood) often overlooked. From the fluvial point of view, it starts with the development of `graphflood` to depart from the representation of river as 1D flow path tightly toward a more realistic representation inclusing fields of discharge and flow depth. The challenge lies in numerical efficiency, as existing models (e.g. Delft 3D, Telemac, Floodos, Lisflood) are too complex to target and project the impact of short-term processes into large time and spatial scales.
+
+
+![alt text](/images/GF1.png)
+*Example of Graphflood output*. 
 
 <!-- Feel free to have a look on my [Research Projects]https://bgailleton.github.io/Research/) for details! -->
 
-# Research Softwares
+<!-- # Research Softwares
 
 Here is a very brief summary of my ongoing, mature and/or side software projects. Feel free to contact me if any of those is interesting for you, the amount of work I put in each is dependent on my ongoing projects!
 
@@ -33,7 +37,7 @@ Here is a very brief summary of my ongoing, mature and/or side software projects
 - `lsdtopytools`: a python binding of LSDTopoTools bringing a number of its algorithms to interactive python using `xtensor`. I distribute it via a cross-platform `conda` package, hosted by `conda-forge`, to make it easy to use. I will write a small tutorial with explanations on this website in a bit. In the meantime, please check [this repo](https://github.com/LSDtopotools/lsdtt_notebooks/tree/master/lsdtopytools) for instructions and examples.
 
 - A lightweight `python` and web portage of some of these tools via the compilation of a common `c++` core with `pybind11` and `webassembly`. Contact me if interested: I have already a core of function ready to be used, but this is a side project. See [this example page (might be buggy with small screens)](https://bgailleton.github.io/three_test/) for a sneak pic of what it can do.
+ -->
 
 
-
-**Feel free to contact me: boris.gailleton@gfz-potsdam.de**
+**Feel free to contact me: boris.gailleton@univ-rennes.fr**

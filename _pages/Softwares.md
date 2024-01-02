@@ -7,8 +7,7 @@ redirect_from:
   - /model/
 ---
 
-
-# Softwares
+I worked on multiple pieces of research software, mostly around the processing of numerical topography  ("real" DEMs or simulated LEMs).
 
 [CHONK](https://bgailleton.github.io/Softwares/chonk/)
 
