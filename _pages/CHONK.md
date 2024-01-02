@@ -38,7 +38,7 @@ As all the process laws affecting fluxes and quantities are processed at once, i
 
 
 ![alt text](/files/CHONK_figure_tracking.jpg)
-*Detailed tracking of the provenance the granitoids*
+*Detailed tracking of the provenance of sediments coming the granitoids, including recycled*
 
 ### Internal dynamic feedbacks
 
