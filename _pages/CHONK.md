@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Numerical tools"
+title: "CHONK"
 permalink: /Softwares/chonk/
 author_profile: true
 redirect_from:
@@ -9,14 +9,14 @@ redirect_from:
 
 *B. Gailleton, L. Malatesta, G. Cordonnier, J. Braun, B. Bovy*
 
-*This page gets updated regularly with info about CHONK and will point to the model documentation soon*
+*This page gets updated regularly with info about CHONK and will point to the new model documentation soon*
 <!-- ![alt text](/files/pretty_3D.jpg) -->
 
 ## What is CHONK?
 
 CHONK is a numerical framework for Landscape Evolution Modelling (LEM) currently in development. A numerical framework provides tools and numerical structure to design, run and analyse model - for example [LANDLAB](https://esurf.copernicus.org/articles/8/379/2020/) is a mature LEM framework. CHONK mixes classic LEM principles and algorithms - e.g. graph theory controlling cell topology - with cellular automata data structure. The latter is the novelty: every aspect of the simulation is expressed in a cell referential. To build a cell, the user only needs to define **properties** (e.g. elevation, drainage area, erosion, tracker) and **functions** (e.g. fluvial erosion, water transport, diffusion) describing how the properties interact within the cell and with the neighbourhood. 
 
-A first prototype is currently close to being submitted and demonstrates the advantages of the method, but is not generic and hard to custom with new laws. A second version is currently being developed with a flexible `python` interface to build the model structure and run/analyse the simulations. It provides a lot of flexibility to design an abstract model structure which is then compiled with `cython` into a `c++` core engine. 
+This prototype is available [here](https://egusphere.copernicus.org/preprints/2023/egusphere-2022-1394/), but is not generic and hard to custom with new laws. A second version is currently being developed with a flexible `python` interface to build the model structure and run/analyse the simulations. It provides a lot of flexibility to design an abstract model structure which is then compiled with `cython` into a `c++` core engine. 
 
 
 ## What can CHONK do?
@@ -46,17 +46,6 @@ Again, because we always know what is inside the cell, we can express feedback b
 
 ![alt text](/files/CHONK_figure_teffect.jpg)
 *Illustration of non-local effect linked to the tool effect.* 
-
-
-## Next steps
-
-The illustrations you can see on this page are part of a publication we are finalising for publication. It describes the methods and a prototype of codes with the main applications of the model.
-
-In parallel we are developing the generic and flexible version of the framework. Some aspects of it works but the interface is constantly evolving and we will release it once more stable. Feel free to contact us if interested!
-
-
-
-
 
 
 

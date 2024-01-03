@@ -11,6 +11,18 @@ author_profile: true
 
 # Research paper
 
+## 2023
+
+**Gailleton B**, Malatesta L, Cordonnier G, Braun J. CHONK 1.0: landscape evolution framework: cellular automata meets graph theory. EGUsphere. 2023 Jan 2;2023:1-31.
+
+Graf EL, Sinclair HD, Attal M, **Gailleton B**, Adhikari BR, Baral BR. Geomorphological and hydrological controls on sediment export in earthquake-affected catchments in the Nepal Himalaya. EGUsphere. 2023 Jan 12:1-41.
+
+Aminov J, Dupont-Nivet G, Ruiz D, **Gailleton B.** Paleogeographic reconstructions using QGIS: Introducing Terra Antiqua plugin and its application to 30 and 50 Ma maps. Earth-Science Reviews. 2023 Mar 31:104401.
+
+## 2022
+
+Shobe, C.M., Braun, J., Yuan, X., Campforts, **B., Gailleton**, B., Baby, G., Guillocheau, F. and Robin, C., (2022). Inverting passive margin stratigraphy for marine sediment transport dynamics over geologic time. Basin Research, 34(6), pp.2111-2134.
+
 ## 2021
 
 Bernard, T., Sinclair, H. D., **Gailleton, B.**, & Fox, M. (2021). Formation of longitudinal river valleys and the fixing of drainage divides in response to exhumation of crystalline basement. Geophysical Research Letters, 48. [DOI](https://doi.org/10.1029/2020GL092210)
