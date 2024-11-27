@@ -1,0 +1,90 @@
+baseURL = "https://bgailleton.github.io/"
+languageCode = "en-gb"
+theme = "anubis2"
+title = "B. Gailleton"
+
+[author]
+name = "Boris Gailleton"
+
+[markup.goldmark.renderer]
+unsafe = true # Enable unsafe mode to have a better experience
+
+[markup.highlight]
+style = 'base16-snazzy' # Highlight.js style
+
+
+
+publishDir = './docs'
+
+
+# Configuration for menu
+[params]
+    description = "A brief description of your website"
+    showAuthor = true
+    showDate = true
+    socialIcons = true
+    customCSS = ["css/custom.css"]
+
+
+    # # Social links
+    # twitter = "https://twitter.com/gailleton.boris"
+    # github = "https://github.com/bgailleton"
+    # # linkedin = "https://linkedin.com/in/yourprofile"
+
+[[params.social]]
+    id = "github"
+    url = "https://github.com/bgailleton"  # Replace with your GitHub profile link
+
+
+# Main menu configuration
+# [menu]
+#   [[menu.main]]
+#     identifier = "home"
+#     name = "Home"
+#     url = "/"
+#     weight = 1
+
+#   [[menu.main]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about"
+#     weight = 2
+
+#   [[menu.main]]
+#     identifier = "blog"
+#     name = "Blog"
+#     url = "/blog"
+#     weight = 3
+
+#   [[menu.main]]
+#     identifier = "projects"
+#     name = "Projects"
+#     url = "/projects"
+#     weight = 4
+
+#   [[menu.main]]
+#     identifier = "contact"
+#     name = "Contact"
+#     url = "/contact"
+#     weight = 5
+
+# Configuration for social sharing images, logo, and favicon
+[params.assets]
+  favicon = "images/favicon.png"
+  logo = "images/logo.png"
+  ogimage = "images/ogimage.png"
+
+# Disqus comments
+[params.disqus]
+    enable = true
+    shortname = "your-disqus-shortname"
+
+
+# Enable Taxonomies for tags and categories
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+# Enable pagination
+[pagination]
+  perPage = 10
