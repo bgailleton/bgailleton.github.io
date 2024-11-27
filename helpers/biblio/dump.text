@@ -1,0 +1,306 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inferring Long-Term Tectonic Uplift Patterns from Bayesian Inversion of Fluvially-Incised Landscapes</title>
+    
+        <meta name="DC.Date.created" scheme="ISO8601" content="2024-10-15 18:02"/>
+    <meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2024-10-15 03:38"/>
+    <meta name="DC.Date.issued" scheme="ISO8601" content="2024-10-15 18:02"/>
+    <meta name="DC.Date.modified" scheme="ISO8601" content="2024-10-16 01:02"/>
+    <meta name="DC.Description" xml:lang="en" content="Earth surface processes encode the combined forcing of tectonics and climate in topography. Separating their contributions is essential for using landscapes as quantitative records of crustal deformation. Here, we develop a method for inverting fields of long-term rock uplift from fluvially-incised landscapes, while accounting for spatial variability in climatic conditions and rock erodibility. Our approach operates in the χ-space reference frame and handles spatial variability in key geomorphological parameters using B-spline interpolating functions. Through inversions of 170 synthetic landscapes, we demonstrate that our method accurately captures spatial variations in landscape properties, even when applied to settings that deviate from the ideal model of equilibrated detachment-limited channels, which underpins the χ-space framework. Consequently, we apply our inversion to five natural landscapes shaped by normal faults (half-grabens), and to a 200 km wide region of the Himalayas. We show that our inversion can resolve the effect of climate and lithology while extracting uplift fields that are consistent with patterns expected from upper crustal flexure and previous estimates of uplift derived from geomorphological markers. The success of our method in recovering uplift patterns, isolated from the effects of climate and erodibility, highlights its applicability to settings where long-term uplift trends are unknown, paving the path to deciphering time-averaged tectonic fingerprints recorded in landscapes over tens of thousands of years."/>
+    <meta name="DC.Format" scheme="IMT" content="pdf"/>
+    <meta name="DC.Source.URI" content="/"/>
+    <meta name="DC.Identifier.URI" content="https://eartharxiv.org/repository/view/7881/"/>
+    <meta name="DC.Rights" content="CC-By Attribution-NonCommercial-NoDerivatives 4.0 International"/>
+    <meta name="DC.Publisher" content="EarthArXiv"/>
+    <meta name="DC.Title" content=""/>
+    <meta name="DC.Creator" content="Bar Oryan"/>
+    <meta name="DC.Creator" content="Boris Gailleton"/>
+    <meta name="DC.Creator" content="Jean-Arthur Olive"/>
+    <meta name="DC.Creator" content="Luca Malatesta"/>
+    <meta name="DC.Creator" content="Romain Jolivet"/>
+    
+
+
+    <meta name="citation_title" content="Inferring Long-Term Tectonic Uplift Patterns from Bayesian Inversion of Fluvially-Incised Landscapes">
+<meta name="citation_author" content="Bar Oryan"/>
+<meta name="citation_author" content="Boris Gailleton"/>
+<meta name="citation_author" content="Jean-Arthur Olive"/>
+<meta name="citation_author" content="Luca Malatesta"/>
+<meta name="citation_author" content="Romain Jolivet"/>
+<meta name="citation_publication_date" content="2024-10-15">
+<meta name="citation_pdf_url" content="https://eartharxiv.org/repository/object/7881/download/14871/">
+<meta name="citation_abstract" lang="en" content="Earth surface processes encode the combined forcing of tectonics and climate in topography. Separating their contributions is essential for using landscapes as quantitative records of crustal deformation. Here, we develop a method for inverting fields of long-term rock uplift from fluvially-incised landscapes, while accounting for spatial variability in climatic conditions and rock erodibility. Our approach operates in the χ-space reference frame and handles spatial variability in key geomorphological parameters using B-spline interpolating functions. Through inversions of 170 synthetic landscapes, we demonstrate that our method accurately captures spatial variations in landscape properties, even when applied to settings that deviate from the ideal model of equilibrated detachment-limited channels, which underpins the χ-space framework. Consequently, we apply our inversion to five natural landscapes shaped by normal faults (half-grabens), and to a 200 km wide region of the Himalayas. We show that our inversion can resolve the effect of climate and lithology while extracting uplift fields that are consistent with patterns expected from upper crustal flexure and previous estimates of uplift derived from geomorphological markers. The success of our method in recovering uplift patterns, isolated from the effects of climate and erodibility, highlights its applicability to settings where long-term uplift trends are unknown, paving the path to deciphering time-averaged tectonic fingerprints recorded in landscapes over tens of thousands of years.">
+
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    
+        <link rel="icon" href="/media/repos/1/5d666191-1397-40cf-9a38-f6d9346a7c95.png" type="image/vnd.microsoft.icon"/>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Roboto" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.2.2/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="/static/material/mat.css">
+
+    
+        <link href="/static/common/css/repo.css" rel="stylesheet">
+    
+    <link href="/static/common/css/common.css" rel="stylesheet">
+    
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed/"/>
+</head>
+<body>
+
+<header>
+
+    
+        
+
+
+
+
+
+
+<nav class="header-overrides" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="/" class="brand-logo">
+            
+            <img src="/media/repos/1/4906da5a-ae1e-45b7-9414-16a5bac0b73e.png" class="responsive-img" />
+            
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            <li><a href="/repository/about/">About</a>
+            <li><a href="/repository/list/">Preprints</a></li>
+            <li><a href="/repository/list/subjects/">Subjects</a></li>
+            <li><a href="/repository/submit/start/">Submit</a></li>
+
+            
+            
+                <li><a href="/login/" class="nav-link">Login</a></li>
+                <li><a href="/register/step/1/">Register</a></li>
+            
+        </ul>
+
+        <ul class="sidenav" id="nav-mobile">
+            <li><a href="/">Home</a></li>
+            <li><a href="/repository/about/">About</a></li>
+            <li><a href="/repository/list/">Preprints</a></li>
+            <li><a href="/repository/list/subjects/">Subjects</a></li>
+            <li><a href="/repository/submit/start/">Submit</a></li>
+
+            
+                <li><a href="/login/" class="nav-link">Login</a></li>
+                <li><a href="/register/step/1/">Register</a></li>
+            
+        </ul>
+        <a
+            href="#!"
+            data-target="nav-mobile"
+            class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </a>
+    </div>
+</nav>
+
+
+
+    
+
+</header>
+<main>
+    <div class="container">
+        <div class="section">
+            
+    <div class="row preprint-content">
+        <div class="col m12">
+            <div class="card">
+                <div class="card-image preprint-card">
+                    <img class="orbit-image" alt="Inferring Long-Term Tectonic Uplift Patterns from Bayesian Inversion of Fluvially-Incised Landscapes"
+                         src="/media/repos/1/40aab2d6-4c12-4d57-a93c-f005a57ea48c.jpg">
+                    <span class="card-title">
+                        <div class="carousel-text-wrapper">
+                            Inferring Long-Term Tectonic Uplift Patterns from Bayesian Inversion of Fluvially-Incised Landscapes
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col m7">
+            <div itemprop="articleBody" id="pdf">
+                <p class="preprint-text">
+                    This is a Preprint and has not been peer reviewed.
+                    
+                    This is version 1 of this Preprint.
+                </p>
+                
+                    <iframe src="/repository/view/7881/pdf/?file=/repository/object/7881/download/14871/"
+                            width="100%" height="100%" style="min-height: 900px;" allowfullscreen
+                            webkitallowfullscreen></iframe>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Add a Comment</span>
+                        
+                            <p>You must <a href="/login/">log in</a> to post a comment.</p>
+
+                        
+                        <div class="divider"></div>
+                        <br />
+                        <div class="comment-scroll">
+                            <span class="card-title">Comments</span>
+                            
+                                <div class="callout">
+                                    <p>There are no comments or no comments have been made public for this article.</p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col m5">
+            <div class="card">
+                <div class="card-content preprint-content">
+                    
+                        <h5>Downloads</h5>
+                        <p>
+                            <a href="/repository/object/7881/download/14871/"><span
+                                    class="fa fa-download"></span>
+                                Download Preprint
+                            </a></p>
+                    
+                    
+                    <h5>Authors</h5>
+                    <div class="truncatejs">
+                      <p class="authors">
+                        
+                            Bar Oryan, 
+                        
+                            Boris Gailleton, 
+                        
+                            Jean-Arthur Olive, 
+                        
+                            Luca Malatesta, 
+                        
+                            Romain Jolivet
+                        
+                      </p>
+                    </div>
+                    <h5>Abstract</h5>
+                    <div class="truncatejs">
+                        <p class="preprint-text">Earth surface processes encode the combined forcing of tectonics and climate in topography. Separating their contributions is essential for using landscapes as quantitative records of crustal deformation. Here, we develop a method for inverting fields of long-term rock uplift from fluvially-incised landscapes, while accounting for spatial variability in climatic conditions and rock erodibility. Our approach operates in the χ-space reference frame and handles spatial variability in key geomorphological parameters using B-spline interpolating functions. Through inversions of 170 synthetic landscapes, we demonstrate that our method accurately captures spatial variations in landscape properties, even when applied to settings that deviate from the ideal model of equilibrated detachment-limited channels, which underpins the χ-space framework. Consequently, we apply our inversion to five natural landscapes shaped by normal faults (half-grabens), and to a 200 km wide region of the Himalayas. We show that our inversion can resolve the effect of climate and lithology while extracting uplift fields that are consistent with patterns expected from upper crustal flexure and previous estimates of uplift derived from geomorphological markers. The success of our method in recovering uplift patterns, isolated from the effects of climate and erodibility, highlights its applicability to settings where long-term uplift trends are unknown, paving the path to deciphering time-averaged tectonic fingerprints recorded in landscapes over tens of thousands of years.</p>
+                    </div>
+
+                    
+                    <h5>DOI</h5>
+                    <p><a href="https://doi.org/10.31223/X5T407">https://doi.org/10.31223/X5T407</a></p>
+                    
+
+                    
+                    <h5>Subjects</h5>
+                    <p>Earth Sciences</p>
+                    
+
+                    <h5>Keywords</h5>
+                    <p></p>
+
+                    <h5>Dates</h5>
+                    <p><strong>Published: </strong>2024-10-15 18:02</p>
+                    <p><strong>Last Updated: </strong>2024-10-16 01:02</p>
+
+                    
+
+                    <h5>License</h5>
+                    <p><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode" target="_blank">CC-By Attribution-NonCommercial-NoDerivatives 4.0 International</a></p>
+
+                    
+                    <h5>Additional Metadata</h5>
+                    
+                    <p><strong>Conflict of interest statement: </strong><br/> No conflict of interest </p>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+        </div>
+    </div>
+</main>
+<footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container">
+            
+                <p><img src="/media/django-summernote/2020-09-30/91c498d8-fa47-43e3-8000-94b3a9baab7a.png">Powered by the <a href="https://cdlib.org">California Digital Library</a> and <a href="https://janeway.systems">Janeway</a></p>
+<p><a href="/repository/about">About</a> | <a href="https://eartharxiv.github.io/cdl_tos.html">Terms of Service</a> | <a href="https://eartharxiv.github.io/moderation.html" target="_blank">Moderation Policy</a> | <a href="https://cdlib.org/about/policies-and-guidelines/privacy-statement/">CDL Privacy Statement</a> | <a href="mailto:admin@eartharxiv.org">Support</a> | <a href="https://eartharxiv.org/rss/preprints/" target="_blank">RSS Feed</a></p>
+            
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+</script>
+<script
+    src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.2.2/dist/js/materialize.min.js">
+</script>
+<script>
+    window.M.AutoInit()
+</script>
+<script src="/static/material/material.js"></script>
+<script src="/static/admin/js/csrf.js"></script>
+<script src="/static/common/js/timezone-setter.js"></script>
+<script>setTimezone();</script>
+<script>
+    
+</script>
+
+
+
+
+<script src="/static/common/js/moreless.js"></script>
+
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//matomo.cdlib.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '8']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+/* Header Style: Refined with Accent Line */
+.elegant-header {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--text-color);
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--accent-color); /* Accent underline */
+    letter-spacing: 1px; /* Subtle spacing for elegance */
+    margin-bottom: 24px;
+}
+
+/* Main Paragraph Style: Elevated Emphasis */
+.main-paragraph {
+    font-size: 1.1rem;                 /* Slightly larger font */
+    line-height: 1.75;                 /* Increase line height for readability */
+    color: var(--text-color);
+    padding: 1.2rem;                   /* Add padding for emphasis */
+    margin-bottom: 1.75rem;
+    background-color: rgba(240, 240, 240, 0.2);  /* Light background for emphasis */
+    border-left: 4px solid var(--accent-color);  /* Left border for subtle accent */
+    border-radius: 8px;                /* Rounded corners for a softer look */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);    /* Light shadow for depth */
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+    font-weight: bold;  
+}
+
+.custom-list {
+  list-style-type: square; /* Changes bullets to squares */
+  padding-left: 20px;      /* Adds space before the bullets */
+}
+
+.custom-list li {
+  color: #333;             /* Changes text color */
+  margin-bottom: 5px;      /* Adds spacing between items */
+}
+
+/* Main Paragraph Style: Elevated Emphasis */
+.cadre-paragraph {
+    font-size: 1rem;                 /* Slightly larger font */
+    line-height: 1.75;                 /* Increase line height for readability */
+    color: var(--text-color);
+    padding: 1.2rem;                   /* Add padding for emphasis */
+    margin-bottom: 1.75rem;
+    background-color: rgba(240, 20, 50, 0.5);  /* Light background for emphasis */
+    border-left: 4px solid var(--accent-color);  /* Left border for subtle accent */
+    border-radius: 8px;                /* Rounded corners for a softer look */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);    /* Light shadow for depth */
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+    font-weight: normal;
+    justify-content: center;
+}
+
+/* Medium Header Monospace */
+.medium-header-monospace {
+    font-family: "Courier New", Courier, monospace; /* Monospace font */
+    font-size: 1.8rem;                             /* Medium size */
+    font-weight: bold;                             /* Bold for emphasis */
+    color: var(--text-color, #333);                /* Default text color */
+    margin: 20px 0;                                /* Add spacing around */
+    text-align: left;                            /* Optional: Center text */
+}
+
+/* Emphasized Text Section */
+.emphasized-section {
+    font-size: 1.2rem;                             /* Slightly larger font */
+    line-height: 1.8;                              /* Better readability */
+    font-style: italic;                            /* Italicized */
+    background-color: rgba(255, 255, 200, 0.2);    /* Light yellow background */
+    border-left: 4px solid var(--accent-color, #f39c12); /* Left border for emphasis */
+    padding: 10px 15px;                            /* Internal spacing */
+    border-radius: 5px;                            /* Rounded corners */
+    color: var(--text-color, #333);                /* Text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);      /* Optional: Soft shadow */
+}
+
+/* Small Monospace Text */
+.small-monospace {
+    font-family: "Courier New", Courier, monospace; /* Monospace font */
+    font-size: 0.85rem;                            /* Small size */
+    color: var(--text-muted, #666);                /* Subtle text color */
+    letter-spacing: 0.05rem;                       /* Slight spacing for clarity */
+    margin: 5px 0;                                 /* Small margin */
+    line-height: 1.5;                              /* Readable line spacing */
+    white-space: pre-wrap;                         /* Maintain monospace alignment */
+}
+
+/* Small Monospace Text */
+.reg-monospace {
+    font-family: "Courier New", Courier, monospace; /* Monospace font */
+    font-size: 1rem;                            /* Small size */
+    color: var(--text-muted, #333);                /* Subtle text color */
+    letter-spacing: 0.05rem;                       /* Slight spacing for clarity */
+    margin: 5px 0;                                 /* Small margin */
+    line-height: 1.5;                              /* Readable line spacing */
+    white-space: pre-wrap;                         /* Maintain monospace alignment */
+}
+
+
+/* Discreet Paragraph Style A: Slightly Elevated with Soft Color */
+.discreet-paragraph-a {
+    font-size: 1.05rem;
+    background-color: rgba(240, 240, 240, 0.05);  /* Light background for emphasis */
+    line-height: 1.55;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    padding-left: 25px;
+    text-indent: -25px;
+/*    border-left: 3px solid #f2c750; /* Left border for subtle distinction */
+}
+
+/* Discreet Paragraph Style B: Emphasis with Small-Caps */
+.discreet-paragraph-b {
+    background-color: rgba(240, 240, 240, 0.01);  /* Light background for emphasis */
+    font-size: 1.05rem;
+    line-height: 1.55;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    margin-left: 3rem;
+    letter-spacing: 0.5px; /* Slight letter spacing */
+    padding-left: 25px;
+    text-indent: -25px;
+/*    border-left: 3px solid #ab6aa9; /* Left border for subtle distinction */
+}
+
+/* Discreet Paragraph Style A: Slightly Elevated with Soft Color */
+.discreet-paragraph-article {
+    font-size: 1.05rem;
+    background-color: rgba(240, 240, 240, 0.05);  /* Light background for emphasis */
+    line-height: 1.55;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: flex;           /* Enables flexbox layout */
+    gap: 10px;               /* Optional: adds space between child divs */
+    align-items: center;     /* Aligns child divs vertically in the center */
+}

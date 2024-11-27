@@ -1,0 +1,1166 @@
+[
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "How concave are river channels?",
+            "pub_year": 2018,
+            "citation": "Earth Surface Dynamics 6 (2), 505-523, 2018",
+            "author": "Simon M Mudd and Fiona J Clubb and Boris Gailleton and Martin D Hurst",
+            "journal": "Earth Surface Dynamics",
+            "volume": "6",
+            "number": "2",
+            "pages": "505-523",
+            "publisher": "Copernicus Publications"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:u-x6o8ySG0sC",
+        "num_citations": 99,
+        "citedby_url": "/scholar?hl=en&cites=8342785900766993129",
+        "cites_id": [
+            "8342785900766993129"
+        ],
+        "pub_url": "https://esurf.copernicus.org/articles/6/505/2018/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:6ZpaJJOHx3MJ:scholar.google.com/",
+        "cites_per_year": {
+            "2018": 1,
+            "2019": 11,
+            "2020": 16,
+            "2021": 19,
+            "2022": 20,
+            "2023": 18,
+            "2024": 12
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "A segmentation approach for the reproducible extraction and quantification of knickpoints from river long profiles",
+            "pub_year": 2019,
+            "citation": "Earth Surface Dynamics 7 (1), 211-230, 2019",
+            "author": "Boris Gailleton and Simon M Mudd and Fiona J Clubb and Daniel Peifer and Martin D Hurst",
+            "journal": "Earth Surface Dynamics",
+            "volume": "7",
+            "number": "1",
+            "pages": "211-230",
+            "publisher": "Copernicus GmbH"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:qjMakFHDy7sC",
+        "num_citations": 60,
+        "citedby_url": "/scholar?hl=en&cites=5732247545482650373",
+        "cites_id": [
+            "5732247545482650373"
+        ],
+        "pub_url": "https://esurf.copernicus.org/articles/7/211/2019/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:BSMZmcUIjU8J:scholar.google.com/",
+        "cites_per_year": {
+            "2019": 3,
+            "2020": 8,
+            "2021": 20,
+            "2022": 11,
+            "2023": 8,
+            "2024": 9
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Lithological control on the post-orogenic topography and erosion history of the Pyrenees",
+            "pub_year": 2019,
+            "citation": "Earth and Planetary Science Letters 518, 53-66, 2019",
+            "author": "Thomas Bernard and Hugh D Sinclair and Boris Gailleton and Simon M Mudd and Mary Ford",
+            "journal": "Earth and Planetary Science Letters",
+            "volume": "518",
+            "pages": "53-66",
+            "publisher": "Elsevier"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:zYLM7Y9cAGgC",
+        "num_citations": 55,
+        "citedby_url": "/scholar?hl=en&cites=15011852830104985859",
+        "cites_id": [
+            "15011852830104985859"
+        ],
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0012821X19302389",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:A6HZ3pzQVNAJ:scholar.google.com/",
+        "cites_per_year": {
+            "2020": 7,
+            "2021": 12,
+            "2022": 9,
+            "2023": 12,
+            "2024": 15
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Impact of changing concavity indices on channel steepness and divide migration metrics",
+            "pub_year": 2021,
+            "citation": "Journal of Geophysical Research: Earth Surface 126 (10), e2020JF006060, 2021",
+            "author": "Boris Gailleton and Simon M Mudd and Fiona J Clubb and Stuart WD Grieve and Martin D Hurst",
+            "journal": "Journal of Geophysical Research: Earth Surface",
+            "volume": "126",
+            "number": "10",
+            "pages": "e2020JF006060"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:Se3iqnhoufwC",
+        "num_citations": 46,
+        "citedby_url": "/scholar?hl=en&cites=18228370615437283567",
+        "cites_id": [
+            "18228370615437283567"
+        ],
+        "pub_url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JF006060",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:79BOJ38u-PwJ:scholar.google.com/",
+        "cites_per_year": {
+            "2021": 1,
+            "2022": 11,
+            "2023": 15,
+            "2024": 18
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Formation of longitudinal river valleys and the fixing of drainage divides in response to exhumation of crystalline basement",
+            "pub_year": 2021,
+            "citation": "Geophysical Research Letters 48 (8), e2020GL092210, 2021",
+            "author": "Thomas Bernard and Hugh D Sinclair and Boris Gailleton and Matthew Fox",
+            "journal": "Geophysical Research Letters",
+            "volume": "48",
+            "number": "8",
+            "pages": "e2020GL092210"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:8k81kl-MbHgC",
+        "num_citations": 18,
+        "citedby_url": "/scholar?hl=en&cites=9962542475035169070",
+        "cites_id": [
+            "9962542475035169070"
+        ],
+        "pub_url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL092210",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:LlE25JgPQooJ:scholar.google.com/",
+        "cites_per_year": {
+            "2021": 1,
+            "2022": 7,
+            "2023": 3,
+            "2024": 7
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Impact of climate on landscape form, sediment transfer and the sedimentary record",
+            "pub_year": 2021,
+            "citation": "Earth Surface Processes and Landforms 46 (5), 990-1006, 2021",
+            "author": "Rebekah M Harries and Boris Gailleton and Linda A Kirstein and Mikael Attal and Alexander C Whittaker and Simon M Mudd",
+            "journal": "Earth Surface Processes and Landforms",
+            "volume": "46",
+            "number": "5",
+            "pages": "990-1006"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:UebtZRa9Y70C",
+        "num_citations": 18,
+        "citedby_url": "/scholar?hl=en&cites=8525591492780330253",
+        "cites_id": [
+            "8525591492780330253"
+        ],
+        "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/esp.5075",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:DY1Dy0r8UHYJ:scholar.google.com/",
+        "cites_per_year": {
+            "2021": 5,
+            "2022": 4,
+            "2023": 5,
+            "2024": 4
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Isolating lithologic versus tectonic signals of river profiles to test orogenic models for the Eastern and Southeastern Carpathians",
+            "pub_year": 2021,
+            "citation": "Journal of Geophysical Research: Earth Surface 126 (8), e2020JF005970, 2021",
+            "author": "Boris Gailleton and HD Sinclair and SM Mudd and ELS Graf and LC Ma\u021benco",
+            "journal": "Journal of Geophysical Research: Earth Surface",
+            "volume": "126",
+            "number": "8",
+            "pages": "e2020JF005970"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:roLk4NBRz8UC",
+        "num_citations": 15,
+        "citedby_url": "/scholar?hl=en&cites=8492911185000930570",
+        "cites_id": [
+            "8492911185000930570"
+        ],
+        "pub_url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JF005970",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Ch3ssrnh3HUJ:scholar.google.com/",
+        "cites_per_year": {
+            "2021": 1,
+            "2022": 6,
+            "2023": 5,
+            "2024": 3
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "LSDTopoTools2",
+            "pub_year": 2019,
+            "citation": "Zenodo [data set] 10, 2019",
+            "author": "SM Mudd and FJ Clubb and SWD Grieve and DT Milodowski and MD Hurst and B Gailleton and DA Valters",
+            "journal": "Zenodo [data set]",
+            "volume": "10"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:ULOm3_A8WrAC",
+        "num_citations": 15,
+        "citedby_url": "/scholar?hl=en&cites=17636309615081323772",
+        "cites_id": [
+            "17636309615081323772"
+        ],
+        "pub_url": "https://scholar.google.com/scholar?cluster=17636309615081323772&hl=en&oi=scholarr",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:_Hy6WyfCwPQJ:scholar.google.com/",
+        "cites_per_year": {
+            "2019": 1,
+            "2020": 1,
+            "2021": 2,
+            "2022": 2,
+            "2023": 4,
+            "2024": 5
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Morphotectonics of the northern Bogd fault and implications for Middle Pleistocene to modern uplift rates in southern Mongolia",
+            "pub_year": 2020,
+            "citation": "Geomorphology 367, 107330, 2020",
+            "author": "Jorien LN van der Wal and VC Nottebaum and Boris Gailleton and G Stauch and C Weism\u00fcller and O Batkhishig and F Lehmkuhl and K Reicherter",
+            "journal": "Geomorphology",
+            "volume": "367",
+            "pages": "107330",
+            "publisher": "Elsevier"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:WF5omc3nYNoC",
+        "num_citations": 12,
+        "citedby_url": "/scholar?hl=en&cites=14982434355480995478",
+        "cites_id": [
+            "14982434355480995478"
+        ],
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0169555X20303032",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:lqYNfapM7M8J:scholar.google.com/",
+        "cites_per_year": {
+            "2020": 1,
+            "2021": 5,
+            "2022": 3,
+            "2023": 2,
+            "2024": 1
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "How concave are river channels?, Earth Surf. Dynam., 6, 505\u2013523",
+            "pub_year": 2018,
+            "citation": "",
+            "author": "SM Mudd and FJ Clubb and B Gailleton and MD Hurst"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:MXK_kJrjxJIC",
+        "num_citations": 12,
+        "citedby_url": "/scholar?hl=en&cites=6605343096087215964",
+        "cites_id": [
+            "6605343096087215964"
+        ],
+        "pub_url": "https://scholar.google.com/scholar?cluster=6605343096087215964&hl=en&oi=scholarr",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:XH_bnYzkqlsJ:scholar.google.com/",
+        "cites_per_year": {
+            "2019": 1,
+            "2020": 1,
+            "2021": 4,
+            "2022": 1,
+            "2023": 3,
+            "2024": 2
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "LSDtopotools/LSDTopo-Tools2: LSDTopoTools2 v0. 7",
+            "pub_year": 2022,
+            "citation": "LSDtopotools/LSDTopoTools2: LSDTopoTools2 v0. 5, 2022",
+            "author": "S Mudd and F Clubb and S Grieve and D Milodowski and B Gailleton and M Hurst and D Valters and A Wickert and E Hutton",
+            "journal": "LSDtopotools/LSDTopoTools2: LSDTopoTools2 v0. 5"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:R3hNpaxXUhUC",
+        "num_citations": 10,
+        "citedby_url": "/scholar?hl=en&cites=12168835092860351405",
+        "cites_id": [
+            "12168835092860351405"
+        ],
+        "pub_url": "https://scholar.google.com/scholar?cluster=12168835092860351405&hl=en&oi=scholarr",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:rbM_MAtj4KgJ:scholar.google.com/",
+        "cites_per_year": {
+            "2021": 1,
+            "2022": 1,
+            "2023": 3,
+            "2024": 5
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "The LSDTopo-Tools Chi Mapping Package (Version 1.11), Zenodo",
+            "pub_year": 2018,
+            "citation": "",
+            "author": "SM Mudd and FJ Clubb and B Gailleton and MD Hurst and DT Milodowski and DA Valters"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:qxL8FJ1GzNcC",
+        "num_citations": 6,
+        "citedby_url": "/scholar?hl=en&cites=11125854754561376792",
+        "cites_id": [
+            "11125854754561376792"
+        ],
+        "pub_url": "https://scholar.google.com/scholar?cluster=11125854754561376792&hl=en&oi=scholarr",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:GMI4tPP5ZpoJ:scholar.google.com/",
+        "cites_per_year": {
+            "2018": 1,
+            "2019": 1,
+            "2020": 2,
+            "2021": 0,
+            "2022": 0,
+            "2023": 1,
+            "2024": 1
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Geomorphological and hydrological controls on sediment export in earthquake-affected catchments in the Nepal Himalaya",
+            "pub_year": 2024,
+            "citation": "Earth Surface Processes and Landforms, 2024",
+            "author": "Emma Graf and Hugh Sinclair and Mikael Attal and Boris Gailleton and Basanta Raj Adhikari and Bishnu Raj Baral",
+            "journal": "Earth Surface Processes and Landforms",
+            "publisher": "Wiley"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:mVmsd5A6BfQC",
+        "num_citations": 5,
+        "citedby_url": "/scholar?hl=en&cites=18204269787562617963",
+        "cites_id": [
+            "18204269787562617963"
+        ],
+        "pub_url": "https://www.research.ed.ac.uk/en/publications/geomorphological-and-hydrological-controls-on-sediment-export-in--2",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:a6wL4-uOovwJ:scholar.google.com/",
+        "cites_per_year": {
+            "2023": 2,
+            "2024": 3
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Paleogeographic reconstructions using QGIS: Introducing Terra Antiqua plugin and its application to 30 and 50 Ma maps",
+            "pub_year": 2023,
+            "citation": "Earth-Science Reviews 240, 104401, 2023",
+            "author": "Jovid Aminov and Guillaume Dupont-Nivet and Diego Ruiz and Boris Gailleton",
+            "volume": "240",
+            "pages": "104401",
+            "publisher": "Elsevier"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:ZeXyd9-uunAC",
+        "num_citations": 4,
+        "citedby_url": "/scholar?hl=en&cites=11270672645559257847",
+        "cites_id": [
+            "11270672645559257847"
+        ],
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0012825223000909",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:94pFeg55aZwJ:scholar.google.com/",
+        "cites_per_year": {
+            "2024": 4
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Inverting passive margin stratigraphy for marine sediment transport dynamics over geologic time",
+            "pub_year": 2022,
+            "citation": "Basin Research 34 (6), 2111-2134, 2022",
+            "author": "Charles M Shobe and Jean Braun and Xiaoping Yuan and Benjamin Campforts and Boris Gailleton and Guillaume Baby and Fran\u00e7ois Guillocheau and C\u00e9cile Robin",
+            "journal": "Basin Research",
+            "volume": "34",
+            "number": "6",
+            "pages": "2111-2134",
+            "publisher": "European Association of Geoscientists & Engineers"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:Zph67rFs4hoC",
+        "num_citations": 4,
+        "citedby_url": "/scholar?hl=en&cites=11348037391524464223",
+        "cites_id": [
+            "11348037391524464223"
+        ],
+        "pub_url": "https://www.earthdoc.org/content/journals/10.1111/bre.12698",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:X4aqE-JTfJ0J:scholar.google.com/",
+        "cites_per_year": {
+            "2022": 1,
+            "2023": 2,
+            "2024": 1
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Physically\u2010based analytical erosion for fast terrain generation",
+            "pub_year": 2024,
+            "citation": "Computer Graphics Forum 43 (2), e15033, 2024",
+            "author": "Petros Tzathas and Boris Gailleton and Philippe Steer and Guillaume Cordonnier",
+            "journal": "Computer Graphics Forum",
+            "volume": "43",
+            "number": "2",
+            "pages": "e15033"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:_Qo2XoVZTnwC",
+        "num_citations": 2,
+        "citedby_url": "/scholar?hl=en&cites=4570618865448932229",
+        "cites_id": [
+            "4570618865448932229"
+        ],
+        "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15033",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:hVPIVqQZbj8J:scholar.google.com/",
+        "cites_per_year": {
+            "2024": 2
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Megathrust locking encoded in subduction landscapes",
+            "pub_year": 2024,
+            "citation": "Science Advances 10 (17), eadl4286, 2024",
+            "author": "Bar Oryan and Jean-Arthur Olive and Romain Jolivet and Luca C Malatesta and Boris Gailleton and Lucile Bruhat",
+            "journal": "Science Advances",
+            "volume": "10",
+            "number": "17",
+            "pages": "eadl4286",
+            "publisher": "American Association for the Advancement of Science"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:IWHjjKOFINEC",
+        "num_citations": 1,
+        "citedby_url": "/scholar?hl=en&cites=7928649285674440866",
+        "cites_id": [
+            "7928649285674440866"
+        ],
+        "pub_url": "https://www.science.org/doi/abs/10.1126/sciadv.adl4286",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ophHfYQ4CG4J:scholar.google.com/",
+        "cites_per_year": {
+            "2024": 1
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Geomorphological and hydrological controls on sediment export in earthquake-affected catchments in the Nepal Himalaya",
+            "pub_year": 2024,
+            "citation": "Earth Surface Dynamics 12 (1), 135-161, 2024",
+            "author": "Emma LS Graf and Hugh D Sinclair and Mika\u00ebl Attal and Boris Gailleton and Basanta Raj Adhikari and Bishnu Raj Baral",
+            "journal": "Earth Surface Dynamics",
+            "volume": "12",
+            "number": "1",
+            "pages": "135-161",
+            "publisher": "Copernicus Publications"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:hC7cP41nSMkC",
+        "num_citations": 1,
+        "citedby_url": "/scholar?hl=en&cites=16966257096652215557",
+        "cites_id": [
+            "16966257096652215557"
+        ],
+        "pub_url": "https://esurf.copernicus.org/articles/12/135/2024/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:BdXnNfBAdOsJ:scholar.google.com/",
+        "cites_per_year": {
+            "2024": 1
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Stabilit\u00e4t \u00fcber eine Million Jahre",
+            "pub_year": 2021,
+            "citation": "System Erde 11 (2), 36-41, 2021",
+            "author": "Richard F Ott and Boris Gailleton and Luca C Malatesta and Lukas Becker and Jean Braun",
+            "journal": "System Erde",
+            "volume": "11",
+            "number": "2",
+            "pages": "36-41",
+            "publisher": "Deutsches GeoForschungsZentrum GFZ"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:kNdYIx-mwKoC",
+        "num_citations": 1,
+        "citedby_url": "/scholar?hl=en&cites=15114484721366177492",
+        "cites_id": [
+            "15114484721366177492"
+        ],
+        "pub_url": "https://gfzpublic.gfz-potsdam.de/pubman/faces/ViewItemFullPage.jsp?itemId=item_5008853_1",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:1JYZLMZvwdEJ:scholar.google.com/",
+        "cites_per_year": {
+            "2023": 1
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "LSDTopoTools: open-source software for topographic analysis",
+            "pub_year": 2019,
+            "citation": "AGU Fall Meeting Abstracts 2019, EP53F-2216, 2019",
+            "author": "Fiona Jane Clubb and Simon M Mudd and Stuart WD Grieve and Martin D Hurst and Boris Gailleton and David T Milodowski and Declan Valters and Guillaume Goodwin",
+            "journal": "AGU Fall Meeting Abstracts",
+            "volume": "2019",
+            "pages": "EP53F-2216"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:W7OEmFMy1HYC",
+        "num_citations": 1,
+        "citedby_url": "/scholar?hl=en&cites=12990091126705175727",
+        "cites_id": [
+            "12990091126705175727"
+        ],
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2019AGUFMEP53F2216C/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:rzw3Jw4TRrQJ:scholar.google.com/",
+        "cites_per_year": {
+            "2021": 1
+        }
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Inferring Long-Term Tectonic Uplift Patterns from Bayesian Inversion of Fluvially-Incised Landscapes",
+            "pub_year": 2024,
+            "citation": "EarthArXiv, 2024",
+            "author": "Bar Oryan and Boris Gailleton and Jean-Arthur Olive and Luca Malatesta and Romain Jolivet",
+            "publisher": "EarthArXiv"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:r0BpntZqJG4C",
+        "num_citations": 0,
+        "pub_url": "https://eartharxiv.org/repository/view/7881/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:lpniRbhIo8UJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Using disorder metrics to distinguish discharge\u2010driven from drainage area\u2010driven incision and quantify deviations in channel steepness",
+            "pub_year": 2024,
+            "citation": "Journal of Geophysical Research: Earth Surface 129 (9), e2023JF007553, 2024",
+            "author": "Marina Ruiz S\u00e1nchez\u2010Oro and Simon M Mudd and Boris Gailleton",
+            "journal": "Journal of Geophysical Research: Earth Surface",
+            "volume": "129",
+            "number": "9",
+            "pages": "e2023JF007553"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:j3f4tGmQtD8C",
+        "num_citations": 0,
+        "pub_url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023JF007553",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:8iaU2p2P3CgJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "GraphFlood 1.0: an efficient algorithm to approximate 2D hydrodynamics for Landscape Evolution Models",
+            "pub_year": 2024,
+            "citation": "EGUsphere 2024, 1-28, 2024",
+            "author": "Boris Gailleton and Philippe Steer and Philippe Davy and Wolfgang Schwanghart and Thomas Guillaume Adrien Bernard",
+            "journal": "EGUsphere",
+            "volume": "2024",
+            "pages": "1-28",
+            "publisher": "Copernicus Publications"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:4JMBOYKVnBMC",
+        "num_citations": 0,
+        "pub_url": "https://egusphere.copernicus.org/preprints/2024/egusphere-2024-1239/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:SEmHzM6OtaAJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Exploring fluvial morphodynamics through scales",
+            "pub_year": 2024,
+            "citation": "European General Assembly 2024 (EGU24), EGU24-15452, 2024",
+            "author": "Boris Gailleton and Philippe Steer and Philippe Davy and Wolfgang Schwanghart",
+            "conference": "European General Assembly 2024 (EGU24)",
+            "pages": "EGU24-15452"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:e5wmG9Sq2KIC",
+        "num_citations": 0,
+        "pub_url": "https://hal.science/hal-04511508/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:KBys5wlXFVMJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Can we use topography to differentiate between area and discharge-driven incision rules, and if not how bad are our estimates of channel steepness?",
+            "pub_year": 2024,
+            "citation": "Authorea Preprints, 2024",
+            "author": "Marina Ruiz S\u00e1nchez-Oro and Simon Marius Mudd and Boris Gailleton",
+            "journal": "Authorea Preprints",
+            "publisher": "Authorea"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:-f6ydRqryjwC",
+        "num_citations": 0,
+        "pub_url": "https://essopenarchive.org/doi/full/10.22541/essoar.170516018.84891475",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:X2QauNeCQnUJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "CHONK 1.0: landscape evolution framework: cellular automata meets graph theory",
+            "pub_year": 2024,
+            "citation": "Geoscientific Model Development 17 (1), 71-90, 2024",
+            "author": "Boris Gailleton and Luca C Malatesta and Guillaume Cordonnier and Jean Braun",
+            "journal": "Geoscientific Model Development",
+            "volume": "17",
+            "number": "1",
+            "pages": "71-90",
+            "publisher": "Copernicus Publications"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:qUcmZB5y_30C",
+        "num_citations": 0,
+        "pub_url": "https://gmd.copernicus.org/articles/17/71/2024/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:U3ohY9uE0ZIJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "GraphFlood: un algorithme efficace pour simuler l'hydrodynamisme dans les mod\u00e8les d'\u00e9volution de paysages et les MNT haute-r\u00e9solutions",
+            "pub_year": 2023,
+            "citation": "28 \u00e8me \u00e9dition de la R\u00e9union des sciences de la Terre (RST 2023), 2023",
+            "author": "Boris Gailleton and Philippe Steer and Philippe Davy and Wolfgang Schwanghart and Thomas Bernard",
+            "conference": "28 \u00e8me \u00e9dition de la R\u00e9union des sciences de la Terre (RST 2023)"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:HDshCWvjkbEC",
+        "num_citations": 0,
+        "pub_url": "https://insu.hal.science/insu-04438776/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Zj6lZ-QIx6YJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "D\u00e9veloppement d'un nouveau mod\u00e8le num\u00e9rique de dynamique des paysages pour \u00e9tudier l'impact des \u00e9v\u00e8nements extr\u00eames sur la dynamique des reliefs",
+            "pub_year": 2023,
+            "citation": "28 \u00e8me \u00e9dition de la R\u00e9union des sciences de la Terre (RST 2023), 2023",
+            "author": "Philippe Steer and Boris Gailleton and Philippe Davy and Dimitri Lague",
+            "conference": "28 \u00e8me \u00e9dition de la R\u00e9union des sciences de la Terre (RST 2023)"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:mB3voiENLucC",
+        "num_citations": 0,
+        "pub_url": "https://insu.hal.science/insu-04438762/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:TXR21kRjqAoJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "New tools on Terra Antiqua 2.0 applied to reconstructing the paleogeography of the India-Asia collision",
+            "pub_year": 2023,
+            "citation": "EGU General Assembly Conference Abstracts, EGU-14003, 2023",
+            "author": "Guillaume Dupont-Nivet and Jovid Aminov and Diego Ruiz and Thomas van der Linden and Boris Gailleton and Pierrick Roperch and Fernando Poblete and Niels Meijer and Mustafa Kaya and Alexis Licht and Aude G\u00e9belin and Xiaomin Fang and Xiaoping Yuan and Douwe van Hinsbergen",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "EGU-14003"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:L8Ckcad2t8MC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2023EGUGA..2514003D/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:OA6cav6bffAJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "GraphFlood: a fast stationary solution for 2D hydrodynamics in landscapes evolution models",
+            "pub_year": 2023,
+            "citation": "EGU General Assembly Conference Abstracts, EGU-3421, 2023",
+            "author": "Boris Gailleton and Philippe Steer and Philippe Davy and Wolfgang Schwanghart and Thomas Bernard",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "EGU-3421"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:7PzlFSSx8tAC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2023EGUGA..25.3421G/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:cXaJJIpzJ9MJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Determining the correct river incision mechanism under different climatic and lithological conditions using disorder metrics",
+            "pub_year": 2023,
+            "citation": "EGU General Assembly Conference Abstracts, EGU-6003, 2023",
+            "author": "Marina Ruiz S\u00e1nchez-Oro and Simon M Mudd and Boris Gailleton",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "EGU-6003"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:dhFuZR0502QC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2023EGUGA..25.6003R/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:h_qhCIZKjZcJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "CHONK 1.0: landscape evolution framework: cellular automata meets graph theory",
+            "pub_year": 2023,
+            "citation": "EGUsphere 2023, 1-31, 2023",
+            "author": "Boris Gailleton and Luca Malatesta and Guillaume Cordonnier and Jean Braun",
+            "journal": "EGUsphere",
+            "volume": "2023",
+            "pages": "1-31",
+            "publisher": "Copernicus Publications"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:Wp0gIr-vW9MC",
+        "num_citations": 0,
+        "pub_url": "https://egusphere.copernicus.org/preprints/2023/egusphere-2022-1394/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:5mRslsP76wIJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Spatial patterns of long-term forearc uplift inferred from river profiles, and their comparison with short-term deformation",
+            "pub_year": 2022,
+            "citation": "AGU Fall Meeting Abstracts 2022, T55A-02, 2022",
+            "author": "Bar Oryan and Jean-Arthur L Olive and Luca Claude Malatesta and Boris Gailleton and Romain Jolivet",
+            "journal": "AGU Fall Meeting Abstracts",
+            "volume": "2022",
+            "pages": "T55A-02"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:9ZlFYXVOiuMC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2022AGUFM.T55A..02O/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ooOfzb3QUTIJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Deciphering Passive Margin Stratigraphy to Reveal Seascape Evolution Processes",
+            "pub_year": 2022,
+            "citation": "AGU Fall Meeting Abstracts 2022, EP52B-0756, 2022",
+            "author": "Charles Shobe and Jean Braun and Xiaoping Yuan and Benjamin Campforts and Boris Gailleton and Guillaume Baby and Francois Guillocheau and Cecile Robin",
+            "journal": "AGU Fall Meeting Abstracts",
+            "volume": "2022",
+            "pages": "EP52B-0756"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:4DMP91E08xMC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2022AGUFMEP52B0756S/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:pjlGXp7dWTQJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Stressed landscape evolution",
+            "pub_year": 2022,
+            "citation": "EGU General Assembly Conference Abstracts, EGU22-1724, 2022",
+            "author": "Anne Voigtl\u00e4nder and Jens M Turowski and Boris Gailleton",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "EGU22-1724"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:QIV2ME_5wuYC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2022EGUGA..24.1724V/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:oF4pu2CUCNYJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "(Un) predictability of sediment pathways in the transport sections of Source to Sink systems",
+            "pub_year": 2022,
+            "citation": "EGU General Assembly Conference Abstracts, EGU22-3594, 2022",
+            "author": "Boris Gailleton and Luca Malatesta and Jean Braun and Guillaume Cordonnier and Benoit Bovy",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "EGU22-3594"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:_kc_bZDykSQC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2022EGUGA..24.3594G/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:7C3Ed9crBx0J:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Hidden Tectonics: Finding faults in (seemingly) climate controlled landscapes",
+            "pub_year": 2022,
+            "citation": "EGU General Assembly Conference Abstracts, EGU22-1829, 2022",
+            "author": "Jorien LN van der Wal and Veit Nottebaum and Georg Stauch and Boris Gailleton and Steven Binnie and Justin Tully and Ochirbat Batkhishig and Frank Lehmkuhl and Klaus Reicherter",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "EGU22-1829"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:YOwf2qJgpHMC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2022EGUGA..24.1829V/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:-2538vIa3RwJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Unravelling present days tectonics from channel steepness in a lithologically complex landscape",
+            "pub_year": 2021,
+            "citation": "27e \u00e9dition de la R\u00e9union des Sciences de la Terre, 2021",
+            "author": "Boris Gailleton and Hugh Sinclair and Simon Mudd and Emma Graf and Liviu Matenco",
+            "conference": "27e \u00e9dition de la R\u00e9union des Sciences de la Terre"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:KlAtU1dfN6UC",
+        "num_citations": 0,
+        "pub_url": "https://hal.science/hal-03588265/",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:1oyOc1x7Dg8J:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Une enclume de l\u2019\u00e2ge du Bronze \u00e0 Fontani\u00e8res (Creuse)",
+            "pub_year": 2021,
+            "citation": "Bulletin de la Soci\u00e9t\u00e9 pr\u00e9historique fran\u00e7aise 118 (2), 391-392, 2021",
+            "author": "Dominique Dussot and Jos\u00e9 Gomez de Soto",
+            "journal": "Bulletin de la Soci\u00e9t\u00e9 pr\u00e9historique fran\u00e7aise",
+            "volume": "118",
+            "number": "2",
+            "pages": "391-392",
+            "publisher": "Soci\u00e9t\u00e9 Pr\u00e9historique Fran\u00e7aise"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:4TOpqqG69KYC",
+        "num_citations": 0,
+        "pub_url": "https://www.jstor.org/stable/27210974",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:QM5LrrGzvdQJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Dynamic modelling framework to track sediment provenance and solve lakes in long-term landscape evolution models",
+            "pub_year": 2021,
+            "citation": "EGU General Assembly Conference Abstracts, EGU21-9392, 2021",
+            "author": "Boris Gailleton and Luca Malatesta and Jean Braun and Guillaume Cordonnier",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "EGU21-9392"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:5nxA0vEk-isC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2021EGUGA..23.9392G/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:HqKKneQMqAMJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Isolating lithologic versus tectonic signals of river profiles to test orogenic models for the Eastern and Southeastern Carpathians",
+            "pub_year": 2020,
+            "citation": "Earth and Space Science Open Archive ESSOAr, 2020",
+            "author": "Boris Gailleton and Hugh Denny Sinclair and Simon Marius Mudd and Emma L Graf and Liviu Matenco",
+            "journal": "Earth and Space Science Open Archive ESSOAr",
+            "publisher": "American Geophysical Union"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:TQgYirikUcIC",
+        "num_citations": 0,
+        "pub_url": "https://search.proquest.com/openview/4409ca06f523401a6fe0ab0c876bf753/1?pq-origsite=gscholar&cbl=4882998",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:1692UR4zQTwJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Quantifying the efficiency of river erosion in up-warped fault blocks and its tectonic implications",
+            "pub_year": 2020,
+            "citation": "AGU Fall Meeting Abstracts 2020, EP032-06, 2020",
+            "author": "Jean-Arthur L Olive and Luca Claude Malatesta and Boris Gailleton",
+            "journal": "AGU Fall Meeting Abstracts",
+            "volume": "2020",
+            "pages": "EP032-06"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:LkGwnXOMwfcC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2020AGUFMEP032..06O/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Qo4X_YTNBM4J:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Lagrangian framework to simulate landscapes with local sinks and independently solved fluxes of water, sediment, and tracers",
+            "pub_year": 2020,
+            "citation": "AGU Fall Meeting Abstracts 2020, EP036-0013, 2020",
+            "author": "Boris Gailleton and Luca Claude Malatesta and Jean Braun and Guillaume Cordonnier",
+            "journal": "AGU Fall Meeting Abstracts",
+            "volume": "2020",
+            "pages": "EP036-0013"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:_FxGoFyzp5QC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2020AGUFMEP0360013G/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:75WJGJlgwj8J:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Disentangling composite forcings on river channel steepness in heterogeneous landscapes",
+            "pub_year": 2020,
+            "citation": "The University of Edinburgh, 2020",
+            "author": "Boris Gailleton",
+            "publisher": "The University of Edinburgh"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:3fE2CSJIrl8C",
+        "num_citations": 0,
+        "pub_url": "https://era.ed.ac.uk/handle/1842/38045",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:y4Pa3CB4QRcJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Linking source to stratigraphy through sediment transport: The importance of spatially variable climate on the evolution of the Argentine Andes",
+            "pub_year": 2020,
+            "citation": "EGU General Assembly Conference Abstracts, 22349, 2020",
+            "author": "Rebekah Harries and Linda Kirstein and Alex Whittaker and Mikael Attal and Boris Gailleton and Simon Mudd",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "22349"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:ufrVoPGSRksC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2020EGUGA..2222349H/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:qXQF2DkJuMIJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Importance of concavity for interpreting rates and patterns of landscape evolution from river profiles",
+            "pub_year": 2020,
+            "citation": "EGU2020, 2020",
+            "author": "Boris Gailleton and Simon Mudd and Fiona Clubb and Martin Hurst and Stuart Grieve",
+            "number": "EGU2020-503",
+            "publisher": "Copernicus Meetings"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:eQOLeE2rZwMC",
+        "num_citations": 0,
+        "pub_url": "https://meetingorganizer.copernicus.org/EGU2020/EGU2020-503.html?pdf=",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ARbGHqK40TAJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Tectonic versus lithologic controls on river channel gradients.",
+            "pub_year": 2019,
+            "citation": "Geophysical Research Abstracts 21, 2019",
+            "author": "Boris Gailleton and Hugh Sinclair and Simon Mudd and Liviu Matenco",
+            "journal": "Geophysical Research Abstracts",
+            "volume": "21"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:YsMSGLbcyi4C",
+        "num_citations": 0,
+        "pub_url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=10297006&AN=140488400&h=OlpnLqCkEj0v2rLUjU37CJYUtTc7fF1VX%2B8AKpu6%2F3kLX7N7QDYza3c%2BT3fn5WFQz1fKvqXo55dktVupWaPikw%3D%3D&crl=c",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:zfIS5PRnY54J:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Catchment shape of Himalayan Rivers determined by lateral drainage capture",
+            "pub_year": 2018,
+            "citation": "AGU Fall Meeting Abstracts 2018, EP21B-2222, 2018",
+            "author": "Hugh Denny Sinclair and Rachel Walcott and Mark Naylor and Boris Gailleton",
+            "journal": "AGU Fall Meeting Abstracts",
+            "volume": "2018",
+            "pages": "EP21B-2222"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:IjCSPb-OGe4C",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2018AGUFMEP21B2222S/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:VIr6c6xXFLIJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Differential post-orogenic topography along the Romanian Carpathians.",
+            "pub_year": 2018,
+            "citation": "EGU General Assembly Conference Abstracts, 8835, 2018",
+            "author": "Boris Gailleton and Hugh Sinclair and Simon Mudd",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "8835"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:2osOgNQ5qMEC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2018EGUGA..20.8835G/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:HVqsFwzIt7AJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Interactive comment on \u201cA segmentation approach for the reproducible extraction and quantification of knickpoints from river long profiles\u201d by Boris Gailleton et al.",
+            "pub_year": 2018,
+            "citation": "",
+            "author": "Boris Gailleton"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:Y0pCki6q_DkC",
+        "num_citations": 0,
+        "pub_url": "https://scholar.google.com/scholar?cluster=3741976962291934291&hl=en&oi=scholarr",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:UyQbqzgs7jMJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Automated Detection of Knickpoints and Knickzones Across Transient Landscapes",
+            "pub_year": 2017,
+            "citation": "AGU Fall Meeting Abstracts 2017, EP53B-1704, 2017",
+            "author": "Boris Gailleton and Simon M Mudd and Fiona Jane Clubb",
+            "journal": "AGU Fall Meeting Abstracts",
+            "volume": "2017",
+            "pages": "EP53B-1704"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:9yKSN-GCB0IC",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2017AGUFMEP53B1704G/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:KFZ12tIf2X8J:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Topographic analysis across the active to post-orogenic decaying Carpathian mountain range",
+            "pub_year": 2017,
+            "citation": "EGU General Assembly Conference Abstracts, 5216, 2017",
+            "author": "Boris Gailleton and Hugh Sinclair and Simon Mudd and Mikael Attal",
+            "journal": "EGU General Assembly Conference Abstracts",
+            "pages": "5216"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:d1gkVwhDpl0C",
+        "num_citations": 0,
+        "pub_url": "https://ui.adsabs.harvard.edu/abs/2017EGUGA..19.5216G/abstract",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:g_BzpMymsvgJ:scholar.google.com/",
+        "cites_per_year": {}
+    },
+    {
+        "container_type": "Publication",
+        "source": "AUTHOR_PUBLICATION_ENTRY",
+        "bib": {
+            "title": "Dynamic Landslide Failure Prediction Model Using Remote Sensing Data",
+            "citation": "",
+            "author": "E Biescas and S Mudd and G Cooksley and M Ruiz S\u00e1nchez-Oro and G Goodwin and B Gailleton"
+        },
+        "filled": true,
+        "author_pub_id": "r5HIc00AAAAJ:0EnyYjriUFMC",
+        "num_citations": 0,
+        "pub_url": "https://www.researchgate.net/profile/Erlinda-Biescas/publication/349952324_Dynamic_Landslide_Failure_Prediction_Model_Using_Remote_Sensing_Data/links/6048e217299bf1f5d83d68e8/Dynamic-Landslide-Failure-Prediction-Model-Using-Remote-Sensing-Data.pdf",
+        "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:3ZklO1rCZboJ:scholar.google.com/",
+        "cites_per_year": {}
+    }
+]
