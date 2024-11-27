@@ -12,11 +12,6 @@ unsafe = true # Enable unsafe mode to have a better experience
 [markup.highlight]
 style = 'base16-snazzy' # Highlight.js style
 
-
-
-publishDir = './docs'
-
-
 # Configuration for menu
 [params]
     description = "A brief description of your website"
