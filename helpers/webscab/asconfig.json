@@ -1,0 +1,8 @@
+{
+  "entries": ["PQ.ts", "grid.ts", "1Dgraphflood.ts"],
+  "options": {
+    "outFile": "webscab.wasm",
+    "exportRuntime": true,
+    "optimize": true
+  }
+}

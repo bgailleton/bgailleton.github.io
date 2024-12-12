@@ -49,9 +49,20 @@ As of November 2024, `scabbard` is under active development, with continuous upd
 ## Why `scabbard`?
 The ultimate goal of `scabbard` is to address scientific questions to understand the complex multi-scale interactions between rivers, landscapes and climatic and tectonic forcings by providing an efficient and cohesive suite of tools for researchers, and for myself also, to be honest. 
 
+## Roadmap
+
+What am I developping next? It really depends on my ongoing research projects and collaborations. Feel free to reach out to express a need and we shall see what we can do.
+
+Ongoing work on:
+
+- Keep on unifying a `graphflood` interface
+- Adding visualisations routines
+- Refactoring the river network extraction
+- Link/implement CHONK
+
 
 ## Contact
 
 <div>
-    <p>Any question?<br>Boris Gailleton:  <a href="mailto:boris.gailleton@univ-rennes.fr">boris.gailleton@univ-rennes.fr</a></p>
+    <p>Any question? Want to collaborate or even develop `scabbard`?<br>Boris Gailleton:  <a href="mailto:boris.gailleton@univ-rennes.fr">boris.gailleton@univ-rennes.fr</a></p>
 </div>

@@ -7,7 +7,7 @@ hidden: true
 
 # Graphflood: Efficient Large-Scale oriented 2D Hydrodynamics Solver
 
-`graphflood` is a method to solve the stationary state of the Shallow Water Equations, see the [Theory here](/Softwares/graphflood/theoretical_background/) if interested.
+`graphflood` is a method to solve the stationary state of the Shallow Water Equations, see the [Theory here](/softwares/graphflood/theoretical_background/) if interested.
 
 <div style="text-align: center;">
     <img src="/images/about/graphflood_nice.png" alt="Graphflood output" style="width: 80%; max-width: 600px;">
