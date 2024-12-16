@@ -8,15 +8,32 @@
 <body>
     <div style="background-color: white;">
         <!-- Range Slider for Slope -->
-        <input type="range" id="slope" min="0.001" max="0.02" step="0.001" value="0.005">
-        <div>Slope: <span id="slope_value">0.005</span></div>
+        <div>
+            <input type="range" id="slope" min="0.001" max="0.02" step="0.001" value="0.005">
+            Slope: <span id="slope_value">0.005</span>
+        </div>
 
         <!-- Update Button -->
-        <button id="update-btn">Update</button>
+        <div>
+            <button id="update-btn">Update</button>
+        </div>
 
         <!-- Range Slider for Qi -->
-        <input type="range" id="Qi" min="5" max="100" step="1" value="25">
-        <div>Q input: <span id="Qi-value">0.005</span> cubic metres</div>
+        <div>
+            <input type="range" id="Qi" min="5" max="100" step="1" value="100">
+            Q input: <span id="Qi-value">0.005</span> cubic metres
+        </div>
+
+        <!-- Range Slider for Qi -->
+        <div>
+            <input type="range" id="manning" min="0.01" max="0.1" step="0.001" value="0.033">
+            Manning roughness coef.: <span id="manning-value">0.033</span>
+        </div>
+
+        <div>
+            <input type="range" id="width" min="1" max="40" step="0.5" value="5">
+            Channel Width.: <span id="width-value">0.033</span>
+        </div>
 
         <!-- Plot Container -->
         <div id="plot-container" style="width: 600px; height: 400px;"></div>

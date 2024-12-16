@@ -53,13 +53,15 @@ export function GF1DGetZHs():usize{
 
 
 
-export function initGF1D_slope(nx : u32, dx : f32, slope : f32) : void{
+export function initGF1D_slope(nx : u32, dx : f32, slope : f32, init_hw : bool) : void{
 
 	gf1d.nx = nx;
 	gf1d.dx = dx;
 	gf1d.xs = new Float32Array(nx);
 	gf1d.zs = new Float32Array(nx);
-	gf1d.hs = new Float32Array(nx);
+	if(init_hw){
+		gf1d.hs = new Float32Array(nx);
+	}
 	gf1d.S0 = slope;
 	gf1d.xs[0] = 0;
 	gf1d.zs[0] = 0;
@@ -68,7 +70,9 @@ export function initGF1D_slope(nx : u32, dx : f32, slope : f32) : void{
 	for(let i:u32 = 1; i<gf1d.nx; i++){
 		gf1d.xs[i] = gf1d.xs[i-1] + dx;
 		gf1d.zs[i] = gf1d.zs[i-1] + dx*slope;
-		gf1d.hs[i] = 0;
+		if(init_hw){
+			gf1d.hs[i] = 0;
+		}
 	}
 
 	gf1d.zs = gf1d.zs.reverse();
