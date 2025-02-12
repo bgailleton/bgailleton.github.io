@@ -21,7 +21,7 @@ menu:
 
 <div class="main-paragraph" style="background-color: #FA8072;">
     <p>Latest news:</p>
-    <p>Graphflood paper just published: <a href="https://esurf.copernicus.org/articles/12/1295/2024/">esurf</a></p>
+    <p>Graphflood paper published: <a href="https://esurf.copernicus.org/articles/12/1295/2024/">esurf</a></p>
 
 </div>
 
@@ -30,6 +30,24 @@ Want to know more about my hydrodynamic model `graphflood`? -> [See the doc (WIP
 Interested in my Topographic Analysis, Landscape Evolution and Hydro/morphodynamic code base that includes all of the above? -> [`scabbard`](/softwares/scabbard/)
 
 Interested by my other projects? -> [Research Softwares](/softwares/) and [Research Statement](/about/)
+
+<div class="main-paragraph">
+    <p><br>Recent Developments for scabbard/graphflood:</br></p>
+    <ul>
+      <li>📝 Refactoring CI/CD 🟩🟩🟩⬛⬛</li>
+      <li>🛠️ Unified Graphflood interface 🟩⬛⬛⬛⬛</li>
+      <li>📊 Visualisation routines 🟩🟩⬛⬛⬛</li>
+      <li>🏗️ Integration with pytopotoolbox 🟩🟩⬛⬛⬛</li>
+      <li>🏗️ Full SWEs model 🟩⬛⬛⬛⬛</li>
+      <li>🏗️ Dirst version of Morphodynamics model 🟩🟩⬛⬛⬛⬛⬛⬛</li>
+    </ul>
+    <p><br>Recently finished:</br></p>
+    <ul>
+      <li>🌐 Numba interface</li>
+      <li>📊 Grid visualisations</li>
+    </ul>
+
+</div>
 
 <div style="text-align: center;">
     <img src="/images/about/graphflood_nice.png" alt="Graphflood output" style="width: 80%; max-width: 600px;">

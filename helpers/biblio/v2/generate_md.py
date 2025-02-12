@@ -245,6 +245,7 @@ def generate_html_conf(entries):
 
 entries = parse_bibtexes({'paper':'paper_BG.bib', 'preprint':'preprints_BG.bib'})
 entries_conf = parse_bibtex('conf.bib', etype = 'conf', citations = False)
+entries_soft = parse_bibtex('soft.bib', etype = 'soft', citations = False)
 # markdown_bibliography = generate_markdown(entries)
 markdown_bibliography = generate_html_papers(entries)
 conf_html = generate_html_conf(entries_conf)
