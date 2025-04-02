@@ -32,20 +32,24 @@ Interested in my Topographic Analysis, Landscape Evolution and Hydro/morphodynam
 Interested by my other projects? -> [Research Softwares](/softwares/) and [Research Statement](/about/)
 
 <div class="main-paragraph">
+    <p><br>Recently implemented (last: 04/2025):</br></p>
+    <ul>
+      <li>📊 Export to textures EXR (e.g. to use in Blender)</li>
+      <li>💻 CD/CI improved (v2, now everything is installable via `pip` without `conda`)</li>
+      <li>🛠️ Critical fix in precipitation ingestion in `dagger`</li>
+      <li>🌐 Numba interface</li>
+      <li>📊 Grid visualisations</li>
+    </ul>
+
     <p><br>Recent Developments for scabbard/graphflood:</br></p>
     <ul>
-      <li>📝 Refactoring CI/CD 🟩🟩🟩⬛⬛</li>
       <li>🛠️ Unified Graphflood interface 🟩⬛⬛⬛⬛</li>
       <li>📊 Visualisation routines 🟩🟩⬛⬛⬛</li>
       <li>🏗️ Integration with pytopotoolbox 🟩🟩⬛⬛⬛</li>
       <li>🏗️ Full SWEs model 🟩⬛⬛⬛⬛</li>
       <li>🏗️ Dirst version of Morphodynamics model 🟩🟩⬛⬛⬛⬛⬛⬛</li>
     </ul>
-    <p><br>Recently finished:</br></p>
-    <ul>
-      <li>🌐 Numba interface</li>
-      <li>📊 Grid visualisations</li>
-    </ul>
+    
 
 </div>
 
