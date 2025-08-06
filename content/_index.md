@@ -21,6 +21,8 @@ menu:
 
 <div class="main-paragraph" style="background-color: #FA8072;">
     <p>Latest news:</p>
+    <p>GPU library for geomorpohlogical analysis, flow and flood modelling: `pyfastflow` (papers in prep)</p>
+    <p>Obtained a CNES-funded postdoc on "Anticipating flood induced morphological damages from high-resolution topography". Starting April 2025</p>
     <p>Graphflood paper published: <a href="https://esurf.copernicus.org/articles/12/1295/2024/">esurf</a></p>
 
 </div>
@@ -32,25 +34,23 @@ Interested in my Topographic Analysis, Landscape Evolution and Hydro/morphodynam
 Interested by my other projects? -> [Research Softwares](/softwares/) and [Research Statement](/about/)
 
 <div class="main-paragraph">
-    <p><br>Recently implemented (last: 04/2025):</br></p>
+    <p><br>Recent Developments for pyfastflow</br></p>
     <ul>
-      <li>📊 Export to textures EXR (e.g. to use in Blender)</li>
-      <li>💻 CD/CI improved (v2, now everything is installable via `pip` without `conda`)</li>
-      <li>🛠️ Critical fix in precipitation ingestion in `dagger`</li>
-      <li>🌐 Numba interface</li>
-      <li>📊 Grid visualisations</li>
+      <li>🛠️ v. 1.0: 🟩🟩🟩⬛⬛</li>
+      <li> graphflood ✅</li>
+      <li> Bates et al., 2010 ✅</li>
+      <li> Flow engine ✅</li>
+      <li> WIP on LEMs</li>
+      <li> WIP on Full SWE solver</li>
     </ul>
 
     <p><br>Recent Developments for scabbard/graphflood:</br></p>
     <ul>
-      <li>🛠️ Unified Graphflood interface 🟩⬛⬛⬛⬛</li>
-      <li>📊 Visualisation routines 🟩🟩⬛⬛⬛</li>
-      <li>🏗️ Integration with pytopotoolbox 🟩🟩⬛⬛⬛</li>
+      <li>🛠️ Unified Graphflood interface 🟩🟩🟩🟩⬛</li>
+      <li>📊 Visualisation routines </li>
+      <li>🏗️ Integration with pytopotoolbox 🟩🟩🟩🟩⬛</li>
       <li>🏗️ Full SWEs model 🟩⬛⬛⬛⬛</li>
-      <li>🏗️ Dirst version of Morphodynamics model 🟩🟩⬛⬛⬛⬛⬛⬛</li>
     </ul>
-    
-
 </div>
 
 <div style="text-align: center;">
