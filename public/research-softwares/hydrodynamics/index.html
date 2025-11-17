@@ -10,7 +10,7 @@
 <meta name="generator" content="Hugo 0.152.2">
 
 
-<link rel="stylesheet" href="/css/main.min.3b7c044c3299e9f9c9d20a76377718008221583eefc41353127238112729723f.css" integrity="sha256-O3wETDKZ6fnJ0gp2N3cYAIIhWD7vxBNTEnI4EScpcj8=">
+<link rel="stylesheet" href="/css/main.min.6595b71bb57004bc4e6e5c8e6b5260ca41126a39710a7dcc03c5af870e74908a.css" integrity="sha256-ZZW3G7VwBLxOblyOa1JgykESajlxCn3MA8Wvhw50kIo=">
 
 
 
@@ -136,6 +136,20 @@
       </div>
     </div>
     <div class="hydro-control-group">
+      <label for="hydro-qx-1-precip">
+        <span>Precipitation (mm/hr)</span>
+        <output data-role="precip-output">--</output>
+      </label>
+      <input
+        id="hydro-qx-1-precip"
+        data-role="precip-slider"
+        type="range"
+        min="0"
+        max="100"
+        step="0.5"
+        value="5">
+    </div>
+    <div class="hydro-control-group">
       <label for="hydro-qx-1-discharge">
         <span>Point discharge (m^3/s)</span>
         <output data-role="discharge-output">--</output>
@@ -150,15 +164,18 @@
         value="100">
     </div>
     <div class="hydro-control-group">
-      <label for="hydro-qx-1-display-mode">
-        <span>Display metric (color overlay)</span>
+      <label for="hydro-qx-1-manning">
+        <span>Surface roughness (Manning n)</span>
+        <output data-role="manning-output">--</output>
       </label>
-      <select
-        id="hydro-qx-1-display-mode"
-        data-role="display-mode">
-        <option value="depth" selected>Flow depth</option>
-        <option value="discharge">log10(Qw)</option>
-      </select>
+      <input
+        id="hydro-qx-1-manning"
+        data-role="manning-slider"
+        type="range"
+        min="0.001"
+        max="0.1"
+        step="0.001"
+        value="0.033">
     </div>
     <div class="hydro-control-group">
       <label for="hydro-qx-1-depth">
@@ -227,27 +244,37 @@
         step="0.1"
         value="1.5">
     </div>
-    <div class="hydro-control-group">
-      <label for="hydro-qx-1-precip">
-        <span>Precipitation (mm/hr)</span>
-        <output data-role="precip-output">--</output>
-      </label>
-      <input
-        id="hydro-qx-1-precip"
-        data-role="precip-slider"
-        type="range"
-        min="0"
-        max="100"
-        step="0.5"
-        value="5">
-    </div>
     <p>Inject a single-pixel pulse in the basin center, then adjust the color scale to inspect thin overland flow versus deep pooling.</p>
   </div>
   <div class="hydro-canvas">
     <canvas aria-label="Hydrodynamics shallow-water simulation"></canvas>
-    <div class="hydro-overlay" aria-live="polite">
+    <div class="hydro-overlay hydro-overlay--status" aria-live="polite">
       <span>Sim time</span>
       <strong data-role="hydro-time">0.0 s</strong>
+    </div>
+    <div class="hydro-overlay hydro-overlay--controls" aria-label="Visualization options">
+      <div class="hydro-overlay-block">
+        <span>Display</span>
+        <div class="hydro-toggle-group" role="group" aria-label="Display mode">
+          <button type="button" class="hydro-toggle is-active" data-role="display-mode-button" data-mode="depth">
+            Depth
+          </button>
+          <button type="button" class="hydro-toggle" data-role="display-mode-button" data-mode="discharge">
+            Qw
+          </button>
+        </div>
+      </div>
+      <div class="hydro-overlay-block">
+        <span>View</span>
+        <div class="hydro-toggle-group" role="group" aria-label="View mode">
+          <button type="button" class="hydro-toggle is-active" data-role="view-toggle-button" data-view="2d">
+            2D
+          </button>
+          <button type="button" class="hydro-toggle" data-role="view-toggle-button" data-view="3d">
+            3D
+          </button>
+        </div>
+      </div>
     </div>
     <div class="hydro-scale" aria-hidden="true">
       <div class="hydro-scale-bar" data-role="hydro-scale-bar"></div>
@@ -264,7 +291,7 @@
 
   
   
-  <script type="module" src="/js/hydrodynamics.min.941054d73797d3658b1b6d96433506a4ed33653da5125a17b79d8fe90bec6deb.js" integrity="sha256-lBBU1zeX02WLG22WQzUGpO0zZT2lEloXt52P6Qvsbes=" defer></script>
+  <script type="module" src="/js/hydrodynamics.min.b91a8489c7bc8cd2c72d608f6520253cda911e061cac0a4ef8b3aa33e935ca05.js" integrity="sha256-uRqEice8jNLHLWCPZSAlPNqRHgYcrApO&#43;LOqM&#43;k1ygU=" defer></script>
 
 
 <p>The current setup loads the <code>dem.png</code> surface (10 m cells), integrates with <code>dt = 1e-2 s</code>, and exposes the inflow curtain along rows 180-186 so I can pulse floods directly in the browser. Cranking up the slider is a quick gut-check on how much head the basin can take before rolling a bore downstream.</p>

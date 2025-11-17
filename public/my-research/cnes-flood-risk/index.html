@@ -10,7 +10,7 @@
 <meta name="generator" content="Hugo 0.152.2">
 
 
-<link rel="stylesheet" href="/css/main.min.3b7c044c3299e9f9c9d20a76377718008221583eefc41353127238112729723f.css" integrity="sha256-O3wETDKZ6fnJ0gp2N3cYAIIhWD7vxBNTEnI4EScpcj8=">
+<link rel="stylesheet" href="/css/main.min.6595b71bb57004bc4e6e5c8e6b5260ca41126a39710a7dcc03c5af870e74908a.css" integrity="sha256-ZZW3G7VwBLxOblyOa1JgykESajlxCn3MA8Wvhw50kIo=">
 
 
 
@@ -100,47 +100,10 @@
 
     <div class="prose">
       <h2 id="mission-brief">Mission Brief</h2>
-<p>CNES asked us to prove that sparse satellite passes can still drive actionable flood forecasts. The prototype ingest stream stitches Sentinel-1, SWOT, and airborne SAR passes, harmonizes observation cadence, and injects the results into a custom GPU solver that estimates flood stages for 3,200 river reaches.</p>
-<ul>
-<li><strong>Acquisition cadence</strong>: downlinks aggregated every 6 hours via the Toulouse ground segment.</li>
-<li><strong>Assimilation</strong>: low-order ROM calibrated against LISFLOOD-FP and validated on the 2023 Loire event archive.</li>
-<li><strong>Delivery</strong>: alert-ready depth rasters and basin risk curves pushed to a shared API endpoint.</li>
-</ul>
-<h2 id="toolchain">Toolchain</h2>
-<ol>
-<li>Orbit-aware scheduler that infers the next viable pass per tile.</li>
-<li>Floodplain mesher that adapts cell size to vegetation masks.</li>
-<li>CUDA kernel that keeps the model predictive under 30 minutes on an A100.</li>
-<li>Post-processing scripts that publish NetCDF and vector cutlines for partners.</li>
-</ol>
-<h2 id="current-deliverables">Current Deliverables</h2>
-<table>
-  <thead>
-      <tr>
-          <th>Status</th>
-          <th>Work Package</th>
-          <th>Owner</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>✅</td>
-          <td>V1 ingestion/playback stack</td>
-          <td>Radar ops team</td>
-      </tr>
-      <tr>
-          <td>🔄</td>
-          <td>Multi-basin calibration sweep</td>
-          <td>Hydro modeling pod</td>
-      </tr>
-      <tr>
-          <td>⏳</td>
-          <td>Public download portal</td>
-          <td>Product + CNES legal</td>
-      </tr>
-  </tbody>
-</table>
-<p>Get in touch if you want to plug custom gage networks or if you maintain open flood archives we can benchmark against.</p>
+<p>In mountaineous areas, the destructive nature of floods is often tightly linked to the amplitude of induced erosion and sediment transport. Quantifying fluvial dynamics during large discharge events is therefore crucial for flood hazard assessment and landscape dynamics.</p>
+<p>Satellite imagery, such as Pléiades (Neo) and CO3D, provides unprecedented time series of high-resolution Digital Elevation Models (DEMs) before and after floods. These datasets offer critical insights into the morphological signatures of fluvial processes during and after floods, enhancing our ability to understand and anticipate flood-induced hazards.</p>
+<p>This project leverages my recently published hydrological simulation approaches to 1) develop a numerical framework for running hydrodynamic simulations on DEMs derived from CNES imagery, and 2) measure morphological metrics relevant to predict river erosion and sedimentation. I will apply this framework to Digital Surface Model (DSM) time series capturing flood events following the Kaikoura Earthquake, and other events characterized by substantial flood-induced morphological changes after initial extreme sediment pulses.</p>
+<p>The framework will demonstrate its ability to identify topographic areas susceptible to damage, enhancing our understanding of fluvial dynamics during floods and the role of pre-existing topography in conditioning these dynamics at local to regional scales.</p>
 
     </div>
 
@@ -148,7 +111,8 @@
   <div class="tags">
       <a class="tag" href="/tags/flood/">Flood</a>
       <a class="tag" href="/tags/hydrology/">Hydrology</a>
-      <a class="tag" href="/tags/radar/">Radar</a>
+      <a class="tag" href="/tags/co3d/">CO3D</a>
+      <a class="tag" href="/tags/pl%C3%A9iades/">Pléiades</a>
   </div>
 
   </article>

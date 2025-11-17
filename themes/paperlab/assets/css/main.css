@@ -374,6 +374,49 @@ a:focus-visible {
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
 }
 
+.hydro-overlay--controls {
+  left: auto;
+  right: 1rem;
+  gap: 0.45rem;
+  pointer-events: auto;
+}
+
+.hydro-overlay-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.hydro-toggle-group {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.hydro-toggle {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(0, 0, 0, 0.35);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.hydro-toggle.is-active {
+  background: rgba(122, 189, 255, 0.2);
+  border-color: rgba(122, 189, 255, 0.6);
+  color: #e0f2ff;
+}
+
+.hydro-toggle:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.65);
+  outline-offset: 2px;
+}
+
 .hydro-overlay strong {
   font-size: 1.2rem;
   text-transform: none;
