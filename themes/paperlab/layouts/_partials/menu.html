@@ -1,0 +1,15 @@
+{{- $page := .page }}
+{{- with .menu }}
+  {{- range . }}
+    {{- $current := or ($page.IsMenuCurrent .Menu .) ($page.HasMenuCurrent .Menu .) }}
+    {{- $href := .URL }}
+    {{- with .Page }}
+      {{- $href = .RelPermalink }}
+      {{- $current = or $current (eq $page.RelPermalink .RelPermalink) }}
+    {{- end }}
+    <a href="{{ $href }}" class="{{ if $current }}active{{ end }}"
+       {{ if $current }}aria-current="page"{{ end }}>
+      {{ .Name }}
+    </a>
+  {{- end }}
+{{- end }}

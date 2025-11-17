@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <article class="list-item prose">
+    <div class="meta-line">
+      {{ if .PublishDate }}
+        <time datetime="{{ .PublishDate }}">{{ .PublishDate | time.Format ":date_long" }}</time>
+      {{ else }}
+        <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time>
+      {{ end }}
+      {{ if .ReadingTime }}
+        <span>{{ .ReadingTime }} min read</span>
+      {{ end }}
+    </div>
+
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+      <p class="tagline">{{ . }}</p>
+    {{ end }}
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </article>
+{{ end }}

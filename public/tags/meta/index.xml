@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Boris Gailleton</title>
+    <link>http://localhost:1313/tags/meta/</link>
+    <description>Recent content in Meta on Boris Gailleton</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, Lab Notebook</title>
+      <link>http://localhost:1313/blog/2025/hello-lab-notebook/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/hello-lab-notebook/</guid>
+      <description>Why this site exists and how each section maps to the research workflow.</description>
+    </item>
+  </channel>
+</rss>

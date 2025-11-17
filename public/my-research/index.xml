@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Research on Boris Gailleton</title>
+    <link>http://localhost:1313/my-research/</link>
+    <description>Recent content in My Research on Boris Gailleton</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/my-research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CNES-Funded Flood Risk at Scale</title>
+      <link>http://localhost:1313/my-research/cnes-flood-risk/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/cnes-flood-risk/</guid>
+      <description>Continental pilot that fuses satellite SAR passes with reduced-order hydrodynamics to map risk bands within hours of acquisition.</description>
+    </item>
+    <item>
+      <title>Spectral Field Notes</title>
+      <link>http://localhost:1313/my-research/spectral-field-notes/</link>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/spectral-field-notes/</guid>
+      <description>An evolving wiki of experiments that test multi-spectral classifiers in noisy outdoor environments.</description>
+    </item>
+    <item>
+      <title>Tectonic Geomorphology</title>
+      <link>http://localhost:1313/my-research/tectonic-geomorphology/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/tectonic-geomorphology/</guid>
+      <description>Field, lab, and modeling campaign to pin down how slip histories imprint on drainage organization.</description>
+    </item>
+    <item>
+      <title>Human ⇄ Model Handoff</title>
+      <link>http://localhost:1313/my-research/human-model-handoff/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/human-model-handoff/</guid>
+      <description>Designing a collaborative review loop where human annotations steer a model within minutes, not weeks.</description>
+    </item>
+    <item>
+      <title>Large-Scale Hydro-Morphodynamics</title>
+      <link>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</guid>
+      <description>GPU-native solvers for water routing, sediment feedbacks, and floodplain reorganization from reach to orogen scale.</description>
+    </item>
+    <item>
+      <title>Landscape Evolution Models</title>
+      <link>http://localhost:1313/my-research/landscape-evolution-models/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/landscape-evolution-models/</guid>
+      <description>Long-horizon experiments that keep FastScape, pyFastFlow, and their companions honest against observed reorganizations.</description>
+    </item>
+  </channel>
+</rss>

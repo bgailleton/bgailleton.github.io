@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modeling on Boris Gailleton</title>
+    <link>http://localhost:1313/tags/modeling/</link>
+    <description>Recent content in Modeling on Boris Gailleton</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/modeling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Large-Scale Hydro-Morphodynamics</title>
+      <link>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</guid>
+      <description>GPU-native solvers for water routing, sediment feedbacks, and floodplain reorganization from reach to orogen scale.</description>
+    </item>
+    <item>
+      <title>GraphFlood</title>
+      <link>http://localhost:1313/research-softwares/graphflood/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/graphflood/</guid>
+      <description>Graph-based 2D flood approximator I co-developed for coupling rivers with landscape models.</description>
+    </item>
+  </channel>
+</rss>

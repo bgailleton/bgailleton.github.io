@@ -1,0 +1,73 @@
+baseURL = 'https://example.com/'
+languageCode = 'en'
+title = 'Boris Gailleton'
+theme = 'paperlab'
+enableRobotsTXT = true
+summaryLength = 30
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  tagline = 'Geomorphologist, numerical modeler'
+  description = 'Personal site blending research highlights, software documentation, a CV snapshot, and a lightweight blog.'
+  background = '#0f0f0f'
+  foreground = '#f5f5f5'
+  accent = '#9ca3af'
+
+[params.links]
+  github = 'https://github.com/bgailleton'
+  bluesky = 'https://bsky.app/profile/bgailleton.bsky.social'
+  scholar = 'https://scholar.google.com/citations?user=placeholder'
+  email = 'mailto:hello@example.com'
+
+[outputs]
+home = ['HTML', 'RSS']
+section = ['HTML', 'RSS']
+
+[taxonomies]
+  tag = 'tags'
+
+[permalinks]
+  blog = '/blog/:year/:slug/'
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'my-research'
+    name = 'My Research'
+    pageRef = '/my-research'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'research-softwares'
+    name = 'Research Softwares'
+    pageRef = '/research-softwares'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'cv'
+    name = 'CV'
+    pageRef = '/cv'
+    weight = 40
+
+  [[menu.main]]
+    identifier = 'publications'
+    name = 'Publications'
+    pageRef = '/publications'
+    weight = 50
+
+  [[menu.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 60

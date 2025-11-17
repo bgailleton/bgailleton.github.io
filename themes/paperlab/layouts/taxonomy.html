@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <section class="hero">
+    <h1>{{ .Title }}</h1>
+    <p>Browse tags that annotate your content.</p>
+  </section>
+
+  <div class="card-grid">
+    {{ range .Pages }}
+      <a class="card" href="{{ .RelPermalink }}">
+        <h3>{{ .LinkTitle }}</h3>
+        <p>{{ len .Pages }} linked entries</p>
+      </a>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Softwares on Boris Gailleton</title>
+    <link>http://localhost:1313/research-softwares/</link>
+    <description>Recent content in Research Softwares on Boris Gailleton</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/research-softwares/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hydrodynamics</title>
+      <link>http://localhost:1313/research-softwares/hydrodynamics/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/hydrodynamics/</guid>
+      <description>WebGL Lisflood sandbox for testing shallow-water responses straight in the browser.</description>
+    </item>
+    <item>
+      <title>LSDTopoTools / lsdtopytools</title>
+      <link>http://localhost:1313/research-softwares/lsdtopotools/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/lsdtopotools/</guid>
+      <description>Graph-powered terrain analysis toolkit with a lightweight Python shim for scripted runs.</description>
+    </item>
+    <item>
+      <title>TopoToolbox</title>
+      <link>http://localhost:1313/research-softwares/topotoolbox/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/topotoolbox/</guid>
+      <description>MATLAB-based geomorphometry suite we rely on for quick terrain sanity checks.</description>
+    </item>
+    <item>
+      <title>pyfastflow</title>
+      <link>http://localhost:1313/research-softwares/pyfastflow/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/pyfastflow/</guid>
+      <description>Python bindings for the FastFlow solvers that drive our surface process experiments.</description>
+    </item>
+    <item>
+      <title>GraphFlood</title>
+      <link>http://localhost:1313/research-softwares/graphflood/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/graphflood/</guid>
+      <description>Graph-based 2D flood approximator I co-developed for coupling rivers with landscape models.</description>
+    </item>
+    <item>
+      <title>FastScape</title>
+      <link>http://localhost:1313/research-softwares/fastscape/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/fastscape/</guid>
+      <description>C++/Python landscape evolution kernel we use for almost every exploratory run.</description>
+    </item>
+    <item>
+      <title>Scabbard / DAGGER</title>
+      <link>http://localhost:1313/research-softwares/scabbard-dagger/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/scabbard-dagger/</guid>
+      <description>Companion tools for DAGGER experiments that keep provenance and scenario trees tidy.</description>
+    </item>
+  </channel>
+</rss>

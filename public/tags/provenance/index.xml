@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Provenance on Boris Gailleton</title>
+    <link>http://localhost:1313/tags/provenance/</link>
+    <description>Recent content in Provenance on Boris Gailleton</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/provenance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scabbard / DAGGER</title>
+      <link>http://localhost:1313/research-softwares/scabbard-dagger/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/scabbard-dagger/</guid>
+      <description>Companion tools for DAGGER experiments that keep provenance and scenario trees tidy.</description>
+    </item>
+  </channel>
+</rss>

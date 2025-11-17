@@ -1,0 +1,10 @@
+<div class="identity">
+  <a class="brand" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+  {{ with site.Params.tagline }}
+    <p class="tagline">{{ . }}</p>
+  {{ end }}
+  {{ partial "social-icons.html" site.Params.links }}
+</div>
+<nav class="menu">
+  {{ partial "menu.html" (dict "menu" site.Menus.main "page" .) }}
+</nav>

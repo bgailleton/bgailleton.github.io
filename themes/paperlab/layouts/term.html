@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <section class="hero">
+    <h1>{{ .Title }}</h1>
+    <p>{{ len .Pages }} page(s) tagged with this keyword.</p>
+  </section>
+
+  <div class="list-stack">
+    {{ range .Pages }}
+      <article class="list-item">
+        <div class="meta-line">
+          <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_short" }}</time>
+          <span>{{ .Section | humanize }}</span>
+        </div>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary }}</p>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

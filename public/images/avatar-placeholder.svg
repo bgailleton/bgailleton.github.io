@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Placeholder avatar">
+  <rect width="240" height="240" fill="#151515" />
+  <circle cx="120" cy="92" r="52" stroke="#2d2d2d" stroke-width="6" fill="none" />
+  <path d="M45 210c18-42 50-63 75-63s57 21 75 63" stroke="#2d2d2d" stroke-width="6" fill="none" stroke-linecap="round" />
+  <text x="50%" y="85%" fill="#2d2d2d" font-family="JetBrains Mono, monospace" font-size="18" text-anchor="middle">avatar</text>
+</svg>

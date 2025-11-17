@@ -1,0 +1,17 @@
+{{- $links := site.Params.links }}
+{{- if $links }}
+  <div class="social-links">
+    {{- with $links.github }}
+      <a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>
+    {{- end }}
+    {{- with $links.bluesky }}
+      <a href="{{ . }}" target="_blank" rel="noopener">Bluesky</a>
+    {{- end }}
+    {{- with $links.scholar }}
+      <a href="{{ . }}" target="_blank" rel="noopener">Google Scholar</a>
+    {{- end }}
+    {{- with $links.email }}
+      <a href="{{ . }}">Email</a>
+    {{- end }}
+  </div>
+{{- end }}

@@ -1,0 +1,45 @@
+{{ define "main" }}
+  <section class="hero">
+    <h1>{{ site.Title }}</h1>
+    <p>{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.tagline }}{{ end }}</p>
+  </section>
+
+  {{ with .Params.sections }}
+    <div class="card-grid">
+      {{ range . }}
+        <a class="card" href="{{ .url }}">
+          <div class="meta-line">
+            <span>{{ .label }}</span>
+            {{ with .tone }}<span>{{ . }}</span>{{ end }}
+          </div>
+          <h3>{{ .title }}</h3>
+          <p>{{ .summary }}</p>
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  <section>
+    <div class="meta-line">
+      <span>Latest Posts</span>
+      <span>{{ len (where site.RegularPages "Section" "blog") }} entries</span>
+    </div>
+    <div class="list-stack">
+      {{ range first 3 (where site.RegularPages "Section" "blog") }}
+        <article class="list-item">
+          <div class="meta-line">
+            <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_short" }}</time>
+            <span>{{ .ReadingTime }} min read</span>
+          </div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Summary }}</p>
+          {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+        </article>
+      {{ else }}
+        <article class="list-item">
+          <p class="meta-line">No posts yet—once you publish, the latest three entries will show up here.</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

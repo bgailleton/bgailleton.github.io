@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hydrology on Boris Gailleton</title>
+    <link>http://localhost:1313/tags/hydrology/</link>
+    <description>Recent content in Hydrology on Boris Gailleton</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hydrology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CNES-Funded Flood Risk at Scale</title>
+      <link>http://localhost:1313/my-research/cnes-flood-risk/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/cnes-flood-risk/</guid>
+      <description>Continental pilot that fuses satellite SAR passes with reduced-order hydrodynamics to map risk bands within hours of acquisition.</description>
+    </item>
+    <item>
+      <title>Hydrodynamics</title>
+      <link>http://localhost:1313/research-softwares/hydrodynamics/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/hydrodynamics/</guid>
+      <description>WebGL Lisflood sandbox for testing shallow-water responses straight in the browser.</description>
+    </item>
+    <item>
+      <title>pyfastflow</title>
+      <link>http://localhost:1313/research-softwares/pyfastflow/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/pyfastflow/</guid>
+      <description>Python bindings for the FastFlow solvers that drive our surface process experiments.</description>
+    </item>
+  </channel>
+</rss>

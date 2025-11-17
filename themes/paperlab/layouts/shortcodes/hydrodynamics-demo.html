@@ -1,0 +1,30 @@
+{{ $dem := resources.Get "images/hydrodynamics-dem.png" }}
+{{ $count := add 1 (default 0 (.Page.Scratch.Get "hydro-count")) }}
+{{ .Page.Scratch.Set "hydro-count" $count }}
+{{ $inputID := printf "hydro-qx-%d" $count }}
+
+<div class="hydro-panel" data-hydro-demo data-dem="{{ $dem.RelPermalink }}" data-row-start="180" data-row-end="186">
+  <div class="hydro-controls">
+    <label for="{{ $inputID }}">
+      Inflow qx (m^2/s) - rows 180-186
+      <output>--</output>
+    </label>
+    <input
+      id="{{ $inputID }}"
+      type="range"
+      min="0"
+      max="50"
+      step="0.5"
+      value="15">
+    <p>Adjust the slider to push more discharge through the western boundary curtain and watch the wave train form down-valley in real time.</p>
+  </div>
+  <div class="hydro-canvas">
+    <canvas aria-label="Hydrodynamics shallow-water simulation"></canvas>
+  </div>
+</div>
+
+{{ if not (.Page.Scratch.Get "hydro-script") }}
+  {{ $script := resources.Get "js/hydrodynamics.js" | resources.Minify | resources.Fingerprint }}
+  {{ .Page.Scratch.Set "hydro-script" true }}
+  <script type="module" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+{{ end }}
