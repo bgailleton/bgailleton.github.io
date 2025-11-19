@@ -71,6 +71,9 @@
     <loc>http://localhost:1313/tags/research/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/co3d/</loc>
+    <lastmod>2025-03-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/flood/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -83,14 +86,8 @@
     <loc>http://localhost:1313/tags/overview/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/radar/</loc>
+    <loc>http://localhost:1313/tags/pl%C3%A9iades/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/collaboration/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ml-ops/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/geomorphology/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>

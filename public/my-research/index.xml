@@ -16,11 +16,11 @@
       <description>Anticipating flood induced morphological damages from high-resolution topography</description>
     </item>
     <item>
-      <title>Spectral Field Notes</title>
+      <title>---</title>
       <link>http://localhost:1313/my-research/spectral-field-notes/</link>
       <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-research/spectral-field-notes/</guid>
-      <description>An evolving wiki of experiments that test multi-spectral classifiers in noisy outdoor environments.</description>
+      <description>&lt;hr&gt;&#xA;</description>
     </item>
     <item>
       <title>Tectonic Geomorphology</title>
@@ -30,11 +30,11 @@
       <description>Field, lab, and modeling campaign to pin down how slip histories imprint on drainage organization.</description>
     </item>
     <item>
-      <title>Human ⇄ Model Handoff</title>
+      <title>---</title>
       <link>http://localhost:1313/my-research/human-model-handoff/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-research/human-model-handoff/</guid>
-      <description>Designing a collaborative review loop where human annotations steer a model within minutes, not weeks.</description>
+      <description>&lt;hr&gt;&#xA;</description>
     </item>
     <item>
       <title>Large-Scale Hydro-Morphodynamics</title>

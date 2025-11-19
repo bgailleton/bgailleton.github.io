@@ -44,6 +44,13 @@
       <description></description>
     </item>
     <item>
+      <title>CO3D</title>
+      <link>http://localhost:1313/tags/co3d/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/co3d/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Flood</title>
       <link>http://localhost:1313/tags/flood/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
@@ -65,24 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>Radar</title>
-      <link>http://localhost:1313/tags/radar/</link>
+      <title>Pléiades</title>
+      <link>http://localhost:1313/tags/pl%C3%A9iades/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/radar/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Collaboration</title>
-      <link>http://localhost:1313/tags/collaboration/</link>
-      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/collaboration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ml-Ops</title>
-      <link>http://localhost:1313/tags/ml-ops/</link>
-      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ml-ops/</guid>
+      <guid>http://localhost:1313/tags/pl%C3%A9iades/</guid>
       <description></description>
     </item>
     <item>
