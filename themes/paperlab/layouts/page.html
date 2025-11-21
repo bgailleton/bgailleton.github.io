@@ -20,23 +20,25 @@
     {{ .Content }}
   </div>
 
-  {{ with .Params.panels }}
-    <div class="card-grid research-panels">
-      {{ range . }}
-        {{ $link := .link }}
-        {{ if $link }}
-          <a class="card panel-card panel-card--link" href="{{ $link }}">
-            <h3>{{ .title }}</h3>
-            {{ with .summary }}<p>{{ . }}</p>{{ end }}
-          </a>
-        {{ else }}
-          <article class="card panel-card">
-            <h3>{{ .title }}</h3>
-            {{ with .summary }}<p>{{ . }}</p>{{ end }}
-          </article>
+  {{ if and .Params.panels (not .Params.disableAutoPanels) }}
+    {{ with .Params.panels }}
+      <div class="card-grid research-panels">
+        {{ range . }}
+          {{ $link := .link }}
+          {{ if $link }}
+            <a class="card panel-card panel-card--link" href="{{ $link }}">
+              <h3>{{ .title }}</h3>
+              {{ with .summary }}<p>{{ . }}</p>{{ end }}
+            </a>
+          {{ else }}
+            <article class="card panel-card">
+              <h3>{{ .title }}</h3>
+              {{ with .summary }}<p>{{ . }}</p>{{ end }}
+            </article>
+          {{ end }}
         {{ end }}
-      {{ end }}
-    </div>
+      </div>
+    {{ end }}
   {{ end }}
 
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
