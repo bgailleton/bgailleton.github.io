@@ -1,0 +1,19 @@
+{{ $panels := or .Page.Params.panels .Params.panels }}
+{{ if $panels }}
+  <div class="card-grid research-panels">
+    {{ range $panels }}
+      {{ $link := .link }}
+      {{ if $link }}
+        <a class="card panel-card panel-card--link" href="{{ $link }}">
+          <h3>{{ .title }}</h3>
+          {{ with .summary }}<p>{{ . }}</p>{{ end }}
+        </a>
+      {{ else }}
+        <article class="card panel-card">
+          <h3>{{ .title }}</h3>
+          {{ with .summary }}<p>{{ . }}</p>{{ end }}
+        </article>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}
