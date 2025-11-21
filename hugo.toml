@@ -4,6 +4,7 @@ title = 'Boris Gailleton'
 theme = 'paperlab'
 enableRobotsTXT = true
 summaryLength = 30
+min_version = "0.152.2"
 
 [pagination]
   pagerSize = 10
