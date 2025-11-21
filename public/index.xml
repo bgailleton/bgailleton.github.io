@@ -6,7 +6,7 @@
     <description>Recent content in Home on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNES-Funded Flood Risk at Scale</title>
@@ -98,20 +98,6 @@
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/scabbard-dagger/</guid>
       <description>Companion tools for DAGGER experiments that keep provenance and scenario trees tidy.</description>
-    </item>
-    <item>
-      <title>Field Report 01 — Shade Canopy Trials</title>
-      <link>http://localhost:1313/blog/2025/field-report-01-shade-canopy-trials/</link>
-      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2025/field-report-01-shade-canopy-trials/</guid>
-      <description>Quick debrief after running the new spectral pipeline through a low-light stress test.</description>
-    </item>
-    <item>
-      <title>Hello, Lab Notebook</title>
-      <link>http://localhost:1313/blog/2025/hello-lab-notebook/</link>
-      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2025/hello-lab-notebook/</guid>
-      <description>Why this site exists and how each section maps to the research workflow.</description>
     </item>
     <item>
       <title>CV en Français</title>
