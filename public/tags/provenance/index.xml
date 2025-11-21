@@ -13,7 +13,7 @@
       <link>http://localhost:1313/research-softwares/scabbard-dagger/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/scabbard-dagger/</guid>
-      <description>Companion tools for DAGGER experiments that keep provenance and scenario trees tidy.</description>
+      <description>My own sandbox in c++/python. I keep it for legacy and reproducing paper results.</description>
     </item>
   </channel>
 </rss>

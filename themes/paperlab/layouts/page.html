@@ -12,14 +12,33 @@
     </div>
 
     <h1>{{ .Title }}</h1>
-    {{ with .Params.subtitle }}
-      <p class="tagline">{{ . }}</p>
-    {{ end }}
+  {{ with .Params.subtitle }}
+    <p class="tagline">{{ . }}</p>
+  {{ end }}
 
-    <div class="prose">
-      {{ .Content }}
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.panels }}
+    <div class="card-grid research-panels">
+      {{ range . }}
+        {{ $link := .link }}
+        {{ if $link }}
+          <a class="card panel-card panel-card--link" href="{{ $link }}">
+            <h3>{{ .title }}</h3>
+            {{ with .summary }}<p>{{ . }}</p>{{ end }}
+          </a>
+        {{ else }}
+          <article class="card panel-card">
+            <h3>{{ .title }}</h3>
+            {{ with .summary }}<p>{{ . }}</p>{{ end }}
+          </article>
+        {{ end }}
+      {{ end }}
     </div>
+  {{ end }}
 
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-  </article>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</article>
 {{ end }}

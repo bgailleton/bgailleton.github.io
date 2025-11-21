@@ -13,14 +13,14 @@
       <link>http://localhost:1313/research-softwares/lsdtopotools/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/lsdtopotools/</guid>
-      <description>Graph-powered terrain analysis toolkit with a lightweight Python shim for scripted runs.</description>
+      <description>Topographic analysis in c++ and python</description>
     </item>
     <item>
       <title>pyfastflow</title>
       <link>http://localhost:1313/research-softwares/pyfastflow/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/pyfastflow/</guid>
-      <description>Python bindings for the FastFlow solvers that drive our surface process experiments.</description>
+      <description>First GPU-powered geomorphology toolbox</description>
     </item>
   </channel>
 </rss>

@@ -20,7 +20,7 @@
       <link>http://localhost:1313/research-softwares/graphflood/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/graphflood/</guid>
-      <description>Graph-based 2D flood approximator I co-developed for coupling rivers with landscape models.</description>
+      <description>Graph-based 2D flood approximator I co-developed for fast, large-scale compatible hydrodynamics.</description>
     </item>
   </channel>
 </rss>

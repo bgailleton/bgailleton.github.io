@@ -6,7 +6,7 @@
     <description>Recent content in Flood on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/flood/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNES-Funded Flood Risk at Scale</title>
@@ -20,7 +20,21 @@
       <link>http://localhost:1313/research-softwares/graphflood/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/graphflood/</guid>
-      <description>Graph-based 2D flood approximator I co-developed for coupling rivers with landscape models.</description>
+      <description>Graph-based 2D flood approximator I co-developed for fast, large-scale compatible hydrodynamics.</description>
+    </item>
+    <item>
+      <title>GraphFlood CPU Tutorial</title>
+      <link>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</guid>
+      <description>How to drive the stationary GraphFlood solver via pytopotoolbox.</description>
+    </item>
+    <item>
+      <title>GraphFlood GPU Tutorial</title>
+      <link>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</guid>
+      <description>pyfastflow setup for GPU-driven GraphFlood runs.</description>
     </item>
   </channel>
 </rss>

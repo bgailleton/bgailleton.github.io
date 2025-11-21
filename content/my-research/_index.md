@@ -10,17 +10,17 @@ link = "/my-research/cnes-flood-risk/"
 
 [[panels]]
 title = "Hydrodynamics and morphodynamics across the scales"
-summary = "Integrating shor-term and local hydraulic and morphodynamic processes to the regional and geological scales"
+summary = "Integrating short-term and local hydraulic and morphodynamic processes to the regional and geological scales"
 link = "/my-research/large-scale-hydro-morphodynamics/"
 
 [[panels]]
 title = "Tectonic Geomorphology"
-summary = "Linking topographic metrics with slip histories to decode how active structures partition strain; blends field constraints, cosmogenics, and inverse modeling."
+summary = "Linking topographic metrics with tectonics and climate"
 link = "/my-research/tectonic-geomorphology/"
 
 
 [[panels]]
 title = "Landscape Evolution Models"
-summary = "Calibrating FastScape, pyFastFlow, and companion toolkits so long-horizon simulations stay faithful to observed drainage rearrangements and knickpoint migration."
+summary = "WIP"
 link = "/my-research/landscape-evolution-models/"
 +++

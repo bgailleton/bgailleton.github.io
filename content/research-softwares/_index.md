@@ -4,4 +4,4 @@ description = "Documentation-style pages for the tools, datasets, and CLIs that 
 tags = ["software", "docs"]
 +++
 
-Each entry below links to a dedicated page with quick-start notes and example outputs so collaborators can get oriented without digging through repositories.
+Research softwares I contributed to or lead the development:

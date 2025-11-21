@@ -6,49 +6,63 @@
     <description>Recent content in Research Softwares on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/research-softwares/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LSDTopoTools / lsdtopytools</title>
       <link>http://localhost:1313/research-softwares/lsdtopotools/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/lsdtopotools/</guid>
-      <description>Graph-powered terrain analysis toolkit with a lightweight Python shim for scripted runs.</description>
+      <description>Topographic analysis in c++ and python</description>
     </item>
     <item>
       <title>TopoToolbox</title>
       <link>http://localhost:1313/research-softwares/topotoolbox/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/topotoolbox/</guid>
-      <description>MATLAB-based geomorphometry suite we rely on for quick terrain sanity checks.</description>
+      <description>EU-wide consortium for topographic analysis, morphometry and landscape evolution in C/python/R/&amp;hellip;</description>
     </item>
     <item>
       <title>pyfastflow</title>
       <link>http://localhost:1313/research-softwares/pyfastflow/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/pyfastflow/</guid>
-      <description>Python bindings for the FastFlow solvers that drive our surface process experiments.</description>
+      <description>First GPU-powered geomorphology toolbox</description>
     </item>
     <item>
       <title>GraphFlood</title>
       <link>http://localhost:1313/research-softwares/graphflood/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/graphflood/</guid>
-      <description>Graph-based 2D flood approximator I co-developed for coupling rivers with landscape models.</description>
+      <description>Graph-based 2D flood approximator I co-developed for fast, large-scale compatible hydrodynamics.</description>
     </item>
     <item>
       <title>FastScape</title>
       <link>http://localhost:1313/research-softwares/fastscape/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/fastscape/</guid>
-      <description>C++/Python landscape evolution kernel we use for almost every exploratory run.</description>
+      <description>Landscape evolution at geological time scales.</description>
     </item>
     <item>
       <title>Scabbard / DAGGER</title>
       <link>http://localhost:1313/research-softwares/scabbard-dagger/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/scabbard-dagger/</guid>
-      <description>Companion tools for DAGGER experiments that keep provenance and scenario trees tidy.</description>
+      <description>My own sandbox in c++/python. I keep it for legacy and reproducing paper results.</description>
+    </item>
+    <item>
+      <title>GraphFlood CPU Tutorial</title>
+      <link>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</guid>
+      <description>How to drive the stationary GraphFlood solver via pytopotoolbox.</description>
+    </item>
+    <item>
+      <title>GraphFlood GPU Tutorial</title>
+      <link>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</guid>
+      <description>pyfastflow setup for GPU-driven GraphFlood runs.</description>
     </item>
   </channel>
 </rss>
