@@ -1,0 +1,13 @@
+# Hugo build outputs
+public/
+resources/_gen/
+.hugo_cache/
+.hugo_build.lock
+
+# Local scratch
+temp/
+*.log
+
+# OS noise
+.DS_Store
+Thumbs.db

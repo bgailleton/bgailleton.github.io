@@ -1,0 +1,30 @@
+{{ define "main" }}
+  <article class="list-item prose">
+    {{ $showDate := ne .Section "my-research" }}
+    {{ if or $showDate .ReadingTime }}
+      <div class="meta-line">
+        {{ if $showDate }}
+          {{ if .PublishDate }}
+            <time datetime="{{ .PublishDate }}">{{ .PublishDate | time.Format "2 January 2006" }}</time>
+          {{ else }}
+            <time datetime="{{ .Date }}">{{ .Date | time.Format "2 January 2006" }}</time>
+          {{ end }}
+        {{ end }}
+        {{ if .ReadingTime }}
+          <span>{{ .ReadingTime }} min read</span>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+      <p class="tagline">{{ . }}</p>
+    {{ end }}
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </article>
+{{ end }}
