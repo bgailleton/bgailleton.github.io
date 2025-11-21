@@ -2,9 +2,9 @@
   <article class="list-item prose">
     <div class="meta-line">
       {{ if .PublishDate }}
-        <time datetime="{{ .PublishDate }}">{{ .PublishDate | time.Format ":date_long" }}</time>
+        <time datetime="{{ .PublishDate }}">{{ .PublishDate | time.Format "2 January 2006" }}</time>
       {{ else }}
-        <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time>
+        <time datetime="{{ .Date }}">{{ .Date | time.Format "2 January 2006" }}</time>
       {{ end }}
       {{ if .ReadingTime }}
         <span>{{ .ReadingTime }} min read</span>

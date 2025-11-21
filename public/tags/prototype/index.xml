@@ -9,10 +9,17 @@
     <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hydrodynamics</title>
-      <link>http://localhost:1313/research-softwares/hydrodynamics/</link>
+      <title>Live Web Demo</title>
+      <link>http://localhost:1313/research-softwares/live-web-demo/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research-softwares/hydrodynamics/</guid>
+      <guid>http://localhost:1313/research-softwares/live-web-demo/</guid>
+      <description>A hub for browser-based prototypes—starting with hydrodynamics—so collaborators can kick the tires without a local setup.</description>
+    </item>
+    <item>
+      <title>Hydrodynamics</title>
+      <link>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</guid>
       <description>WebGL Lisflood sandbox for testing shallow-water responses straight in the browser.</description>
     </item>
   </channel>

@@ -17,9 +17,9 @@
     </item>
     <item>
       <title>Hydrodynamics</title>
-      <link>http://localhost:1313/research-softwares/hydrodynamics/</link>
+      <link>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research-softwares/hydrodynamics/</guid>
+      <guid>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</guid>
       <description>WebGL Lisflood sandbox for testing shallow-water responses straight in the browser.</description>
     </item>
     <item>

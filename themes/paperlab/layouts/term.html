@@ -8,7 +8,7 @@
     {{ range .Pages }}
       <article class="list-item">
         <div class="meta-line">
-          <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_short" }}</time>
+          <time datetime="{{ .Date }}">{{ .Date | time.Format "02 Jan 2006" }}</time>
           <span>{{ .Section | humanize }}</span>
         </div>
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

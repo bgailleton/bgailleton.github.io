@@ -4,10 +4,47 @@
     <p>{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.tagline }}{{ end }}</p>
   </section>
 
+  {{ with .Params.news }}
+    <section class="news-board">
+      <div class="news-header meta-line">
+        <span>Latest News</span>
+        <span>{{ len . }} updates</span>
+      </div>
+      <div class="news-grid">
+        {{ range $i, $item := . }}
+          <details class="news-row">
+            <summary class="news-row__summary">
+              <span class="news-row__meta">
+                <span class="news-row__dot"></span>
+                <span class="news-row__date">{{ (time $item.date) | time.Format "02 Jan 2006" }}</span>
+              </span>
+              <span class="news-row__text">
+                <strong>{{ $item.title }}</strong>
+                {{ with $item.summary }}<span class="news-row__snippet">{{ . }}</span>{{ end }}
+              </span>
+              {{ with $item.link }}
+                <a class="news-row__link" href="{{ . }}" aria-label="Open link">
+                  {{ or $item.icon "↗" }}
+                </a>
+              {{ end }}
+            </summary>
+            <div class="news-row__body">
+              {{ with $item.note }}<p>{{ . }}</p>{{ end }}
+              {{ with $item.link }}
+                <a class="news-row__cta" href="{{ . }}">{{ or $item.cta "Open" }} ↗</a>
+              {{ end }}
+            </div>
+          </details>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
   {{ with .Params.sections }}
     <div class="card-grid">
       {{ range . }}
-        <a class="card" href="{{ .url }}">
+        {{ $isLiveDemo := in .url "/live-web-demo" }}
+        <a class="card{{ if $isLiveDemo }} card--live-demo{{ end }}" href="{{ .url }}">
           <div class="meta-line">
             <span>{{ .label }}</span>
             {{ with .tone }}<span>{{ . }}</span>{{ end }}
@@ -28,7 +65,7 @@
       {{ range first 3 (where site.RegularPages "Section" "blog") }}
         <article class="list-item">
           <div class="meta-line">
-            <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_short" }}</time>
+            <time datetime="{{ .Date }}">{{ .Date | time.Format "02 Jan 2006" }}</time>
             <span>{{ .ReadingTime }} min read</span>
           </div>
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

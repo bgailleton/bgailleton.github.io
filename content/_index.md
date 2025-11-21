@@ -1,6 +1,22 @@
 +++
 title = "Home"
-description = "Researcher at the Université de Rennes, I am a geomorphologist and numerical modeler trying to understand the links between climates, tectonics and surface processes. I am actively developping and applying topographic analysis and landscape evolution modelling methods incorporating shallow water flow to large-scale/long-term landscapes evolution and quantitative description to unravel the climatic and tectonic conditions that led to their genesis or how they will react to a change of climatic and tectonic forcings."
+description = "Researcher at the Université de Rennes, I am a geomorphologist and numerical modeller investigating the links between climate, tectonics and surface processes. I develop and apply topographic analysis and landscape evolution modelling methods that incorporate shallow water flow to large-scale, long-term landscape evolution, aiming to quantitatively unravel the climatic and tectonic conditions that shaped their genesis and to predict how these landscapes will respond to changes in climatic and tectonic forcing."
+
+[[news]]
+date = "2025-11-25"
+title = "Hydrodynamics demo now live!"
+summary = "Check the difference between transient and stationary flow with different SWE solvers."
+link = "/research-softwares/live-web-demo/hydrodynamics"
+cta = "Run the demo"
+note = "Try both solver modes and pulse the inflow curtain to see how the basin responds. If it blows up, drop dt or toggle the shock smoother."
+variant = "glass"
+
+[[news]]
+date = "2025-11-24"
+title = "New website design"
+summary = "Reworked everything—welcome!"
+note = "New nav, refreshed hero, tighter typography, and a consolidated Live Web Demo hub."
+variant = "glow"
 
 [[sections]]
 label = "Projects"
@@ -39,10 +55,12 @@ tone = "Posts"
 
 [[sections]]
 label = "Flux Lab"
-title = "Hydrodynamics"
-summary = "Looking for my hydrodynamics code and demo? Here's a guide to the different ressources."
-url = "/research-softwares/hydrodynamics"
+title = "Live Web Demo"
+summary = "Launch the hydrodynamics browser demo (and future sandboxes) from a single hub."
+url = "/research-softwares/live-web-demo"
 tone = "Simulation"
 +++
 
 Welcome to the lab notebook on the web. Every section is intentionally scoped: research pages read like concise briefs, software entries behave like living documentation, and the blog doubles as a wiki when ideas are still messy. Replace any placeholder text as soon as you have real updates—most blocks are ready for copy/paste from your working documents.
+
+To add more news items, duplicate a `[[news]]` block above and set `date`, `title`, `summary`, plus optional `link`, `cta`, and `variant` (`glow`, `glass`, or `wire` for contrasting treatments).

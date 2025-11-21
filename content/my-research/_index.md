@@ -9,8 +9,8 @@ summary = "Starting in April 2026, I obtained a 2 yrs funding through the CNES p
 link = "/my-research/cnes-flood-risk/"
 
 [[panels]]
-title = "Large-Scale Hydro-Morphodynamics"
-summary = "Pushing GPU solvers to track water routing, sediment feedbacks, and floodplain reorganization from reach to orogen scale, with benchmarks rooted in recent satellite campaigns."
+title = "Hydrodynamics and morphodynamics across the scales"
+summary = "Integrating shor-term and local hydraulic and morphodynamic processes to the regional and geological scales"
 link = "/my-research/large-scale-hydro-morphodynamics/"
 
 [[panels]]

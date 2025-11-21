@@ -14,12 +14,14 @@ summaryLength = 30
   background = '#0f0f0f'
   foreground = '#f5f5f5'
   accent = '#9ca3af'
+  math = true
 
 [params.links]
   github = 'https://github.com/bgailleton'
   bluesky = 'https://bsky.app/profile/bgailleton.bsky.social'
-  scholar = 'https://scholar.google.com/citations?user=placeholder'
-  email = 'mailto:hello@example.com'
+  scholar = 'https://scholar.google.fr/citations?user=r5HIc00AAAAJ&hl=en'
+  linkedin = 'https://www.linkedin.com/in/boris-gailleton-46bab8a3/'
+  email = 'boris.gailleton@univ-rennes.fr'
 
 [outputs]
 home = ['HTML', 'RSS']

@@ -14,7 +14,13 @@
     {{ if gt (len $pages) 0 }}
       <div class="software-grid">
         {{ range $index, $page := $pages }}
-          <a class="software-card" href="{{ $page.RelPermalink }}">
+          {{ $classes := slice "software-card" }}
+          {{ if and (in $page.RelPermalink "/live-web-demo") $page.IsSection }}
+            {{ $classes = $classes | append "software-card--live-demo" }}
+          {{ else if eq $page.File.ContentBaseName "hydrodynamics" }}
+            {{ $classes = $classes | append "software-card--hydro" }}
+          {{ end }}
+          <a class="{{ delimit $classes " " }}" href="{{ $page.RelPermalink }}">
             <h2>{{ $page.LinkTitle }}</h2>
             {{ with $page.Params.summary }}
               <p>{{ . }}</p>
@@ -56,7 +62,7 @@
       {{ range .Pages }}
         <article class="list-item">
           <div class="meta-line">
-            <time datetime="{{ .Lastmod }}">{{ .Lastmod | time.Format ":date_short" }}</time>
+            <time datetime="{{ .Lastmod }}">{{ .Lastmod | time.Format "02 Jan 2006" }}</time>
             {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
           </div>
           <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
