@@ -1,113 +1,131 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Boris Gailleton</title><link>https://bgailleton.github.io/</link><description>Recent content in Home on Boris Gailleton</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://bgailleton.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>CNES-Funded Flood Risk at Scale</title><link>https://bgailleton.github.io/my-research/cnes-flood-risk/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/my-research/cnes-flood-risk/</guid><description>Anticipating flood induced morphological damages from high-resolution topography</description></item><item><title>Hydrodynamics</title><link>https://bgailleton.github.io/research-softwares/live-web-demo/hydrodynamics/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/live-web-demo/hydrodynamics/</guid><description>WebGL Lisflood sandbox for testing shallow-water responses straight in the browser.</description></item><item><title>LSDTopoTools / lsdtopytools</title><link>https://bgailleton.github.io/research-softwares/lsdtopotools/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/lsdtopotools/</guid><description>Topographic analysis in c++ and python</description></item><item><title>Tectonic Geomorphology</title><link>https://bgailleton.github.io/my-research/tectonic-geomorphology/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/my-research/tectonic-geomorphology/</guid><description>Unraveling tectonics from the shape of the topography</description></item><item><title>TopoToolbox</title><link>https://bgailleton.github.io/research-softwares/topotoolbox/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/topotoolbox/</guid><description>EU-wide consortium for topographic analysis, morphometry and landscape evolution in C/python/R/&amp;hellip;</description></item><item><title>Large-Scale Hydro-Morphodynamics</title><link>https://bgailleton.github.io/my-research/large-scale-hydro-morphodynamics/</link><pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/my-research/large-scale-hydro-morphodynamics/</guid><description>Integrating shor-term and local hydraulic and morphodynamic processes to the regional and geological scales</description></item><item><title>pyfastflow</title><link>https://bgailleton.github.io/research-softwares/pyfastflow/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/pyfastflow/</guid><description>First GPU-powered geomorphology toolbox</description></item><item><title>Landscape Evolution Models</title><link>https://bgailleton.github.io/my-research/landscape-evolution-models/</link><pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/my-research/landscape-evolution-models/</guid><description>Long-horizon experiments that keep FastScape, pyFastFlow, and their companions honest against observed reorganizations.</description></item><item><title>GraphFlood</title><link>https://bgailleton.github.io/research-softwares/graphflood/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/graphflood/</guid><description>Graph-based 2D flood approximator I co-developed for fast, large-scale compatible hydrodynamics.</description></item><item><title>FastScape</title><link>https://bgailleton.github.io/research-softwares/fastscape/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/fastscape/</guid><description>Landscape evolution at geological time scales.</description></item><item><title>Scabbard / DAGGER</title><link>https://bgailleton.github.io/research-softwares/scabbard-dagger/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/scabbard-dagger/</guid><description>My own sandbox in c++/python. I keep it for legacy and reproducing paper results.</description></item><item><title>GraphFlood CPU Tutorial</title><link>https://bgailleton.github.io/research-softwares/graphflood/cpu-tutorial/</link><pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/graphflood/cpu-tutorial/</guid><description>How to drive the stationary GraphFlood solver via pytopotoolbox.</description></item><item><title>GraphFlood GPU Tutorial</title><link>https://bgailleton.github.io/research-softwares/graphflood/gpu-tutorial/</link><pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/research-softwares/graphflood/gpu-tutorial/</guid><description>pyfastflow setup for GPU-driven GraphFlood runs.</description></item><item><title>CV en Français</title><link>https://bgailleton.github.io/cv/fr/</link><pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/cv/fr/</guid><description>&lt;h2 id="poste-actuel"&gt;Poste actuel&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Chercheur post-doctorant — Géosciences Rennes, Université de Rennes&lt;/strong&gt; (Rennes, France · juil. 2022 – présent)&lt;br&gt;
-Analyses morphométriques informées par l’hydrodynamique, couplages morphodynamique–hydrodynamique, développement d’outils communautaires (GraphFlood, scabbard, libtopotoolbox) et encadrement d’étudiant·es de master et doctorant·es.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="postes-passés"&gt;Postes passés&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Chercheur post-doctorant — GFZ Helmholtz Centre (Erdoberflächenprozessmodellierung)&lt;/strong&gt; · Potsdam, Allemagne · juin 2020 – juin 2022&lt;br&gt;
-Modélisation numérique de paysages et systèmes source-to-sink, suivi de flux sédimentaire en présence de lacs et d’hétérogénéités de processus de surface, contributions majeures à LSDTopoTools, fastscapelib et CHONK.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ingénieur de recherche — University of Edinburgh / Telespazio Vega&lt;/strong&gt; · Edinburgh, UK · jan. 2019 – nov. 2019&lt;br&gt;
-Prévision de glissements de terrain via l’intégration de modèles numériques et de données InSAR ; développement et déploiement de code C++ et Python.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ingénieur de recherche — Arcelor Mittal&lt;/strong&gt; · Maizière-lès-Metz, France · 2015&lt;br&gt;
-Analyses de laboratoire (FTIR, MEB, microscope optique, XRF) et synthèses sur les gisements BIF.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="formation"&gt;Formation&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Thèse de doctorat en Sciences de la Terre — University of Edinburgh&lt;/strong&gt; · sept. 2016 – juin 2020&lt;br&gt;
-Méthodes numériques pour extraire les signaux tectoniques à partir de MNT, campagnes de terrain (échantillons cosmogéniques, mesures de résistance in situ) et développement de LSDTopoTools.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Master II Géologie minière — LaSalle Beauvais &amp;amp; Université Laurentienne de Sudbury&lt;/strong&gt; · 2010 – 2014&lt;br&gt;
-Parcours Licence en géologie puis spécialisation en géologie minière entre Beauvais (FR) et Sudbury (CA).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="publications-récentes"&gt;Publications récentes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Tzathas, P., &lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Steer, P. &amp;amp; Cordonnier, G. (2024). &lt;em&gt;Physically-based analytical erosion for fast terrain generation&lt;/em&gt;. &lt;em&gt;Computer Graphics Forum&lt;/em&gt;, 43, e15033.&lt;/li&gt;
-&lt;li&gt;Ruiz Sánchez-Oro, M., Mudd, S. M. &amp;amp; &lt;strong&gt;Gailleton, B.&lt;/strong&gt; (2024). &lt;em&gt;Using disorder metrics to distinguish discharge-driven from drainage area-driven incision&lt;/em&gt;. &lt;em&gt;JGR: Earth Surface&lt;/em&gt;, 129, e2023JF007553.&lt;/li&gt;
-&lt;li&gt;Oryan, B. et al. (2024). &lt;em&gt;Megathrust locking encoded in subduction landscapes&lt;/em&gt;. &lt;em&gt;Science Advances&lt;/em&gt;, 10, eadl4286.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Steer, P., Davy, P., Schwanghart, W. &amp;amp; Bernard, T. (2024). &lt;em&gt;GraphFlood 1.0: an efficient algorithm to approximate 2D hydrodynamics for landscape evolution models&lt;/em&gt;. &lt;em&gt;Earth Surface Dynamics&lt;/em&gt;, 12, 1295–1313.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Malatesta, L. C., Cordonnier, G. &amp;amp; Braun, J. (2024). &lt;em&gt;CHONK 1.0: landscape evolution framework&lt;/em&gt;. &lt;em&gt;Geoscientific Model Development&lt;/em&gt;, 17, 71–90.&lt;/li&gt;
-&lt;li&gt;Aminov, J., Dupont-Nivet, G., Ruiz, D. &amp;amp; &lt;strong&gt;Gailleton, B.&lt;/strong&gt; (2023). &lt;em&gt;Terra Antiqua plugin&lt;/em&gt;. &lt;em&gt;Earth-Science Reviews&lt;/em&gt;, 240, 104401.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="logiciels-de-recherche"&gt;Logiciels de recherche&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GraphFlood 1.0&lt;/strong&gt; (2024) — code de support sur Zenodo (doi:10.5281/zenodo.11065794).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CHONK 1.0&lt;/strong&gt; (2023) — framework paysage mêlant automates cellulaires et théorie des graphes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LSDTopoTools2 / LSDMappingTools&lt;/strong&gt; (2018–2023) — co-développement et releases Zenodo.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;lsdtopytools, lsdfailtools, fastscape-litho&lt;/strong&gt; (2021) — outils Python pour l’analyse topographique.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;xarray-simlab 0.5.0&lt;/strong&gt; (2021) — co-auteur du framework de modélisation modulaire.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="communications--diffusion"&gt;Communications &amp;amp; diffusion&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Articles grand public : &lt;em&gt;System Erde&lt;/em&gt; 11(2), 36–41 (2021) ; &lt;em&gt;Nature Reviews Earth &amp;amp; Environment&lt;/em&gt; 2, 161 (2021).&lt;/li&gt;
-&lt;li&gt;24 résumés soumis à l’EGU, l’AGU et la RST ; 6 sessions co-organisées ; 1 conférence invitée (Geomod 2023).&lt;/li&gt;
-&lt;li&gt;Dépôts de preprints : EarthArXiv (2024), ESSOAr (2020).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="conférences-sélection"&gt;Conférences (sélection)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;EGU25 (2025) — Nativ et al., &lt;em&gt;Inverting the friction coefficient of heterogeneous riverbeds&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;RST 2023 — &lt;strong&gt;Gailleton et al.&lt;/strong&gt;, &lt;em&gt;GraphFlood: un algorithme efficace pour simuler l&amp;rsquo;hydrodynamisme&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;AGU 2024 — Oryan, &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;Subduction sculpting when megathrusts sleep&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;AGU 2020 — &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;Lagrangian framework to simulate landscapes with local sinks&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="coordonnées"&gt;Coordonnées&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;📍 UMR 6118 Géosciences Rennes, Université de Rennes&lt;/li&gt;
-&lt;li&gt;✉️ &lt;a href="mailto:boris.gailleton@univ-rennes.fr"&gt;boris.gailleton@univ-rennes.fr&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🌐 &lt;a href="https://www.bgailleton.github.io"&gt;www.bgailleton.github.io&lt;/a&gt; · GitHub &lt;code&gt;bgailleton&lt;/code&gt; · Scholar &lt;code&gt;Boris Gailleton&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>English CV</title><link>https://bgailleton.github.io/cv/en/</link><pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/cv/en/</guid><description>&lt;h2 id="current-position"&gt;Current Position&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Postdoctoral Researcher — Géosciences Rennes, University of Rennes&lt;/strong&gt; (Rennes, France · Jul 2022 – present)&lt;br&gt;
-Hydrodynamics-aware geomorphic analysis, coupled morphodynamic–hydrodynamic modelling, open-source tooling (GraphFlood, scabbard, libtopotoolbox) and supervision of MSc/PhD projects.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="previous-roles"&gt;Previous Roles&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Postdoctoral Researcher — GFZ German Research Centre for Geosciences (Erdoberflächenprozessmodellierung)&lt;/strong&gt; · Potsdam, Germany · Jun 2020 – Jun 2022&lt;br&gt;
-Landscape-evolution and source-to-sink modelling, sediment routing across lakes and heterogeneous surface processes, major contributions to LSDTopoTools, fastscapelib and CHONK.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Research Engineer — University of Edinburgh / Telespazio Vega&lt;/strong&gt; · Edinburgh, UK · Jan 2019 – Nov 2019&lt;br&gt;
-Landslide prediction by linking numerical models with InSAR datasets; delivery of production-grade C++ and Python pipelines.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Research Engineer — Arcelor Mittal&lt;/strong&gt; · Maizière-lès-Metz, France · 2015&lt;br&gt;
-Laboratory analytics (FTIR, SEM, optical microscopy, XRF) and synthesis on banded iron formation deposits.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="education"&gt;Education&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PhD in Earth Sciences — University of Edinburgh&lt;/strong&gt; · Sep 2016 – Jun 2020&lt;br&gt;
-Numerical methods for extracting tectonic signals from DEMs, field surveys for cosmogenic sampling and rock-strength testing, extension of LSDTopoTools.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MSc (Mining Geology) — LaSalle Beauvais &amp;amp; Laurentian University (Sudbury)&lt;/strong&gt; · 2010 – 2014&lt;br&gt;
-Combined BSc in Geology with a joint French–Canadian MSc focused on economic geology.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="selected-publications"&gt;Selected Publications&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Tzathas, P., &lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Steer, P. &amp;amp; Cordonnier, G. (2024). &lt;em&gt;Physically-based analytical erosion for fast terrain generation&lt;/em&gt;. &lt;em&gt;Computer Graphics Forum&lt;/em&gt;, 43, e15033.&lt;/li&gt;
-&lt;li&gt;Ruiz Sánchez-Oro, M., Mudd, S. M. &amp;amp; &lt;strong&gt;Gailleton, B.&lt;/strong&gt; (2024). &lt;em&gt;Using disorder metrics to distinguish discharge-driven from drainage area-driven incision&lt;/em&gt;. &lt;em&gt;JGR: Earth Surface&lt;/em&gt;, 129, e2023JF007553.&lt;/li&gt;
-&lt;li&gt;Oryan, B. et al. (2024). &lt;em&gt;Megathrust locking encoded in subduction landscapes&lt;/em&gt;. &lt;em&gt;Science Advances&lt;/em&gt;, 10, eadl4286.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Steer, P., Davy, P., Schwanghart, W. &amp;amp; Bernard, T. (2024). &lt;em&gt;GraphFlood 1.0: an efficient algorithm to approximate 2D hydrodynamics for landscape evolution models&lt;/em&gt;. &lt;em&gt;Earth Surface Dynamics&lt;/em&gt;, 12, 1295–1313.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Malatesta, L. C., Cordonnier, G. &amp;amp; Braun, J. (2024). &lt;em&gt;CHONK 1.0: landscape evolution framework&lt;/em&gt;. &lt;em&gt;Geoscientific Model Development&lt;/em&gt;, 17, 71–90.&lt;/li&gt;
-&lt;li&gt;Aminov, J., Dupont-Nivet, G., Ruiz, D. &amp;amp; &lt;strong&gt;Gailleton, B.&lt;/strong&gt; (2023). &lt;em&gt;Terra Antiqua plugin for QGIS&lt;/em&gt;. &lt;em&gt;Earth-Science Reviews&lt;/em&gt;, 240, 104401.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="research-software"&gt;Research Software&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GraphFlood 1.0&lt;/strong&gt; (2024) — supporting code on Zenodo (doi:10.5281/zenodo.11065794).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CHONK 1.0&lt;/strong&gt; (2023) — landscape evolution framework combining cellular automata and graph theory.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LSDTopoTools2 / LSDMappingTools&lt;/strong&gt; (2018–2023) — co-maintained releases on Zenodo.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;fastscape-litho, lsdtopytools, lsdfailtools&lt;/strong&gt; (2021) — open-source packages for topographic analysis.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;xarray-simlab 0.5.0&lt;/strong&gt; (2021) — co-author of the modular modelling toolkit.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="outreach-talks--service"&gt;Outreach, Talks &amp;amp; Service&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;24 abstracts submitted to EGU, AGU and RST; six session-chair roles; invited talk at Geomod 2023.&lt;/li&gt;
-&lt;li&gt;Public-facing pieces in &lt;em&gt;System Erde&lt;/em&gt; 11(2), 36–41 (2021) and &lt;em&gt;Nature Reviews Earth &amp;amp; Environment&lt;/em&gt; 2, 161 (2021).&lt;/li&gt;
-&lt;li&gt;Preprints released on EarthArXiv (2024) and ESSOAr (2020).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="recent-conferences"&gt;Recent Conferences&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;EGU25 (2025) — Nativ et al., &lt;em&gt;Inverting the friction coefficient of heterogeneous riverbeds using 2D hydraulic simulations&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;AGU 2024 — Oryan, &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;Subduction sculpting when megathrusts sleep&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;RST 2023 — &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;GraphFlood: un algorithme efficace pour simuler l&amp;rsquo;hydrodynamisme&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;AGU 2020 — &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;Lagrangian framework to simulate landscapes with local sinks&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="contact"&gt;Contact&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;📍 UMR 6118 Géosciences Rennes, Université de Rennes&lt;/li&gt;
-&lt;li&gt;✉️ &lt;a href="mailto:boris.gailleton@univ-rennes.fr"&gt;boris.gailleton@univ-rennes.fr&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🌐 &lt;a href="https://www.bgailleton.github.io"&gt;www.bgailleton.github.io&lt;/a&gt; · GitHub &lt;code&gt;bgailleton&lt;/code&gt; · Scholar profile &lt;code&gt;Boris Gailleton&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Post 3</title><link>https://bgailleton.github.io/posts/post-3/</link><pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate><guid>https://bgailleton.github.io/posts/post-3/</guid><description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;</description></item><item><title>Post 2</title><link>https://bgailleton.github.io/posts/post-2/</link><pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate><guid>https://bgailleton.github.io/posts/post-2/</guid><description>&lt;p&gt;Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&lt;/p&gt;</description></item><item><title>Post 1</title><link>https://bgailleton.github.io/posts/post-1/</link><pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate><guid>https://bgailleton.github.io/posts/post-1/</guid><description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Boris Gailleton</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Boris Gailleton</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CNES-Funded Flood Risk at Scale</title>
+      <link>http://localhost:1313/my-research/cnes-flood-risk/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/cnes-flood-risk/</guid>
+      <description>Anticipating flood induced morphological damages from high-resolution topography</description>
+    </item>
+    <item>
+      <title>Hydrodynamics</title>
+      <link>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</guid>
+      <description>WebGL Lisflood sandbox for testing shallow-water responses straight in the browser.</description>
+    </item>
+    <item>
+      <title>LSDTopoTools / lsdtopytools</title>
+      <link>http://localhost:1313/research-softwares/lsdtopotools/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/lsdtopotools/</guid>
+      <description>Topographic analysis in c++ and python</description>
+    </item>
+    <item>
+      <title>Tectonic Geomorphology</title>
+      <link>http://localhost:1313/my-research/tectonic-geomorphology/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/tectonic-geomorphology/</guid>
+      <description>Unraveling tectonics from the shape of the topography</description>
+    </item>
+    <item>
+      <title>TopoToolbox</title>
+      <link>http://localhost:1313/research-softwares/topotoolbox/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/topotoolbox/</guid>
+      <description>EU-wide consortium for topographic analysis, morphometry and landscape evolution in C/python/R/&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Large-Scale Hydro-Morphodynamics</title>
+      <link>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</guid>
+      <description>Integrating shor-term and local hydraulic and morphodynamic processes to the regional and geological scales</description>
+    </item>
+    <item>
+      <title>pyfastflow</title>
+      <link>http://localhost:1313/research-softwares/pyfastflow/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/pyfastflow/</guid>
+      <description>First GPU-powered geomorphology toolbox</description>
+    </item>
+    <item>
+      <title>Landscape Evolution Models</title>
+      <link>http://localhost:1313/my-research/landscape-evolution-models/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-research/landscape-evolution-models/</guid>
+      <description>Long-horizon experiments that keep FastScape, pyFastFlow, and their companions honest against observed reorganizations.</description>
+    </item>
+    <item>
+      <title>FastScape</title>
+      <link>http://localhost:1313/research-softwares/fastscape/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/fastscape/</guid>
+      <description>Landscape evolution at geological time scales.</description>
+    </item>
+    <item>
+      <title>Scabbard / DAGGER</title>
+      <link>http://localhost:1313/research-softwares/scabbard-dagger/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/scabbard-dagger/</guid>
+      <description>My own sandbox in c++/python. I keep it for legacy and reproducing paper results.</description>
+    </item>
+    <item>
+      <title>GraphFlood CPU Tutorial</title>
+      <link>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</guid>
+      <description>How to drive the stationary GraphFlood solver via pytopotoolbox.</description>
+    </item>
+    <item>
+      <title>GraphFlood GPU Tutorial</title>
+      <link>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</guid>
+      <description>pyfastflow setup for GPU-driven GraphFlood runs.</description>
+    </item>
+    <item>
+      <title>CV en Français</title>
+      <link>http://localhost:1313/cv/fr/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/fr/</guid>
+      <description>&lt;h2 id=&#34;poste-actuel&#34;&gt;Poste actuel&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Chercheur post-doctorant — Géosciences Rennes, Université de Rennes&lt;/strong&gt; (Rennes, France · juil. 2022 – présent)&lt;br&gt;&#xA;Analyses morphométriques informées par l’hydrodynamique, couplages morphodynamique–hydrodynamique, développement d’outils communautaires (GraphFlood, scabbard, libtopotoolbox) et encadrement d’étudiant·es de master et doctorant·es.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;postes-passés&#34;&gt;Postes passés&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Chercheur post-doctorant — GFZ Helmholtz Centre (Erdoberflächenprozessmodellierung)&lt;/strong&gt; · Potsdam, Allemagne · juin 2020 – juin 2022&lt;br&gt;&#xA;Modélisation numérique de paysages et systèmes source-to-sink, suivi de flux sédimentaire en présence de lacs et d’hétérogénéités de processus de surface, contributions majeures à LSDTopoTools, fastscapelib et CHONK.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ingénieur de recherche — University of Edinburgh / Telespazio Vega&lt;/strong&gt; · Edinburgh, UK · jan. 2019 – nov. 2019&lt;br&gt;&#xA;Prévision de glissements de terrain via l’intégration de modèles numériques et de données InSAR ; développement et déploiement de code C++ et Python.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ingénieur de recherche — Arcelor Mittal&lt;/strong&gt; · Maizière-lès-Metz, France · 2015&lt;br&gt;&#xA;Analyses de laboratoire (FTIR, MEB, microscope optique, XRF) et synthèses sur les gisements BIF.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;formation&#34;&gt;Formation&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Thèse de doctorat en Sciences de la Terre — University of Edinburgh&lt;/strong&gt; · sept. 2016 – juin 2020&lt;br&gt;&#xA;Méthodes numériques pour extraire les signaux tectoniques à partir de MNT, campagnes de terrain (échantillons cosmogéniques, mesures de résistance in situ) et développement de LSDTopoTools.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Master II Géologie minière — LaSalle Beauvais &amp;amp; Université Laurentienne de Sudbury&lt;/strong&gt; · 2010 – 2014&lt;br&gt;&#xA;Parcours Licence en géologie puis spécialisation en géologie minière entre Beauvais (FR) et Sudbury (CA).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;publications-récentes&#34;&gt;Publications récentes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tzathas, P., &lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Steer, P. &amp;amp; Cordonnier, G. (2024). &lt;em&gt;Physically-based analytical erosion for fast terrain generation&lt;/em&gt;. &lt;em&gt;Computer Graphics Forum&lt;/em&gt;, 43, e15033.&lt;/li&gt;&#xA;&lt;li&gt;Ruiz Sánchez-Oro, M., Mudd, S. M. &amp;amp; &lt;strong&gt;Gailleton, B.&lt;/strong&gt; (2024). &lt;em&gt;Using disorder metrics to distinguish discharge-driven from drainage area-driven incision&lt;/em&gt;. &lt;em&gt;JGR: Earth Surface&lt;/em&gt;, 129, e2023JF007553.&lt;/li&gt;&#xA;&lt;li&gt;Oryan, B. et al. (2024). &lt;em&gt;Megathrust locking encoded in subduction landscapes&lt;/em&gt;. &lt;em&gt;Science Advances&lt;/em&gt;, 10, eadl4286.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Steer, P., Davy, P., Schwanghart, W. &amp;amp; Bernard, T. (2024). &lt;em&gt;GraphFlood 1.0: an efficient algorithm to approximate 2D hydrodynamics for landscape evolution models&lt;/em&gt;. &lt;em&gt;Earth Surface Dynamics&lt;/em&gt;, 12, 1295–1313.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Malatesta, L. C., Cordonnier, G. &amp;amp; Braun, J. (2024). &lt;em&gt;CHONK 1.0: landscape evolution framework&lt;/em&gt;. &lt;em&gt;Geoscientific Model Development&lt;/em&gt;, 17, 71–90.&lt;/li&gt;&#xA;&lt;li&gt;Aminov, J., Dupont-Nivet, G., Ruiz, D. &amp;amp; &lt;strong&gt;Gailleton, B.&lt;/strong&gt; (2023). &lt;em&gt;Terra Antiqua plugin&lt;/em&gt;. &lt;em&gt;Earth-Science Reviews&lt;/em&gt;, 240, 104401.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;logiciels-de-recherche&#34;&gt;Logiciels de recherche&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GraphFlood 1.0&lt;/strong&gt; (2024) — code de support sur Zenodo (doi:10.5281/zenodo.11065794).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CHONK 1.0&lt;/strong&gt; (2023) — framework paysage mêlant automates cellulaires et théorie des graphes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LSDTopoTools2 / LSDMappingTools&lt;/strong&gt; (2018–2023) — co-développement et releases Zenodo.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;lsdtopytools, lsdfailtools, fastscape-litho&lt;/strong&gt; (2021) — outils Python pour l’analyse topographique.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;xarray-simlab 0.5.0&lt;/strong&gt; (2021) — co-auteur du framework de modélisation modulaire.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;communications--diffusion&#34;&gt;Communications &amp;amp; diffusion&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Articles grand public : &lt;em&gt;System Erde&lt;/em&gt; 11(2), 36–41 (2021) ; &lt;em&gt;Nature Reviews Earth &amp;amp; Environment&lt;/em&gt; 2, 161 (2021).&lt;/li&gt;&#xA;&lt;li&gt;24 résumés soumis à l’EGU, l’AGU et la RST ; 6 sessions co-organisées ; 1 conférence invitée (Geomod 2023).&lt;/li&gt;&#xA;&lt;li&gt;Dépôts de preprints : EarthArXiv (2024), ESSOAr (2020).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;conférences-sélection&#34;&gt;Conférences (sélection)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;EGU25 (2025) — Nativ et al., &lt;em&gt;Inverting the friction coefficient of heterogeneous riverbeds&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;RST 2023 — &lt;strong&gt;Gailleton et al.&lt;/strong&gt;, &lt;em&gt;GraphFlood: un algorithme efficace pour simuler l&amp;rsquo;hydrodynamisme&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;AGU 2024 — Oryan, &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;Subduction sculpting when megathrusts sleep&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;AGU 2020 — &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;Lagrangian framework to simulate landscapes with local sinks&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;coordonnées&#34;&gt;Coordonnées&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📍 UMR 6118 Géosciences Rennes, Université de Rennes&lt;/li&gt;&#xA;&lt;li&gt;✉️ &lt;a href=&#34;mailto:boris.gailleton@univ-rennes.fr&#34;&gt;boris.gailleton@univ-rennes.fr&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;🌐 &lt;a href=&#34;https://www.bgailleton.github.io&#34;&gt;www.bgailleton.github.io&lt;/a&gt; · GitHub &lt;code&gt;bgailleton&lt;/code&gt; · Scholar &lt;code&gt;Boris Gailleton&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>English CV</title>
+      <link>http://localhost:1313/cv/en/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/en/</guid>
+      <description>&lt;h2 id=&#34;current-position&#34;&gt;Current Position&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Postdoctoral Researcher — Géosciences Rennes, University of Rennes&lt;/strong&gt; (Rennes, France · Jul 2022 – present)&lt;br&gt;&#xA;Hydrodynamics-aware geomorphic analysis, coupled morphodynamic–hydrodynamic modelling, open-source tooling (GraphFlood, scabbard, libtopotoolbox) and supervision of MSc/PhD projects.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;previous-roles&#34;&gt;Previous Roles&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Postdoctoral Researcher — GFZ German Research Centre for Geosciences (Erdoberflächenprozessmodellierung)&lt;/strong&gt; · Potsdam, Germany · Jun 2020 – Jun 2022&lt;br&gt;&#xA;Landscape-evolution and source-to-sink modelling, sediment routing across lakes and heterogeneous surface processes, major contributions to LSDTopoTools, fastscapelib and CHONK.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Research Engineer — University of Edinburgh / Telespazio Vega&lt;/strong&gt; · Edinburgh, UK · Jan 2019 – Nov 2019&lt;br&gt;&#xA;Landslide prediction by linking numerical models with InSAR datasets; delivery of production-grade C++ and Python pipelines.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Research Engineer — Arcelor Mittal&lt;/strong&gt; · Maizière-lès-Metz, France · 2015&lt;br&gt;&#xA;Laboratory analytics (FTIR, SEM, optical microscopy, XRF) and synthesis on banded iron formation deposits.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;PhD in Earth Sciences — University of Edinburgh&lt;/strong&gt; · Sep 2016 – Jun 2020&lt;br&gt;&#xA;Numerical methods for extracting tectonic signals from DEMs, field surveys for cosmogenic sampling and rock-strength testing, extension of LSDTopoTools.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MSc (Mining Geology) — LaSalle Beauvais &amp;amp; Laurentian University (Sudbury)&lt;/strong&gt; · 2010 – 2014&lt;br&gt;&#xA;Combined BSc in Geology with a joint French–Canadian MSc focused on economic geology.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;selected-publications&#34;&gt;Selected Publications&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tzathas, P., &lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Steer, P. &amp;amp; Cordonnier, G. (2024). &lt;em&gt;Physically-based analytical erosion for fast terrain generation&lt;/em&gt;. &lt;em&gt;Computer Graphics Forum&lt;/em&gt;, 43, e15033.&lt;/li&gt;&#xA;&lt;li&gt;Ruiz Sánchez-Oro, M., Mudd, S. M. &amp;amp; &lt;strong&gt;Gailleton, B.&lt;/strong&gt; (2024). &lt;em&gt;Using disorder metrics to distinguish discharge-driven from drainage area-driven incision&lt;/em&gt;. &lt;em&gt;JGR: Earth Surface&lt;/em&gt;, 129, e2023JF007553.&lt;/li&gt;&#xA;&lt;li&gt;Oryan, B. et al. (2024). &lt;em&gt;Megathrust locking encoded in subduction landscapes&lt;/em&gt;. &lt;em&gt;Science Advances&lt;/em&gt;, 10, eadl4286.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Steer, P., Davy, P., Schwanghart, W. &amp;amp; Bernard, T. (2024). &lt;em&gt;GraphFlood 1.0: an efficient algorithm to approximate 2D hydrodynamics for landscape evolution models&lt;/em&gt;. &lt;em&gt;Earth Surface Dynamics&lt;/em&gt;, 12, 1295–1313.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gailleton, B.&lt;/strong&gt;, Malatesta, L. C., Cordonnier, G. &amp;amp; Braun, J. (2024). &lt;em&gt;CHONK 1.0: landscape evolution framework&lt;/em&gt;. &lt;em&gt;Geoscientific Model Development&lt;/em&gt;, 17, 71–90.&lt;/li&gt;&#xA;&lt;li&gt;Aminov, J., Dupont-Nivet, G., Ruiz, D. &amp;amp; &lt;strong&gt;Gailleton, B.&lt;/strong&gt; (2023). &lt;em&gt;Terra Antiqua plugin for QGIS&lt;/em&gt;. &lt;em&gt;Earth-Science Reviews&lt;/em&gt;, 240, 104401.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;research-software&#34;&gt;Research Software&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GraphFlood 1.0&lt;/strong&gt; (2024) — supporting code on Zenodo (doi:10.5281/zenodo.11065794).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CHONK 1.0&lt;/strong&gt; (2023) — landscape evolution framework combining cellular automata and graph theory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LSDTopoTools2 / LSDMappingTools&lt;/strong&gt; (2018–2023) — co-maintained releases on Zenodo.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;fastscape-litho, lsdtopytools, lsdfailtools&lt;/strong&gt; (2021) — open-source packages for topographic analysis.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;xarray-simlab 0.5.0&lt;/strong&gt; (2021) — co-author of the modular modelling toolkit.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;outreach-talks--service&#34;&gt;Outreach, Talks &amp;amp; Service&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;24 abstracts submitted to EGU, AGU and RST; six session-chair roles; invited talk at Geomod 2023.&lt;/li&gt;&#xA;&lt;li&gt;Public-facing pieces in &lt;em&gt;System Erde&lt;/em&gt; 11(2), 36–41 (2021) and &lt;em&gt;Nature Reviews Earth &amp;amp; Environment&lt;/em&gt; 2, 161 (2021).&lt;/li&gt;&#xA;&lt;li&gt;Preprints released on EarthArXiv (2024) and ESSOAr (2020).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;recent-conferences&#34;&gt;Recent Conferences&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;EGU25 (2025) — Nativ et al., &lt;em&gt;Inverting the friction coefficient of heterogeneous riverbeds using 2D hydraulic simulations&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;AGU 2024 — Oryan, &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;Subduction sculpting when megathrusts sleep&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;RST 2023 — &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;GraphFlood: un algorithme efficace pour simuler l&amp;rsquo;hydrodynamisme&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;AGU 2020 — &lt;strong&gt;Gailleton&lt;/strong&gt; et al., &lt;em&gt;Lagrangian framework to simulate landscapes with local sinks&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📍 UMR 6118 Géosciences Rennes, Université de Rennes&lt;/li&gt;&#xA;&lt;li&gt;✉️ &lt;a href=&#34;mailto:boris.gailleton@univ-rennes.fr&#34;&gt;boris.gailleton@univ-rennes.fr&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;🌐 &lt;a href=&#34;https://www.bgailleton.github.io&#34;&gt;www.bgailleton.github.io&lt;/a&gt; · GitHub &lt;code&gt;bgailleton&lt;/code&gt; · Scholar profile &lt;code&gt;Boris Gailleton&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Post 3</title>
+      <link>http://localhost:1313/posts/post-3/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-3/</guid>
+      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 2</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description>&lt;p&gt;Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 1</title>
+      <link>http://localhost:1313/posts/post-1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-1/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

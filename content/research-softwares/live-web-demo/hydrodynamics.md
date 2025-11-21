@@ -7,8 +7,8 @@ weight = 10
 aliases = ["/research-softwares/hydrodynamics/"]
 +++
 
-Hydrodynamics is the WebGL1 port of my Lisflood-style solver. It keeps the stencil math honest inside a shader while I experiment with boundary conditions and timesteps before promoting changes to heavier codes. This panel now sits inside the Live Web Demo hub so future WebGL experiments can live alongside it.
+Solving the shallow water equations: stationary _vs_ transient modes. Exploring hydraulics at large scale require fast solvers... but not only, migrating from transient to stationary bypasses the physical time require to propagate hydrological changes, making it much more scalable (as long as temporal information is not important). Transient solver is from [Bates et al., 2010](https://www.sciencedirect.com/science/article/abs/pii/S0022169410001538) and the tranient from [graphflood](https://esurf.copernicus.org/articles/12/1295/2024/).
+
+All the computation in happening on your device. Coded in WebGL1 (using simple version of your GPU from web browser) for lisflood, and vanilla javascript for graphflood. DEM is LiDAR-derived recasted to 5m res. 
 
 {{< hydrodynamics-demo >}}
-
-The current setup loads the `dem.png` surface (10 m cells), integrates with `dt = 1e-2 s`, and exposes the inflow curtain along rows 180-186 so I can pulse floods directly in the browser. Cranking up the slider is a quick gut-check on how much head the basin can take before rolling a bore downstream.
