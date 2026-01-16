@@ -183,11 +183,9 @@
 
 {{ if not (.Page.Scratch.Get "hydro-geotiff") }}
   {{ $geotiff := resources.Get "js/vendor/geotiff.min.js" | resources.Fingerprint }}
-  {{ .Page.Scratch.Set "hydro-geotiff" true }}
-  <script src="{{ $geotiff.RelPermalink }}" integrity="{{ $geotiff.Data.Integrity }}" defer></script>
+  {{ .Page.Scratch.Set "hydro-geotiff" $geotiff }}
 {{ end }}
 {{ if not (.Page.Scratch.Get "hydro-script") }}
   {{ $script := resources.Get "js/hydrodynamics.js" | resources.Minify | resources.Fingerprint }}
-  {{ .Page.Scratch.Set "hydro-script" true }}
-  <script type="module" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+  {{ .Page.Scratch.Set "hydro-script" $script }}
 {{ end }}

@@ -1,0 +1,15 @@
+{{ with .Page.Scratch.Get "lem-assets" }}
+  {{ range . }}
+    <link rel="modulepreload" href="{{ .RelPermalink }}">
+  {{ end }}
+{{ end }}
+{{ with .Page.Scratch.Get "lem-script" }}
+  <script type="module" src="{{ .RelPermalink }}" defer></script>
+{{ end }}
+
+{{ with .Page.Scratch.Get "hydro-geotiff" }}
+  <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{ end }}
+{{ with .Page.Scratch.Get "hydro-script" }}
+  <script type="module" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{ end }}

@@ -712,6 +712,153 @@ a:focus-visible {
   right: 0;
 }
 
+.lem-panel {
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.lem-panel .lem-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  flex-direction: column;
+}
+
+.lem-panel .lem-controls {
+  max-height: none;
+  max-width: none;
+  flex: 1 1 280px;
+}
+
+.lem-panel .lem-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.1rem 0.5rem;
+  align-items: start;
+  padding-right: 0;
+  grid-auto-flow: dense;
+  grid-auto-rows: min-content;
+  align-content: start;
+}
+
+.lem-panel .lem-controls .hydro-control-group {
+  margin-bottom: 0;
+  min-width: 0;
+  gap: 0.1rem;
+}
+
+.lem-panel .lem-controls label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.lem-panel .lem-controls output {
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+.lem-panel .lem-controls input,
+.lem-panel .lem-controls select {
+  margin: 0;
+}
+
+.lem-panel .lem-controls button {
+  align-self: end;
+  justify-self: end;
+  max-width: 220px;
+  width: auto;
+}
+
+.lem-panel .lem-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.lem-panel .lem-actions button {
+  max-width: 220px;
+}
+
+.lem-panel [data-role="perlin-params"] {
+  display: contents;
+}
+
+.lem-panel [data-role="white-params"] {
+  font-size: 0.85rem;
+  color: var(--muted);
+  display: contents;
+}
+
+.lem-panel .lem-view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.lem-panel .hydro-canvas {
+  max-width: 100%;
+}
+
+.lem-panel .lem-footer {
+  flex: 1 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(6, 11, 20, 0.35);
+  border-radius: 1rem;
+}
+
+.lem-panel .lem-spl-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.lem-panel .lem-experimental {
+  margin-top: 0.5rem;
+}
+
+.lem-panel .lem-footer .hydro-control-group {
+  margin-bottom: 0;
+  min-width: 220px;
+}
+
+.lem-panel select,
+.lem-panel input[type="text"],
+.lem-panel button {
+  width: 100%;
+}
+
+.lem-panel button {
+  border: 1px solid rgba(122, 189, 255, 0.4);
+  background: rgba(12, 24, 38, 0.7);
+  color: #d7f0ff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lem-panel button:hover,
+.lem-panel button:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(47, 125, 204, 0.25);
+}
+
 .meta-line {
   display: flex;
   gap: 0.75rem;

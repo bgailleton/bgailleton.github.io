@@ -1,0 +1,220 @@
+{{ $count := add 1 (default 0 (.Page.Scratch.Get "lem-count")) }}
+{{ .Page.Scratch.Set "lem-count" $count }}
+{{ $inputID := printf "lem-%d" $count }}
+
+<div class="hydro-panel lem-panel" data-lem-demo>
+  <div class="lem-grid">
+    <div class="hydro-controls lem-controls">
+      <div class="hydro-control-group">
+        <label for="{{ $inputID }}-nx">
+          <span>Rows (nx)</span>
+          <output data-role="nx-output">--</output>
+        </label>
+        <input id="{{ $inputID }}-nx" data-role="nx-slider" type="range" min="64" max="512" step="1" value="256">
+      </div>
+      <div class="hydro-control-group">
+        <label for="{{ $inputID }}-ny">
+          <span>Cols (ny)</span>
+          <output data-role="ny-output">--</output>
+        </label>
+        <input id="{{ $inputID }}-ny" data-role="ny-slider" type="range" min="64" max="512" step="1" value="256">
+      </div>
+      <div class="hydro-control-group">
+        <label for="{{ $inputID }}-dx">
+          <span>Cell size (dx = dy)</span>
+          <output data-role="dx-output">--</output>
+        </label>
+        <input id="{{ $inputID }}-dx" data-role="dx-slider" type="range" min="10" max="500" step="5" value="50">
+      </div>
+      <div class="hydro-control-group">
+        <label for="{{ $inputID }}-boundary">
+          <span>Boundary mode</span>
+        </label>
+        <select id="{{ $inputID }}-boundary" data-role="boundary-select">
+          <option value="0">Normal</option>
+          <option value="1">Periodic EW</option>
+          <option value="2">Periodic NS</option>
+        </select>
+      </div>
+      <div class="hydro-control-group">
+        <label for="{{ $inputID }}-noise">
+          <span>Noise type</span>
+        </label>
+        <select id="{{ $inputID }}-noise" data-role="noise-select">
+          <option value="perlin">Perlin noise</option>
+          <option value="white">White noise</option>
+        </select>
+      </div>
+      <div class="hydro-control-group">
+        <label for="{{ $inputID }}-magnitude">
+          <span>Elevation magnitude</span>
+          <output data-role="magnitude-output">--</output>
+        </label>
+        <input id="{{ $inputID }}-magnitude" data-role="magnitude-slider" type="range" min="1" max="2000" step="1" value="200">
+      </div>
+      <div data-role="perlin-params">
+        <div class="hydro-control-group">
+          <label for="{{ $inputID }}-perlin-scale">
+            <span>Perlin scale</span>
+            <output data-role="perlin-scale-output">--</output>
+          </label>
+          <input id="{{ $inputID }}-perlin-scale" data-role="perlin-scale-slider" type="range" min="0" max="100" step="1" value="75">
+        </div>
+        <div class="hydro-control-group">
+          <label for="{{ $inputID }}-perlin-octaves">
+            <span>Octaves</span>
+            <output data-role="perlin-octave-output">--</output>
+          </label>
+          <input id="{{ $inputID }}-perlin-octaves" data-role="perlin-octave-slider" type="range" min="1" max="8" step="1" value="4">
+        </div>
+        <div class="hydro-control-group">
+          <label for="{{ $inputID }}-perlin-persistence">
+            <span>Persistence</span>
+            <output data-role="perlin-persistence-output">--</output>
+          </label>
+          <input id="{{ $inputID }}-perlin-persistence" data-role="perlin-persistence-slider" type="range" min="0" max="1" step="0.01" value="0.5">
+        </div>
+        <div class="hydro-control-group">
+          <label for="{{ $inputID }}-perlin-lacunarity">
+            <span>Lacunarity</span>
+            <output data-role="perlin-lacunarity-output">--</output>
+          </label>
+          <input id="{{ $inputID }}-perlin-lacunarity" data-role="perlin-lacunarity-slider" type="range" min="1" max="4" step="0.05" value="2">
+        </div>
+        <div class="hydro-control-group">
+          <label for="{{ $inputID }}-perlin-seed">
+            <span>Seed</span>
+          </label>
+          <input id="{{ $inputID }}-perlin-seed" data-role="perlin-seed-input" type="text" value="">
+        </div>
+      </div>
+      <div data-role="white-params" hidden>
+        <p>White noise uses the same magnitude scaling for elevation range.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="lem-actions">
+    <button type="button" data-role="init-grid">Initialize grid</button>
+  </div>
+
+  <div class="lem-view">
+    <div class="hydro-canvas">
+      <canvas aria-label="Landscape evolution grid preview"></canvas>
+      <div class="hydro-overlay" aria-live="polite">
+        <span>Elevation</span>
+        <strong data-role="grid-minmax">--</strong>
+      </div>
+    <div class="hydro-overlay hydro-overlay--controls" aria-label="View options">
+      <div class="hydro-overlay-block">
+        <span>View</span>
+        <div class="hydro-toggle-group" role="group" aria-label="View mode">
+          <button type="button" class="hydro-toggle is-active" data-role="view-toggle-button" data-view="2d">2D</button>
+          <button type="button" class="hydro-toggle" data-role="view-toggle-button" data-view="3d">3D</button>
+        </div>
+      </div>
+      <div class="hydro-overlay-block">
+        <span>Plot</span>
+        <select data-role="plot-select" aria-label="Plot field">
+          <option value="z">Elevation (Z)</option>
+          <option value="a">Drainage area (A)</option>
+        </select>
+      </div>
+      <div class="hydro-overlay-block" data-role="zexag-controls" hidden>
+        <span>Z exaggeration</span>
+        <div class="hydro-toggle-group" role="group" aria-label="Z exaggeration">
+          <button type="button" class="hydro-toggle" data-role="zexag-minus">-</button>
+          <button type="button" class="hydro-toggle" data-role="zexag-plus">+</button>
+        </div>
+        <strong data-role="zexag-output">--</strong>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="lem-footer lem-spl">
+    <div class="hydro-control-group">
+      <label for="{{ $inputID }}-dt">
+        <span>dt</span>
+        <output data-role="dt-output">--</output>
+      </label>
+      <input id="{{ $inputID }}-dt" data-role="dt-slider" type="range" min="100" max="10000" step="50" value="1000">
+    </div>
+    <div class="hydro-control-group">
+      <label for="{{ $inputID }}-iterations">
+        <span>Iterations (N)</span>
+        <output data-role="iterations-output">--</output>
+      </label>
+      <input id="{{ $inputID }}-iterations" data-role="iterations-slider" type="range" min="1" max="100" step="1" value="20">
+    </div>
+    <div class="hydro-control-group">
+      <label for="{{ $inputID }}-precip">
+        <span>Precipitation</span>
+        <output data-role="precip-output">--</output>
+      </label>
+      <input id="{{ $inputID }}-precip" data-role="precip-slider" type="range" min="0" max="3" step="0.05" value="1">
+    </div>
+    <div class="hydro-control-group">
+      <label for="{{ $inputID }}-n">
+        <span>n</span>
+        <output data-role="n-output">--</output>
+      </label>
+      <input id="{{ $inputID }}-n" data-role="n-slider" type="range" min="0.1" max="3" step="0.05" value="1.1">
+    </div>
+    <div class="hydro-control-group">
+      <label for="{{ $inputID }}-mratio">
+        <span>m ratio</span>
+        <output data-role="mratio-output">--</output>
+      </label>
+      <input id="{{ $inputID }}-mratio" data-role="mratio-slider" type="range" min="0.1" max="0.9" step="0.01" value="0.45">
+    </div>
+    <div class="hydro-control-group">
+      <label>
+        <span>m (auto)</span>
+        <output data-role="m-output">--</output>
+      </label>
+    </div>
+    <div class="hydro-control-group">
+      <label for="{{ $inputID }}-uplift">
+        <span>Uplift</span>
+        <output data-role="uplift-output">--</output>
+      </label>
+      <input id="{{ $inputID }}-uplift" data-role="uplift-slider" type="range" min="0" max="0.01" step="0.0001" value="0.001">
+    </div>
+    <div class="hydro-control-group">
+      <label for="{{ $inputID }}-k">
+        <span>K</span>
+        <output data-role="k-output">--</output>
+      </label>
+      <input id="{{ $inputID }}-k" data-role="k-slider" type="range" min="0" max="100" step="1" value="60">
+    </div>
+    <div class="lem-spl-actions">
+      <span data-role="spl-status">Idle</span>
+      <button type="button" data-role="run-spl">Run SPL</button>
+    </div>
+  </div>
+
+  <div class="lem-footer lem-experimental">
+    <div class="hydro-control-group">
+      <label for="{{ $inputID }}-mesh-res">
+        <span>3D mesh resolution</span>
+        <output data-role="mesh-res-output">--</output>
+      </label>
+      <input id="{{ $inputID }}-mesh-res" data-role="mesh-res-slider" type="range" min="64" max="512" step="16" value="256">
+    </div>
+    <button type="button" data-role="mesh-rebuild">Recompute 3D mesh</button>
+  </div>
+</div>
+
+{{ if not (.Page.Scratch.Get "lem-script") }}
+  {{ $grid := resources.Get "js/LEM/grid.js" | resources.Copy "js/LEM/grid.js" }}
+  {{ $neigh := resources.Get "js/LEM/neighbourer.js" | resources.Copy "js/LEM/neighbourer.js" }}
+  {{ $pf := resources.Get "js/LEM/priority_flood.js" | resources.Copy "js/LEM/priority_flood.js" }}
+  {{ $flowacc := resources.Get "js/LEM/flowacc.js" | resources.Copy "js/LEM/flowacc.js" }}
+  {{ $erosion := resources.Get "js/LEM/erosion.js" | resources.Copy "js/LEM/erosion.js" }}
+  {{ $tectonic := resources.Get "js/LEM/tectonic.js" | resources.Copy "js/LEM/tectonic.js" }}
+  {{ $spl := resources.Get "js/LEM/spl.js" | resources.Copy "js/LEM/spl.js" }}
+  {{ $script := resources.Get "js/LEM/lem-demo.js" | resources.Copy "js/LEM/lem-demo.js" }}
+  {{ .Page.Scratch.Set "lem-assets" (slice $grid $neigh $pf $flowacc $erosion $tectonic $spl) }}
+  {{ .Page.Scratch.Set "lem-script" $script }}
+{{ end }}

@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cv on Boris Gailleton</title><link>https://bgailleton.github.io/tags/cv/</link><description>Recent content in Cv on Boris Gailleton</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://bgailleton.github.io/tags/cv/index.xml" rel="self" type="application/rss+xml"/><item><title>Curriculum Vitae</title><link>https://bgailleton.github.io/cv/</link><pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate><guid>https://bgailleton.github.io/cv/</guid><description>&lt;p&gt;Pick a language to view the full CV. Each option links to a detailed page synced with the “Awesome CV” PDF used for current applications (last update: 8 January 2025).&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cv on Boris Gailleton</title>
+    <link>http://localhost:1313/tags/cv/</link>
+    <description>Recent content in Cv on Boris Gailleton</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;p&gt;Pick a language to view the full CV. Each option links to a detailed page synced with the “Awesome CV” PDF used for current applications (last update: 8 January 2025).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
