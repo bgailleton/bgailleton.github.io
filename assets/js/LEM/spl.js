@@ -2,6 +2,7 @@ import { priorityFloodEpsilonBarnes2014 } from './priority_flood.js';
 import { flowAccumulation, flowAccumulationWeighted } from './flowacc.js';
 import { applyUplift } from './tectonic.js';
 import { erodeStreamPowerImplicit } from './erosion.js';
+import { diffusionStepADI } from './hillslope.js';
 import { RegularGrid } from './grid.js';
 
 class SPLModel {
@@ -49,6 +50,16 @@ class SPLModel {
 
     this.precip = 1;
     this.erosion = new Float32Array(grid.Z.length);
+    this.Kd = new RegularGrid({
+      xmin: grid.xmin,
+      xmax: grid.xmax,
+      ymin: grid.ymin,
+      ymax: grid.ymax,
+      nx: grid.nx,
+      ny: grid.ny,
+      dx: grid.dx,
+      dy: grid.dy
+    });
   }
 
   setParams({ m, n, dt } = {}) {
@@ -67,6 +78,10 @@ class SPLModel {
 
   setPrecip(value) {
     this.precip = value;
+  }
+
+  setKd(value) {
+    this.Kd.Z.fill(value);
   }
 
   run({ iterations = 1, addToBaselevels = false } = {}) {
@@ -124,6 +139,18 @@ class SPLModel {
         m: this.m,
         n: this.n
       });
+
+      const zNew = diffusionStepADI({
+        z: this.grid.Z,
+        kd: this.Kd.Z,
+        dx: this.grid.dx,
+        dy: this.grid.dy,
+        dt: this.dt,
+        nx: this.grid.nx,
+        ny: this.grid.ny,
+        neighbourer: this.neighbourer
+      });
+      this.grid.Z.set(zNew);
     }
   }
 }

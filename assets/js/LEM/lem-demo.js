@@ -13,6 +13,8 @@ const PLOT_Z = 'z';
 const PLOT_A = 'a';
 const K_LOG_MIN = -6;
 const K_LOG_MAX = -1;
+const KD_LOG_MIN = -5;
+const KD_LOG_MAX = 0;
 
 const perlinScaleFromSlider = (sliderValue) => {
   const t = clamp(Number(sliderValue), 0, 100) / 100;
@@ -183,10 +185,9 @@ class LEMDemo {
     this.viewModeButtons = Array.from(root.querySelectorAll('[data-role="view-toggle-button"]') || []);
     this.minmaxOutput = root.querySelector('[data-role="grid-minmax"]');
     this.plotSelect = root.querySelector('[data-role="plot-select"]');
-    this.zExagControls = root.querySelector('[data-role="zexag-controls"]');
-    this.zExagMinus = root.querySelector('[data-role="zexag-minus"]');
-    this.zExagPlus = root.querySelector('[data-role="zexag-plus"]');
+    this.zExagSlider = root.querySelector('[data-role="zexag-slider"]');
     this.zExagOutput = root.querySelector('[data-role="zexag-output"]');
+    this.cameraDebug = root.querySelector('[data-role="camera-debug"]');
 
     this.dtSlider = root.querySelector('[data-role="dt-slider"]');
     this.dtOutput = root.querySelector('[data-role="dt-output"]');
@@ -203,28 +204,32 @@ class LEMDemo {
     this.upliftOutput = root.querySelector('[data-role="uplift-output"]');
     this.kSlider = root.querySelector('[data-role="k-slider"]');
     this.kOutput = root.querySelector('[data-role="k-output"]');
+    this.kdSlider = root.querySelector('[data-role="kd-slider"]');
+    this.kdOutput = root.querySelector('[data-role="kd-output"]');
     this.runSplButton = root.querySelector('[data-role="run-spl"]');
     this.splStatus = root.querySelector('[data-role="spl-status"]');
     this.meshResSlider = root.querySelector('[data-role="mesh-res-slider"]');
     this.meshResOutput = root.querySelector('[data-role="mesh-res-output"]');
     this.meshRebuildButton = root.querySelector('[data-role="mesh-rebuild"]');
 
-    this.viewMode = VIEW_2D;
+    this.viewMode = VIEW_3D;
     this.grid = null;
     this.neighbourer = null;
     this.zExaggeration = DEFAULT_Z_EXAGGERATION;
     this.spl = null;
+    this.isSplRunning = false;
     this.updateZExagOutput();
     this.plotMode = PLOT_Z;
     this.meshTarget = 256;
+    this.updateCameraDebug();
 
     this.gl = null;
     this.heightTexture = null;
     this.quadBuffer = null;
     this.mesh = null;
 
-    this.cameraTheta = 0;
-    this.cameraPhi = 0.2;
+    this.cameraTheta = 1.58;
+    this.cameraPhi = 0.86;
     this.cameraRadius = 1;
     this.cameraBaseRadius = 1;
     this.cameraTarget = [0, 0, 0];
@@ -301,12 +306,27 @@ class LEMDemo {
       });
     }
 
+    if (this.zExagSlider) {
+      const updateZ = () => {
+        const value = Number(this.zExagSlider.value);
+        this.zExaggeration = clamp(value, 0.1, 50);
+        this.updateZExagOutput();
+        this.updateMesh();
+        if (this.viewMode === VIEW_3D) {
+          this.render();
+        }
+      };
+      this.zExagSlider.addEventListener('input', updateZ);
+      updateZ();
+    }
+
     const updateSPLParams = () => {
       if (this.mOutput) {
         const n = Number(this.nSlider?.value || 1.1);
         const ratio = Number(this.mRatioSlider?.value || 0.45);
         this.setOutputValue(this.mOutput, (n * ratio).toFixed(3));
       }
+      this.syncSplParams();
     };
 
     updateSlider(this.dtSlider, this.dtOutput, (value) => `${Math.round(value)}`);
@@ -315,11 +335,22 @@ class LEMDemo {
     updateSlider(this.nSlider, this.nOutput, (value) => value.toFixed(2));
     updateSlider(this.mRatioSlider, this.mRatioOutput, (value) => value.toFixed(2));
     updateSlider(this.upliftSlider, this.upliftOutput, (value) => value.toFixed(4));
+    updateSlider(this.kdSlider, this.kdOutput, (value) => value.toExponential(2));
     updateSlider(this.meshResSlider, this.meshResOutput, (value) => `${Math.round(value)}`);
 
     if (this.nSlider) this.nSlider.addEventListener('input', updateSPLParams);
     if (this.mRatioSlider) this.mRatioSlider.addEventListener('input', updateSPLParams);
     updateSPLParams();
+
+    const syncOnInput = (node, handler) => {
+      if (!node) return;
+      node.addEventListener('input', handler);
+    };
+
+    syncOnInput(this.dtSlider, () => this.syncSplParams());
+    syncOnInput(this.precipSlider, () => this.syncSplParams());
+    syncOnInput(this.upliftSlider, () => this.syncSplParams());
+    syncOnInput(this.kSlider, () => this.syncSplParams());
 
     if (this.kSlider && this.kOutput) {
       const updateK = () => {
@@ -327,9 +358,21 @@ class LEMDemo {
         const exponent = K_LOG_MIN + (K_LOG_MAX - K_LOG_MIN) * t;
         const value = Math.pow(10, exponent);
         this.setOutputValue(this.kOutput, value.toExponential(2));
+        this.syncSplParams();
       };
       this.kSlider.addEventListener('input', updateK);
       updateK();
+    }
+    if (this.kdSlider && this.kdOutput) {
+      const updateKd = () => {
+        const t = Number(this.kdSlider.value) / 100;
+        const exponent = KD_LOG_MIN + (KD_LOG_MAX - KD_LOG_MIN) * t;
+        const value = Math.pow(10, exponent);
+        this.setOutputValue(this.kdOutput, value.toExponential(2));
+        this.syncSplParams();
+      };
+      this.kdSlider.addEventListener('input', updateKd);
+      updateKd();
     }
 
     if (this.meshResSlider) {
@@ -343,6 +386,7 @@ class LEMDemo {
         if (!this.grid) return;
         this.updateMesh();
         if (this.viewMode === VIEW_3D) {
+          this.updateCameraDebug();
           this.render();
         }
       });
@@ -357,22 +401,11 @@ class LEMDemo {
           if (this.viewMode === VIEW_3D) {
             this.resetCamera();
           }
+          this.updateCameraDebug();
           this.render();
         });
       });
       this.updateViewButtons();
-      this.updateZExagControls();
-    }
-
-    if (this.zExagMinus) {
-      this.zExagMinus.addEventListener('click', () => {
-        this.updateZExaggeration(-0.2);
-      });
-    }
-    if (this.zExagPlus) {
-      this.zExagPlus.addEventListener('click', () => {
-        this.updateZExaggeration(0.2);
-      });
     }
 
     if (this.initButton) {
@@ -390,8 +423,26 @@ class LEMDemo {
 
   async runSplAsync() {
     if (!this.spl || !this.grid || !this.neighbourer) return;
-    const dt = Number(this.dtSlider?.value || 1000);
     const iterations = Math.round(Number(this.iterationsSlider?.value || 1));
+    this.isSplRunning = true;
+    this.syncSplParams();
+    if (this.runSplButton) this.runSplButton.disabled = true;
+    for (let i = 0; i < iterations; i += 1) {
+      this.setOutputValue(this.splStatus, `Running ${i + 1}/${iterations}`);
+      this.syncSplParams();
+      this.spl.run({ iterations: 1 });
+      this.updateHeightResources();
+      this.render();
+      await new Promise((resolve) => setTimeout(resolve, 0));
+    }
+    this.setOutputValue(this.splStatus, 'Done');
+    if (this.runSplButton) this.runSplButton.disabled = false;
+    this.isSplRunning = false;
+  }
+
+  syncSplParams() {
+    if (!this.spl) return;
+    const dt = Number(this.dtSlider?.value || 1000);
     const precip = Number(this.precipSlider?.value || 1);
     const n = Number(this.nSlider?.value || 1.1);
     const ratio = Number(this.mRatioSlider?.value || 0.45);
@@ -400,22 +451,15 @@ class LEMDemo {
     const t = Number(this.kSlider?.value || 0) / 100;
     const exponent = K_LOG_MIN + (K_LOG_MAX - K_LOG_MIN) * t;
     const kValue = Math.pow(10, exponent);
+    const td = Number(this.kdSlider?.value || 0) / 100;
+    const exponentKd = KD_LOG_MIN + (KD_LOG_MAX - KD_LOG_MIN) * td;
+    const kdValue = Math.pow(10, exponentKd);
 
     this.spl.setParams({ m, n, dt });
     this.spl.setPrecip(precip);
     this.spl.setUplift(uplift);
     this.spl.setK(kValue);
-
-    if (this.runSplButton) this.runSplButton.disabled = true;
-    for (let i = 0; i < iterations; i += 1) {
-      this.setOutputValue(this.splStatus, `Running ${i + 1}/${iterations}`);
-      this.spl.run({ iterations: 1 });
-      this.updateHeightResources();
-      this.render();
-      await new Promise((resolve) => setTimeout(resolve, 0));
-    }
-    this.setOutputValue(this.splStatus, 'Done');
-    if (this.runSplButton) this.runSplButton.disabled = false;
+    this.spl.setKd(kdValue);
   }
 
   updateNoiseParams() {
@@ -530,6 +574,7 @@ class LEMDemo {
     this.updateHeightResources();
     this.updateZExagControls();
     this.resetCamera();
+    this.updateCameraDebug();
     this.render();
   }
 
@@ -1036,9 +1081,9 @@ class LEMDemo {
   }
 
   updateZExagControls() {
-    if (!this.zExagControls) return;
+    if (!this.zExagSlider) return;
     const is3d = this.viewMode === VIEW_3D;
-    this.zExagControls.hidden = !is3d;
+    this.zExagSlider.disabled = !is3d;
     this.updateZExagOutput();
   }
 
@@ -1047,12 +1092,6 @@ class LEMDemo {
     this.setOutputValue(this.zExagOutput, `${this.zExaggeration.toFixed(1)}x`);
   }
 
-  updateZExaggeration(delta) {
-    this.zExaggeration = clamp(this.zExaggeration + delta, 0.2, 10);
-    this.updateZExagOutput();
-    this.updateHeightResources();
-    this.render();
-  }
 
   render() {
     if (!this.gl) return;
@@ -1158,12 +1197,25 @@ class LEMDemo {
     this.cameraEye[2] = this.cameraTarget[2] + r * Math.cos(phi);
 
     mat4LookAt(this.viewMatrix, this.cameraEye, this.cameraTarget, this.cameraUp);
+    this.updateCameraDebug();
   }
 
   resetCamera() {
-    this.cameraTheta = 0;
-    this.cameraPhi = 0.2;
+    this.cameraTheta = 1.58;
+    this.cameraPhi = 0.86;
     this.cameraRadius = Math.max(this.cameraBaseRadius, 1);
+    this.updateCameraDebug();
+  }
+
+  updateCameraDebug() {
+    if (!this.cameraDebug) return;
+    const theta = this.cameraTheta ?? 0;
+    const phi = this.cameraPhi ?? 0;
+    const radius = this.cameraRadius ?? 0;
+    this.setOutputValue(
+      this.cameraDebug,
+      `θ ${theta.toFixed(2)} • φ ${phi.toFixed(2)} • r ${radius.toFixed(1)}`
+    );
   }
 }
 

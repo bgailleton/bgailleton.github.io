@@ -714,22 +714,44 @@ a:focus-visible {
 
 .lem-panel {
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 0.25rem;
 }
 
-.lem-panel .lem-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
+.lem-panel .lem-section {
+  background: rgba(6, 11, 20, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 0.55rem 0.9rem;
   margin-bottom: 0;
-  padding-bottom: 0;
-  flex-direction: column;
 }
 
-.lem-panel .lem-controls {
-  max-height: none;
-  max-width: none;
-  flex: 1 1 280px;
+.lem-panel .lem-section-title {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.lem-panel .lem-advanced-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.lem-panel .lem-group {
+  background: rgba(8, 14, 24, 0.45);
+  border-radius: 16px;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.lem-panel .lem-group-title {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0.6rem;
 }
 
 .lem-panel .lem-controls {
@@ -773,15 +795,18 @@ a:focus-visible {
   width: auto;
 }
 
-.lem-panel .lem-actions {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 0.1rem;
-  margin-bottom: 0.1rem;
+.lem-panel .lem-main-controls {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  align-items: end;
 }
 
-.lem-panel .lem-actions button {
-  max-width: 220px;
+.lem-panel .lem-spl-actions {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--muted);
 }
 
 .lem-panel [data-role="perlin-params"] {
@@ -798,36 +823,10 @@ a:focus-visible {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 0;
 }
 
 .lem-panel .hydro-canvas {
   max-width: 100%;
-}
-
-.lem-panel .lem-footer {
-  flex: 1 1 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  align-items: center;
-  padding: 1rem 1.25rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(6, 11, 20, 0.35);
-  border-radius: 1rem;
-}
-
-.lem-panel .lem-spl-actions {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
-.lem-panel .lem-experimental {
-  margin-top: 0.5rem;
 }
 
 .lem-panel .lem-footer .hydro-control-group {

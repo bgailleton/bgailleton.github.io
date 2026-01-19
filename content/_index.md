@@ -2,6 +2,17 @@
 title = "Home"
 description = "Researcher at the Université de Rennes, I am a geomorphologist and numerical modeller investigating the links between climate, tectonics and surface processes. I develop and apply topographic analysis and landscape evolution modelling methods that incorporate shallow water flow to large-scale, long-term landscape evolution, aiming to quantitatively unravel the climatic and tectonic conditions that shaped their genesis and to predict how these landscapes will respond to changes in climatic and tectonic forcing."
 
+
+[[news]]
+date = "2026-01-16"
+title = "Landscape Evolution Model demo now live!"
+summary = "Simulate millions of year of landscape evolution in your browser."
+link = "/research-softwares/live-web-demo/lem"
+cta = "Run the demo"
+note = "Fluvial incision, hillslope linear diffusion and basic tectonics/climate forcings. Note that the landscape is filled to avoid local minima and mass balance issues - that's why the first step can show massive plateaus appearing."
+variant = "glass"
+
+
 [[news]]
 date = "2025-11-25"
 title = "Hydrodynamics demo now live!"
