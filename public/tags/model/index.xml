@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Model on Boris Gailleton</title>
-    <link>http://localhost:1313/tags/model/</link>
+    <link>https://bgailleton.github.io/tags/model/</link>
     <description>Recent content in Model on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/model/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bgailleton.github.io/tags/model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FastScape</title>
-      <link>http://localhost:1313/research-softwares/fastscape/</link>
+      <link>https://bgailleton.github.io/research-softwares/fastscape/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research-softwares/fastscape/</guid>
+      <guid>https://bgailleton.github.io/research-softwares/fastscape/</guid>
       <description>Landscape evolution at geological time scales.</description>
     </item>
   </channel>

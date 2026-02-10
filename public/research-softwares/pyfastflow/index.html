@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>pyfastflow | Boris Gailleton</title>
 <meta name="description" content="Personal site blending research highlights, software documentation, a CV snapshot, and a lightweight blog.">
 <meta name="theme-color" content="#0f0f0f">
-<meta name="generator" content="Hugo 0.154.5">
+<meta name="generator" content="Hugo 0.155.3">
 
 
-<link rel="stylesheet" href="/css/main.min.8ce410c8e06433f116ecf1c4b64344b55b6745c4894eeec3bfcd3247eaa12cff.css" integrity="sha256-jOQQyOBkM/EW7PHEtkNEtVtnRcSJTu7Dv80yR&#43;qhLP8=">
+<link rel="stylesheet" href="/css/main.min.5df3a1250e8027bc353cdf54413aed308a484b97b2c68e218ac8f505adc8010f.css" integrity="sha256-XfOhJQ6AJ7w1PN9UQTrtMIpIS5eyxo4hisj1Ba3IAQ8=">
 
 
 
@@ -132,7 +132,18 @@
     
 
     <div class="prose">
-      <p>WIP</p>
+      <h2 id="pyfastflow-in-brief"><code>pyfastflow</code> in brief</h2>
+<p><a href="https://github.com/TopoToolbox/pyfastflow"><code>pyfastflow</code></a> is a GPU toolbox for hydrodynamics and geomorphological applications.</p>
+<p>Currently in <em>alpha</em> I am preparing a JOSS paper with all the details (coming soon?). Long story short:</p>
+<ul>
+<li>Provides GPU flow accumulation via tree contraction methods</li>
+<li>Reroute local minimas following Jain et al. (2024) <a href="https://www-sop.inria.fr/reves/Basilic/2024/JKGFC24/FastFlowPG2024_Author_Version.pdf">paper</a></li>
+<li>Some LEM routines, general filtering or resampling</li>
+<li>periodic, normal, or nodata boundary condition management and helpers for stencil operations (i.e. can be used as a toolbox to create your own GPU geomorphic routines)</li>
+<li>flood modelling: GPU version of Bates et al., 2010 (Lisflood) and GraphFlood <a href="https://esurf.copernicus.org/articles/12/1295/2024/">(Gailleton et al., 2024)</a></li>
+</ul>
+<h2 id="documentations-example-">Documentations, Example, &hellip;</h2>
+<p>Proper documentation will come with the publications associated with the software, so far, see examples (may evolved until stable version) <a href="https://github.com/TopoToolbox/pyfastflow/tree/main/examples">here</a></p>
 
     </div>
 

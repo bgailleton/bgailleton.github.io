@@ -2,262 +2,290 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Boris Gailleton</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://bgailleton.github.io/tags/</link>
     <description>Recent content in Tags on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Feb 2026 10:00:00 -0500</lastBuildDate>
+    <atom:link href="https://bgailleton.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://bgailleton.github.io/tags/blog/</link>
+      <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
+      <guid>https://bgailleton.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hpc</title>
+      <link>https://bgailleton.github.io/tags/hpc/</link>
+      <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
+      <guid>https://bgailleton.github.io/tags/hpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scientific-Computing</title>
+      <link>https://bgailleton.github.io/tags/scientific-computing/</link>
+      <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
+      <guid>https://bgailleton.github.io/tags/scientific-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seminar</title>
+      <link>https://bgailleton.github.io/tags/seminar/</link>
+      <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
+      <guid>https://bgailleton.github.io/tags/seminar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taichi</title>
+      <link>https://bgailleton.github.io/tags/taichi/</link>
+      <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
+      <guid>https://bgailleton.github.io/tags/taichi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cpu</title>
-      <link>http://localhost:1313/tags/cpu/</link>
+      <link>https://bgailleton.github.io/tags/cpu/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cpu/</guid>
+      <guid>https://bgailleton.github.io/tags/cpu/</guid>
       <description></description>
     </item>
     <item>
       <title>Docs</title>
-      <link>http://localhost:1313/tags/docs/</link>
+      <link>https://bgailleton.github.io/tags/docs/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/docs/</guid>
+      <guid>https://bgailleton.github.io/tags/docs/</guid>
       <description></description>
     </item>
     <item>
       <title>Flood</title>
-      <link>http://localhost:1313/tags/flood/</link>
+      <link>https://bgailleton.github.io/tags/flood/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/flood/</guid>
+      <guid>https://bgailleton.github.io/tags/flood/</guid>
       <description></description>
     </item>
     <item>
       <title>Gpu</title>
-      <link>http://localhost:1313/tags/gpu/</link>
+      <link>https://bgailleton.github.io/tags/gpu/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gpu/</guid>
+      <guid>https://bgailleton.github.io/tags/gpu/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/tags/software/</link>
+      <link>https://bgailleton.github.io/tags/software/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software/</guid>
+      <guid>https://bgailleton.github.io/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:1313/tags/tutorial/</link>
+      <link>https://bgailleton.github.io/tags/tutorial/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tutorial/</guid>
+      <guid>https://bgailleton.github.io/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>CO3D</title>
-      <link>http://localhost:1313/tags/co3d/</link>
+      <link>https://bgailleton.github.io/tags/co3d/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/co3d/</guid>
+      <guid>https://bgailleton.github.io/tags/co3d/</guid>
       <description></description>
     </item>
     <item>
       <title>Hydrology</title>
-      <link>http://localhost:1313/tags/hydrology/</link>
+      <link>https://bgailleton.github.io/tags/hydrology/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hydrology/</guid>
+      <guid>https://bgailleton.github.io/tags/hydrology/</guid>
       <description></description>
     </item>
     <item>
       <title>Overview</title>
-      <link>http://localhost:1313/tags/overview/</link>
+      <link>https://bgailleton.github.io/tags/overview/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/overview/</guid>
+      <guid>https://bgailleton.github.io/tags/overview/</guid>
       <description></description>
     </item>
     <item>
       <title>Pléiades</title>
-      <link>http://localhost:1313/tags/pl%C3%A9iades/</link>
+      <link>https://bgailleton.github.io/tags/pl%C3%A9iades/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pl%C3%A9iades/</guid>
+      <guid>https://bgailleton.github.io/tags/pl%C3%A9iades/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/tags/research/</link>
+      <link>https://bgailleton.github.io/tags/research/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/research/</guid>
+      <guid>https://bgailleton.github.io/tags/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Field-Notes</title>
-      <link>http://localhost:1313/tags/field-notes/</link>
+      <link>https://bgailleton.github.io/tags/field-notes/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/field-notes/</guid>
+      <guid>https://bgailleton.github.io/tags/field-notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Geomorphology</title>
-      <link>http://localhost:1313/tags/geomorphology/</link>
+      <link>https://bgailleton.github.io/tags/geomorphology/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/geomorphology/</guid>
+      <guid>https://bgailleton.github.io/tags/geomorphology/</guid>
       <description></description>
     </item>
     <item>
       <title>Tectonics</title>
-      <link>http://localhost:1313/tags/tectonics/</link>
+      <link>https://bgailleton.github.io/tags/tectonics/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tectonics/</guid>
+      <guid>https://bgailleton.github.io/tags/tectonics/</guid>
       <description></description>
     </item>
     <item>
       <title>Demo</title>
-      <link>http://localhost:1313/tags/demo/</link>
+      <link>https://bgailleton.github.io/tags/demo/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/demo/</guid>
+      <guid>https://bgailleton.github.io/tags/demo/</guid>
       <description></description>
     </item>
     <item>
       <title>Lem</title>
-      <link>http://localhost:1313/tags/lem/</link>
+      <link>https://bgailleton.github.io/tags/lem/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lem/</guid>
+      <guid>https://bgailleton.github.io/tags/lem/</guid>
       <description></description>
     </item>
     <item>
       <title>Prototype</title>
-      <link>http://localhost:1313/tags/prototype/</link>
+      <link>https://bgailleton.github.io/tags/prototype/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/prototype/</guid>
+      <guid>https://bgailleton.github.io/tags/prototype/</guid>
       <description></description>
     </item>
     <item>
       <title>Webgl</title>
-      <link>http://localhost:1313/tags/webgl/</link>
+      <link>https://bgailleton.github.io/tags/webgl/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/webgl/</guid>
+      <guid>https://bgailleton.github.io/tags/webgl/</guid>
       <description></description>
     </item>
     <item>
       <title>DEM</title>
-      <link>http://localhost:1313/tags/dem/</link>
+      <link>https://bgailleton.github.io/tags/dem/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dem/</guid>
+      <guid>https://bgailleton.github.io/tags/dem/</guid>
       <description></description>
     </item>
     <item>
       <title>Landscape</title>
-      <link>http://localhost:1313/tags/landscape/</link>
+      <link>https://bgailleton.github.io/tags/landscape/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/landscape/</guid>
+      <guid>https://bgailleton.github.io/tags/landscape/</guid>
       <description></description>
     </item>
     <item>
       <title>Model</title>
-      <link>http://localhost:1313/tags/model/</link>
+      <link>https://bgailleton.github.io/tags/model/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/model/</guid>
+      <guid>https://bgailleton.github.io/tags/model/</guid>
       <description></description>
     </item>
     <item>
       <title>Modeling</title>
-      <link>http://localhost:1313/tags/modeling/</link>
+      <link>https://bgailleton.github.io/tags/modeling/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/modeling/</guid>
+      <guid>https://bgailleton.github.io/tags/modeling/</guid>
       <description></description>
     </item>
     <item>
       <title>Morphometry</title>
-      <link>http://localhost:1313/tags/morphometry/</link>
+      <link>https://bgailleton.github.io/tags/morphometry/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/morphometry/</guid>
+      <guid>https://bgailleton.github.io/tags/morphometry/</guid>
       <description></description>
     </item>
     <item>
       <title>Provenance</title>
-      <link>http://localhost:1313/tags/provenance/</link>
+      <link>https://bgailleton.github.io/tags/provenance/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/provenance/</guid>
+      <guid>https://bgailleton.github.io/tags/provenance/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://bgailleton.github.io/tags/python/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://bgailleton.github.io/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Workflow</title>
-      <link>http://localhost:1313/tags/workflow/</link>
+      <link>https://bgailleton.github.io/tags/workflow/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/workflow/</guid>
+      <guid>https://bgailleton.github.io/tags/workflow/</guid>
       <description></description>
     </item>
     <item>
       <title>Hydrodynamics</title>
-      <link>http://localhost:1313/tags/hydrodynamics/</link>
+      <link>https://bgailleton.github.io/tags/hydrodynamics/</link>
       <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hydrodynamics/</guid>
+      <guid>https://bgailleton.github.io/tags/hydrodynamics/</guid>
       <description></description>
     </item>
     <item>
       <title>Morphodynamics</title>
-      <link>http://localhost:1313/tags/morphodynamics/</link>
+      <link>https://bgailleton.github.io/tags/morphodynamics/</link>
       <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/morphodynamics/</guid>
+      <guid>https://bgailleton.github.io/tags/morphodynamics/</guid>
       <description></description>
     </item>
     <item>
       <title>Calibration</title>
-      <link>http://localhost:1313/tags/calibration/</link>
+      <link>https://bgailleton.github.io/tags/calibration/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/calibration/</guid>
+      <guid>https://bgailleton.github.io/tags/calibration/</guid>
       <description></description>
     </item>
     <item>
       <title>Models</title>
-      <link>http://localhost:1313/tags/models/</link>
+      <link>https://bgailleton.github.io/tags/models/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/models/</guid>
+      <guid>https://bgailleton.github.io/tags/models/</guid>
       <description></description>
     </item>
     <item>
       <title>Cv</title>
-      <link>http://localhost:1313/tags/cv/</link>
+      <link>https://bgailleton.github.io/tags/cv/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cv/</guid>
+      <guid>https://bgailleton.github.io/tags/cv/</guid>
       <description></description>
     </item>
     <item>
       <title>Blue</title>
-      <link>http://localhost:1313/tags/blue/</link>
+      <link>https://bgailleton.github.io/tags/blue/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/blue/</guid>
+      <guid>https://bgailleton.github.io/tags/blue/</guid>
       <description></description>
     </item>
     <item>
       <title>Green</title>
-      <link>http://localhost:1313/tags/green/</link>
+      <link>https://bgailleton.github.io/tags/green/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/green/</guid>
+      <guid>https://bgailleton.github.io/tags/green/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
-      <link>http://localhost:1313/tags/red/</link>
+      <link>https://bgailleton.github.io/tags/red/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/red/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <guid>https://bgailleton.github.io/tags/red/</guid>
       <description></description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/tags/publications/</link>
+      <link>https://bgailleton.github.io/tags/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/publications/</guid>
+      <guid>https://bgailleton.github.io/tags/publications/</guid>
       <description></description>
     </item>
   </channel>

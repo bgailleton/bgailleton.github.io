@@ -6,7 +6,7 @@
     <description>Recent content in Home on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 10:00:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNES-Funded Flood Risk at Scale</title>
@@ -84,6 +84,13 @@
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/scabbard-dagger/</guid>
       <description>My own sandbox in c++/python. I keep it for legacy and reproducing paper results.</description>
+    </item>
+    <item>
+      <title>Taichi Lang Seminar</title>
+      <link>http://localhost:1313/blog/2026/taichi-lang-seminar/</link>
+      <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/2026/taichi-lang-seminar/</guid>
+      <description>I gave a seminar (in French) about Taichi Lang, a Python JIT for versatile GPU computing.</description>
     </item>
     <item>
       <title>GraphFlood CPU Tutorial</title>

@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Boris Gailleton</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://bgailleton.github.io/blog/</link>
     <description>Recent content in Blog on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Feb 2026 10:00:00 -0500</lastBuildDate>
+    <atom:link href="https://bgailleton.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taichi Lang Seminar</title>
+      <link>https://bgailleton.github.io/blog/2026/taichi-lang-seminar/</link>
+      <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
+      <guid>https://bgailleton.github.io/blog/2026/taichi-lang-seminar/</guid>
+      <description>I gave a seminar (in French) about Taichi Lang, a Python JIT for versatile GPU computing.</description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,14 @@
+{{- $title := default "Weaknesses" (.Get "title") -}}
+{{- $eyebrow := default "Pressure Points" (.Get "eyebrow") -}}
+{{- $icon := default "!" (.Get "icon") -}}
+
+{{- with .Inner -}}
+  {{- $content := $.Page.RenderString (dict "display" "block") . -}}
+  {{- partial "polarity-list.html" (dict
+    "tone" "negative"
+    "title" $title
+    "eyebrow" $eyebrow
+    "icon" $icon
+    "content" $content
+  ) -}}
+{{- end -}}
