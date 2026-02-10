@@ -3,7 +3,7 @@ title = "Taichi Lang Seminar"
 date = 2026-02-09T10:00:00-05:00
 summary = "I gave a seminar (in French) about Taichi Lang, a Python JIT for versatile GPU computing."
 tags = ["taichi", "seminar", "hpc", "scientific-computing"]
-draft = true
+draft = false
 +++
 
 I gave this seminar for the [GDR Calcul](https://groupe-calcul.cnrs.fr/). You can find the talk, in French, on [Canal U](https://www.canal-u.tv/chaines/groupecalcul/cafe-taichi-lang). It covers the basics and main use cases of Taichi Lang, as well as an application from my own research: accelerating hydrodynamic simulations using GPU processing.
