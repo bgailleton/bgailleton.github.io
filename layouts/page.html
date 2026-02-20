@@ -1,5 +1,6 @@
 {{ define "main" }}
-  <article class="list-item prose">
+  {{ $isNotebook := or .Params.notebook .Params.jupyter }}
+  <article class="list-item prose{{ if $isNotebook }} notebook-post{{ end }}">
     {{ $showDate := ne .Section "my-research" }}
     {{ if or $showDate .ReadingTime }}
       <div class="meta-line">
@@ -21,7 +22,7 @@
       <p class="tagline">{{ . }}</p>
     {{ end }}
 
-    <div class="prose">
+    <div class="prose{{ if $isNotebook }} notebook-prose{{ end }}">
       {{ .Content }}
     </div>
 

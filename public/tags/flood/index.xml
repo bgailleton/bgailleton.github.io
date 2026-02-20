@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flood on Boris Gailleton</title>
-    <link>https://bgailleton.github.io/tags/flood/</link>
+    <link>http://localhost:1313/tags/flood/</link>
     <description>Recent content in Flood on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bgailleton.github.io/tags/flood/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/flood/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNES-Funded Flood Risk at Scale</title>
-      <link>https://bgailleton.github.io/my-research/cnes-flood-risk/</link>
+      <link>http://localhost:1313/my-research/cnes-flood-risk/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/my-research/cnes-flood-risk/</guid>
+      <guid>http://localhost:1313/my-research/cnes-flood-risk/</guid>
       <description>Anticipating flood induced morphological damages from high-resolution topography</description>
     </item>
     <item>
       <title>GraphFlood</title>
-      <link>https://bgailleton.github.io/research-softwares/graphflood/</link>
+      <link>http://localhost:1313/research-softwares/graphflood/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/research-softwares/graphflood/</guid>
+      <guid>http://localhost:1313/research-softwares/graphflood/</guid>
       <description>Graph-based 2D flood approximator I co-developed for fast, large-scale compatible hydrodynamics.</description>
     </item>
     <item>
       <title>GraphFlood CPU Tutorial</title>
-      <link>https://bgailleton.github.io/research-softwares/graphflood/cpu-tutorial/</link>
+      <link>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/research-softwares/graphflood/cpu-tutorial/</guid>
+      <guid>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</guid>
       <description>How to drive the stationary GraphFlood solver via pytopotoolbox.</description>
     </item>
     <item>
       <title>GraphFlood GPU Tutorial</title>
-      <link>https://bgailleton.github.io/research-softwares/graphflood/gpu-tutorial/</link>
+      <link>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/research-softwares/graphflood/gpu-tutorial/</guid>
+      <guid>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</guid>
       <description>pyfastflow setup for GPU-driven GraphFlood runs.</description>
     </item>
   </channel>

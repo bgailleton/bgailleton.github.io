@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hydrodynamics on Boris Gailleton</title>
-    <link>https://bgailleton.github.io/tags/hydrodynamics/</link>
+    <link>http://localhost:1313/tags/hydrodynamics/</link>
     <description>Recent content in Hydrodynamics on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bgailleton.github.io/tags/hydrodynamics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hydrodynamics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Large-Scale Hydro-Morphodynamics</title>
-      <link>https://bgailleton.github.io/my-research/large-scale-hydro-morphodynamics/</link>
+      <link>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</link>
       <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/my-research/large-scale-hydro-morphodynamics/</guid>
+      <guid>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</guid>
       <description>Integrating shor-term and local hydraulic and morphodynamic processes to the regional and geological scales</description>
     </item>
   </channel>

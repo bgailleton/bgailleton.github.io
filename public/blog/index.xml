@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Boris Gailleton</title>
-    <link>https://bgailleton.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blog on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 10:00:00 -0500</lastBuildDate>
-    <atom:link href="https://bgailleton.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Taichi Lang Seminar</title>
-      <link>https://bgailleton.github.io/blog/2026/taichi-lang-seminar/</link>
+      <link>http://localhost:1313/blog/2026/taichi-lang-seminar/</link>
       <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
-      <guid>https://bgailleton.github.io/blog/2026/taichi-lang-seminar/</guid>
+      <guid>http://localhost:1313/blog/2026/taichi-lang-seminar/</guid>
       <description>I gave a seminar (in French) about Taichi Lang, a Python JIT for versatile GPU computing.</description>
+    </item>
+    <item>
+      <title>Generalised Swath Profile Tutorial</title>
+      <link>http://localhost:1313/blog/2026/generalised-swath-profile-tutorial/</link>
+      <pubDate>Sun, 08 Feb 2026 17:30:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/2026/generalised-swath-profile-tutorial/</guid>
+      <description>Notebook-style tutorial introducing transverse and longitudinal swath profiles in TopoToolbox, with river integration and practical parameter choices.</description>
     </item>
   </channel>
 </rss>

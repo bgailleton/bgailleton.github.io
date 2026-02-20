@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Boris Gailleton</title>
-    <link>https://bgailleton.github.io/tags/python/</link>
+    <link>http://localhost:1313/tags/python/</link>
     <description>Recent content in Python on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bgailleton.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Feb 2026 17:30:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LSDTopoTools / lsdtopytools</title>
-      <link>https://bgailleton.github.io/research-softwares/lsdtopotools/</link>
+      <link>http://localhost:1313/research-softwares/lsdtopotools/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/research-softwares/lsdtopotools/</guid>
+      <guid>http://localhost:1313/research-softwares/lsdtopotools/</guid>
       <description>Topographic analysis in c++ and python</description>
     </item>
     <item>
       <title>pyfastflow</title>
-      <link>https://bgailleton.github.io/research-softwares/pyfastflow/</link>
+      <link>http://localhost:1313/research-softwares/pyfastflow/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/research-softwares/pyfastflow/</guid>
+      <guid>http://localhost:1313/research-softwares/pyfastflow/</guid>
       <description>First GPU-powered geomorphology toolbox</description>
+    </item>
+    <item>
+      <title>Generalised Swath Profile Tutorial</title>
+      <link>http://localhost:1313/blog/2026/generalised-swath-profile-tutorial/</link>
+      <pubDate>Sun, 08 Feb 2026 17:30:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/2026/generalised-swath-profile-tutorial/</guid>
+      <description>Notebook-style tutorial introducing transverse and longitudinal swath profiles in TopoToolbox, with river integration and practical parameter choices.</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Recent content in Home on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Feb 2026 10:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNES-Funded Flood Risk at Scale</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-research/cnes-flood-risk/</guid>
       <description>Anticipating flood induced morphological damages from high-resolution topography</description>
+    </item>
+    <item>
+      <title>Swath Tools Quickstart</title>
+      <link>http://localhost:1313/research-softwares/topotoolbox/quickstart/swath-tools/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research-softwares/topotoolbox/quickstart/swath-tools/</guid>
+      <description>Three compact scripts for transverse/longitudinal swaths in Taiwan, river longitudinal swaths, and windowed longitudinal swaths.</description>
     </item>
     <item>
       <title>Hydrodynamics</title>
@@ -42,13 +49,6 @@
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-softwares/live-web-demo/lem/</guid>
       <description>Browser sandbox for gridded terrain generation and priority-flood filling steps used in LEM workflows.</description>
-    </item>
-    <item>
-      <title>TopoToolbox</title>
-      <link>http://localhost:1313/research-softwares/topotoolbox/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research-softwares/topotoolbox/</guid>
-      <description>EU-wide consortium for topographic analysis, morphometry and landscape evolution in C/python/R/&amp;hellip;</description>
     </item>
     <item>
       <title>Large-Scale Hydro-Morphodynamics</title>
@@ -91,6 +91,13 @@
       <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
       <guid>http://localhost:1313/blog/2026/taichi-lang-seminar/</guid>
       <description>I gave a seminar (in French) about Taichi Lang, a Python JIT for versatile GPU computing.</description>
+    </item>
+    <item>
+      <title>Generalised Swath Profile Tutorial</title>
+      <link>http://localhost:1313/blog/2026/generalised-swath-profile-tutorial/</link>
+      <pubDate>Sun, 08 Feb 2026 17:30:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/2026/generalised-swath-profile-tutorial/</guid>
+      <description>Notebook-style tutorial introducing transverse and longitudinal swath profiles in TopoToolbox, with river integration and practical parameter choices.</description>
     </item>
     <item>
       <title>GraphFlood CPU Tutorial</title>

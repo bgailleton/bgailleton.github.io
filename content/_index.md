@@ -4,6 +4,16 @@ description = "Researcher at the Université de Rennes, I am a geomorphologist a
 
 
 [[news]]
+date = "2026-02-20"
+title = "New blog post: Generalised Swath Profile Tutorial"
+summary = "A full notebook-style walkthrough of transverse and longitudinal swaths, river-following baselines, and line simplification."
+link = "/blog/2026/generalised-swath-profile-tutorial/"
+cta = "Read the tutorial"
+note = "Includes practical parameter choices (`half_width`, `binning_distance`, `n_points_regression`) and complete figures from the original notebook."
+variant = "glass"
+
+
+[[news]]
 date = "2026-01-16"
 title = "Landscape Evolution Model demo now live!"
 summary = "Simulate millions of year of landscape evolution in your browser."

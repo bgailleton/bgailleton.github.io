@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hydrology on Boris Gailleton</title>
-    <link>https://bgailleton.github.io/tags/hydrology/</link>
+    <link>http://localhost:1313/tags/hydrology/</link>
     <description>Recent content in Hydrology on Boris Gailleton</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bgailleton.github.io/tags/hydrology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hydrology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNES-Funded Flood Risk at Scale</title>
-      <link>https://bgailleton.github.io/my-research/cnes-flood-risk/</link>
+      <link>http://localhost:1313/my-research/cnes-flood-risk/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/my-research/cnes-flood-risk/</guid>
+      <guid>http://localhost:1313/my-research/cnes-flood-risk/</guid>
       <description>Anticipating flood induced morphological damages from high-resolution topography</description>
     </item>
     <item>
       <title>Hydrodynamics</title>
-      <link>https://bgailleton.github.io/research-softwares/live-web-demo/hydrodynamics/</link>
+      <link>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/research-softwares/live-web-demo/hydrodynamics/</guid>
+      <guid>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</guid>
       <description>WebGL Lisflood sandbox for testing shallow-water responses straight in the browser.</description>
     </item>
     <item>
       <title>pyfastflow</title>
-      <link>https://bgailleton.github.io/research-softwares/pyfastflow/</link>
+      <link>http://localhost:1313/research-softwares/pyfastflow/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://bgailleton.github.io/research-softwares/pyfastflow/</guid>
+      <guid>http://localhost:1313/research-softwares/pyfastflow/</guid>
       <description>First GPU-powered geomorphology toolbox</description>
     </item>
   </channel>

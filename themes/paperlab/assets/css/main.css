@@ -1313,6 +1313,99 @@ a:focus-visible {
   color: var(--muted);
 }
 
+.notebook-post {
+  border-radius: 18px;
+  border-color: rgba(120, 198, 255, 0.25);
+  background:
+    radial-gradient(circle at top right, rgba(120, 198, 255, 0.08), rgba(0, 0, 0, 0) 45%),
+    linear-gradient(150deg, rgba(12, 18, 28, 0.62), rgba(18, 18, 20, 0.9));
+}
+
+.notebook-post .meta-line {
+  letter-spacing: 0.08em;
+}
+
+.notebook-post > h1 {
+  margin-bottom: 0.95rem;
+}
+
+.notebook-post .notebook-prose > p,
+.notebook-post .notebook-prose > ul,
+.notebook-post .notebook-prose > ol,
+.notebook-post .notebook-prose > blockquote,
+.notebook-post .notebook-prose > div.alert {
+  max-width: 100%;
+  border: 1px solid rgba(152, 210, 255, 0.2);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  background: linear-gradient(135deg, rgba(148, 197, 253, 0.1), rgba(15, 18, 26, 0.75));
+}
+
+.notebook-post .notebook-prose > p,
+.notebook-post .notebook-prose li {
+  color: rgba(242, 248, 255, 0.96);
+  line-height: 1.75;
+}
+
+.notebook-post .notebook-prose > ul,
+.notebook-post .notebook-prose > ol {
+  margin-left: 0;
+  padding-left: 2rem;
+}
+
+.notebook-post .notebook-prose > h2,
+.notebook-post .notebook-prose > h3,
+.notebook-post .notebook-prose > h4 {
+  margin-top: 1.8rem;
+  color: #d5ebff;
+}
+
+.notebook-post .notebook-prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.notebook-post .notebook-prose .highlight,
+.notebook-post .notebook-prose pre {
+  width: 100%;
+  max-width: 100%;
+  margin: 1rem 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 196, 110, 0.35);
+  background: linear-gradient(150deg, rgba(43, 30, 14, 0.86), rgba(18, 18, 22, 0.95));
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+}
+
+.notebook-post .notebook-prose .highlight pre,
+.notebook-post .notebook-prose pre {
+  margin: 0;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.notebook-post .notebook-prose .highlight code,
+.notebook-post .notebook-prose pre code {
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.notebook-post .notebook-prose p code,
+.notebook-post .notebook-prose li code {
+  background: rgba(255, 218, 160, 0.16);
+  border: 1px solid rgba(255, 218, 160, 0.35);
+  border-radius: 6px;
+  padding: 0.1rem 0.32rem;
+  color: #ffe5bf;
+}
+
 .polarity-pair {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));

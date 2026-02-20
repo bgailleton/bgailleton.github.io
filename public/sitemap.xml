@@ -2,209 +2,218 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bgailleton.github.io/my-research/cnes-flood-risk/</loc>
+    <loc>http://localhost:1313/my-research/cnes-flood-risk/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/live-web-demo/</loc>
+    <loc>http://localhost:1313/research-softwares/live-web-demo/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/live-web-demo/hydrodynamics/</loc>
+    <loc>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/lsdtopotools/</loc>
+    <loc>http://localhost:1313/research-softwares/lsdtopotools/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/my-research/tectonic-geomorphology/</loc>
+    <loc>http://localhost:1313/my-research/tectonic-geomorphology/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/live-web-demo/lem/</loc>
+    <loc>http://localhost:1313/research-softwares/live-web-demo/lem/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/topotoolbox/</loc>
+    <loc>http://localhost:1313/research-softwares/topotoolbox/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/my-research/large-scale-hydro-morphodynamics/</loc>
+    <loc>http://localhost:1313/my-research/large-scale-hydro-morphodynamics/</loc>
     <lastmod>2025-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/pyfastflow/</loc>
+    <loc>http://localhost:1313/research-softwares/pyfastflow/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/my-research/landscape-evolution-models/</loc>
+    <loc>http://localhost:1313/my-research/landscape-evolution-models/</loc>
     <lastmod>2025-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/graphflood/</loc>
+    <loc>http://localhost:1313/research-softwares/graphflood/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/fastscape/</loc>
+    <loc>http://localhost:1313/research-softwares/fastscape/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/scabbard-dagger/</loc>
+    <loc>http://localhost:1313/research-softwares/scabbard-dagger/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/blog/</loc>
+    <loc>http://localhost:1313/tags/blog/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/hpc/</loc>
+    <loc>http://localhost:1313/tags/hpc/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/scientific-computing/</loc>
+    <loc>http://localhost:1313/tags/scientific-computing/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/seminar/</loc>
+    <loc>http://localhost:1313/tags/seminar/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/taichi/</loc>
+    <loc>http://localhost:1313/tags/taichi/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/blog/2026/taichi-lang-seminar/</loc>
+    <loc>http://localhost:1313/blog/2026/taichi-lang-seminar/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/cpu/</loc>
+    <loc>http://localhost:1313/blog/2026/generalised-swath-profile-tutorial/</loc>
+    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/geomorphology/</loc>
+    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/swath-profile/</loc>
+    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/topotoolbox/</loc>
+    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cpu/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/docs/</loc>
+    <loc>http://localhost:1313/tags/docs/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/flood/</loc>
+    <loc>http://localhost:1313/tags/flood/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/gpu/</loc>
+    <loc>http://localhost:1313/tags/gpu/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/graphflood/cpu-tutorial/</loc>
+    <loc>http://localhost:1313/research-softwares/graphflood/cpu-tutorial/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/graphflood/gpu-tutorial/</loc>
+    <loc>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/research-softwares/</loc>
+    <loc>http://localhost:1313/research-softwares/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/software/</loc>
+    <loc>http://localhost:1313/tags/software/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/tutorial/</loc>
-    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bgailleton.github.io/tags/co3d/</loc>
+    <loc>http://localhost:1313/tags/co3d/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/hydrology/</loc>
+    <loc>http://localhost:1313/tags/hydrology/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/my-research/</loc>
+    <loc>http://localhost:1313/my-research/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/overview/</loc>
+    <loc>http://localhost:1313/tags/overview/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/pl%C3%A9iades/</loc>
+    <loc>http://localhost:1313/tags/pl%C3%A9iades/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/research/</loc>
+    <loc>http://localhost:1313/tags/research/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/field-notes/</loc>
+    <loc>http://localhost:1313/tags/field-notes/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/geomorphology/</loc>
+    <loc>http://localhost:1313/tags/tectonics/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/tectonics/</loc>
-    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bgailleton.github.io/tags/demo/</loc>
+    <loc>http://localhost:1313/tags/demo/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/lem/</loc>
+    <loc>http://localhost:1313/tags/lem/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/prototype/</loc>
+    <loc>http://localhost:1313/tags/prototype/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/webgl/</loc>
+    <loc>http://localhost:1313/tags/webgl/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/dem/</loc>
+    <loc>http://localhost:1313/tags/dem/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/landscape/</loc>
+    <loc>http://localhost:1313/tags/landscape/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/model/</loc>
+    <loc>http://localhost:1313/tags/model/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/modeling/</loc>
+    <loc>http://localhost:1313/tags/modeling/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/morphometry/</loc>
+    <loc>http://localhost:1313/tags/morphometry/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/provenance/</loc>
+    <loc>http://localhost:1313/tags/provenance/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/python/</loc>
+    <loc>http://localhost:1313/tags/workflow/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/workflow/</loc>
-    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bgailleton.github.io/tags/hydrodynamics/</loc>
+    <loc>http://localhost:1313/tags/hydrodynamics/</loc>
     <lastmod>2025-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/morphodynamics/</loc>
+    <loc>http://localhost:1313/tags/morphodynamics/</loc>
     <lastmod>2025-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/calibration/</loc>
+    <loc>http://localhost:1313/tags/calibration/</loc>
     <lastmod>2025-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/models/</loc>
+    <loc>http://localhost:1313/tags/models/</loc>
     <lastmod>2025-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/cv/</loc>
+    <loc>http://localhost:1313/tags/cv/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/cv/fr/</loc>
+    <loc>http://localhost:1313/cv/fr/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/cv/en/</loc>
+    <loc>http://localhost:1313/cv/en/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/blue/</loc>
+    <loc>http://localhost:1313/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/green/</loc>
+    <loc>http://localhost:1313/tags/green/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/posts/post-3/</loc>
+    <loc>http://localhost:1313/posts/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/red/</loc>
+    <loc>http://localhost:1313/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/posts/post-2/</loc>
+    <loc>http://localhost:1313/posts/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/posts/post-1/</loc>
+    <loc>http://localhost:1313/posts/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://bgailleton.github.io/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
   </url><url>
-    <loc>https://bgailleton.github.io/tags/publications/</loc>
+    <loc>http://localhost:1313/tags/publications/</loc>
   </url>
 </urlset>
