@@ -6,4 +6,10 @@ tags = ["workflow", "provenance"]
 weight = 60
 +++
 
-WIP
+## DAGGER and scabbard
+
+These are my legacy toolboxes. Migrated most of it under the `lib/pytopotoolbox` as well as the `pytopoviz` and `pyfastflow`.
+
+I maintain them to ensure reproducibility with my previous publication - however most of it is migrated/replaceable by now [as of 2026]. 
+
+If you spot tools you need in them, feel free to contact me!

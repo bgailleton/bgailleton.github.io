@@ -8,9 +8,9 @@ weight = 30
 
 ## `pyfastflow` in brief
 
-[`pyfastflow`](https://github.com/TopoToolbox/pyfastflow) is a GPU toolbox for hydrodynamics and geomorphological applications.
+I am the lead developer of [`pyfastflow`](https://github.com/TopoToolbox/pyfastflow), a GPU toolbox for hydrodynamics and geomorphological applications.
 
-Currently in _alpha_ I am preparing a JOSS paper with all the details (coming soon?). Long story short:
+Currently in _alpha_ I am preparing a JOSS paper with all the details (**coming soon in 2026!**). Long story short:
 
 - Provides GPU flow accumulation via tree contraction methods
 - Reroute local minimas following Jain et al. (2024) [paper](https://www-sop.inria.fr/reves/Basilic/2024/JKGFC24/FastFlowPG2024_Author_Version.pdf)
