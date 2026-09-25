@@ -1,26 +1,9 @@
 +++
-title = "My Research"
-description = "My main current and past research projects. "
+title = "About & Research"
+description = "I am a geomorphologist and numerical modeller at the Université de Rennes. My work connects tectonics, climate, hydrodynamics, and landscape evolution."
 tags = ["research", "overview"]
-
-[[panels]]
-title = "CNES-Funded Flood Risk at Scale"
-summary = "Starting in April 2026, I obtained a 2 yrs funding through the CNES post-doctoral open call - 'Anticipating flood induced morphological damages from high-resolution topography' - Stay tuned for fun Sciences!"
-link = "/my-research/cnes-flood-risk/"
-
-[[panels]]
-title = "Hydrodynamics and morphodynamics across the scales"
-summary = "Integrating short-term and local hydraulic and morphodynamic processes to the regional and geological scales"
-link = "/my-research/large-scale-hydro-morphodynamics/"
-
-[[panels]]
-title = "Tectonic Geomorphology"
-summary = "Linking topographic metrics with tectonics and climate"
-link = "/my-research/tectonic-geomorphology/"
-
-
-[[panels]]
-title = "Landscape Evolution Models"
-summary = "WIP"
-link = "/my-research/landscape-evolution-models/"
+url = "/about/"
+aliases = ["/my-research/"]
 +++
+
+My work develops methods and software for extracting physical information from topography, from event-scale floods to long-term landscape evolution. [Read my CV in English](/cv/en/) or [en français](/cv/fr/).

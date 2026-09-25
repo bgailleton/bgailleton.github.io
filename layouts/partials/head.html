@@ -1,0 +1,38 @@
+{{ $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ with or .Params.description .Site.Params.description }}{{ . }}{{ end }}">
+<meta name="theme-color" content="{{ or site.Params.background `#0f0f0f` }}">
+{{ hugo.Generator }}
+
+{{ $style := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+{{ $ergonomics := resources.Get "css/ergonomics.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $ergonomics.RelPermalink }}" integrity="{{ $ergonomics.Data.Integrity }}">
+
+{{ with .OutputFormats.Get "RSS" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">
+{{ end }}
+
+{{ $enableMath := or site.Params.math .Params.math }}
+{{ if $enableMath }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false },
+            { left: '\\(', right: '\\)', display: false },
+            { left: '\\[', right: '\\]', display: true }
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+{{ end }}

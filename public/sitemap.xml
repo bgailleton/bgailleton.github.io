@@ -8,6 +8,12 @@
     <loc>http://localhost:1313/research-softwares/live-web-demo/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/research-softwares/topotoolbox/quickstart/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research-softwares/topotoolbox/quickstart/swath-tools/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/research-softwares/live-web-demo/hydrodynamics/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,13 +47,40 @@
     <loc>http://localhost:1313/research-softwares/scabbard-dagger/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/docs/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quickstart/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/software/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research-softwares/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/swath-profile/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/topotoolbox/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/blog/</loc>
-    <lastmod>2026-02-09T10:00:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hpc/</loc>
@@ -57,9 +90,6 @@
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/seminar/</loc>
-    <lastmod>2026-02-09T10:00:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-02-09T10:00:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/taichi/</loc>
@@ -74,22 +104,7 @@
     <loc>http://localhost:1313/tags/geomorphology/</loc>
     <lastmod>2026-02-08T17:30:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/swath-profile/</loc>
-    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/topotoolbox/</loc>
-    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
-    <lastmod>2026-02-08T17:30:00-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/cpu/</loc>
-    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/docs/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/flood/</loc>
@@ -104,19 +119,13 @@
     <loc>http://localhost:1313/research-softwares/graphflood/gpu-tutorial/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research-softwares/</loc>
-    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/software/</loc>
-    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/co3d/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hydrology/</loc>
-    <lastmod>2025-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/my-research/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/overview/</loc>
@@ -211,6 +220,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cnes-jc2-poster/</loc>
   </url><url>
     <loc>http://localhost:1313/publications/</loc>
   </url><url>

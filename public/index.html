@@ -5,12 +5,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Boris Gailleton</title>
-<meta name="description" content="Researcher at the Université de Rennes, I am a geomorphologist and numerical modeller investigating the links between climate, tectonics and surface processes. I develop and apply topographic analysis and landscape evolution modelling methods that incorporate shallow water flow to large-scale, long-term landscape evolution, aiming to quantitatively unravel the climatic and tectonic conditions that shaped their genesis and to predict how these landscapes will respond to changes in climatic and tectonic forcing.">
+<meta name="description" content="I am a geomorphologist and numerical modeller at the Université de Rennes. I study how climate, tectonics, and surface processes shape landscapes, and build open tools to investigate them across scales.">
 <meta name="theme-color" content="#0f0f0f">
-<meta name="generator" content="Hugo 0.155.3">
+<meta name="generator" content="Hugo 0.165.0">
+
 
 
 <link rel="stylesheet" href="/css/main.min.3fdfdb50c4c7dd5d661c0e854fcaf1364d8338b73a2730e5be584736ed44efa6.css" integrity="sha256-P9/bUMTH3V1mHA6FT8rxNk2DOLc6JzDlvlhHNu1E76Y=">
+<link rel="stylesheet" href="/css/ergonomics.min.3b6786b8cf4f4a484a1da8ad2dce8f3f1c5a621c0c05ff754ce937c848d7aca9.css" integrity="sha256-O2eGuM9PSkhKHaitLc6PPxxaYhwMBf91TOk3yEjXrKk=">
 
 
   <link rel="alternate" type="application/rss+xml" title="Boris Gailleton" href="/index.xml">
@@ -82,23 +84,19 @@
   </div>
 
 </div>
-<nav class="menu">
+<nav class="menu" aria-label="Main navigation">
   
     <a href="/" class="active"
        aria-current="page">
       Home
     </a>
-    <a href="/my-research/" class=""
+    <a href="/about/" class=""
        >
-      My Research
+      About
     </a>
     <a href="/research-softwares/" class=""
        >
-      Research Softwares
-    </a>
-    <a href="/cv/" class=""
-       >
-      CV
+      Softwares
     </a>
     <a href="/publications/" class=""
        >
@@ -111,223 +109,69 @@
 
 </nav>
 
+  
+    <a class="poster-link" href="/cnes-jc2-poster/">CNES JC2 Poster</a>
+  
+
+
       </header>
 
       <main>
         
-  <section class="hero">
-    <h1>Boris Gailleton</h1>
-    <p>Researcher at the Université de Rennes, I am a geomorphologist and numerical modeller investigating the links between climate, tectonics and surface processes. I develop and apply topographic analysis and landscape evolution modelling methods that incorporate shallow water flow to large-scale, long-term landscape evolution, aiming to quantitatively unravel the climatic and tectonic conditions that shaped their genesis and to predict how these landscapes will respond to changes in climatic and tectonic forcing.</p>
+  
+  <section class="hero hero--terrain">
+    <div class="hero__copy">
+      <h1>Boris Gailleton</h1>
+      <p>I am a geomorphologist and numerical modeller at the Université de Rennes. I study how climate, tectonics, and surface processes shape landscapes, and build open tools to investigate them across scales.</p>
+    </div>
+    <figure class="terrain-hero" aria-label="Illuminated three-dimensional terrain model">
+      <canvas data-terrain-hero data-height="/images/hero-terrain-height.c0feb26be2996e52c8d6ce08bf0c50a3fc8cdfe8991c8b0f1387d442e39403d3.png" aria-hidden="true"></canvas>
+      <figcaption>Terrain study · Kaikōura, New Zealand</figcaption>
+    </figure>
   </section>
 
   
-    <section class="news-board">
-      <div class="news-header meta-line">
-        <span>Latest News</span>
-        <span>4 updates</span>
-      </div>
-      <div class="news-grid">
-        
-          <details class="news-row">
-            <summary class="news-row__summary">
-              <span class="news-row__meta">
-                <span class="news-row__dot"></span>
-                <span class="news-row__date">20 Feb 2026</span>
-              </span>
-              <span class="news-row__text">
-                <strong>New blog post: Generalised Swath Profile Tutorial</strong>
-                <span class="news-row__snippet">A full notebook-style walkthrough of transverse and longitudinal swaths, river-following baselines, and line simplification.</span>
-              </span>
-              
-                <a class="news-row__link" href="/blog/2026/generalised-swath-profile-tutorial/" aria-label="Open link">
-                  ↗
-                </a>
-              
-            </summary>
-            <div class="news-row__body">
-              <p>Includes practical parameter choices (`half_width`, `binning_distance`, `n_points_regression`) and complete figures from the original notebook.</p>
-              
-                <a class="news-row__cta" href="/blog/2026/generalised-swath-profile-tutorial/">Read the tutorial ↗</a>
-              
-            </div>
-          </details>
-        
-          <details class="news-row">
-            <summary class="news-row__summary">
-              <span class="news-row__meta">
-                <span class="news-row__dot"></span>
-                <span class="news-row__date">16 Jan 2026</span>
-              </span>
-              <span class="news-row__text">
-                <strong>Landscape Evolution Model demo now live!</strong>
-                <span class="news-row__snippet">Simulate millions of year of landscape evolution in your browser.</span>
-              </span>
-              
-                <a class="news-row__link" href="/research-softwares/live-web-demo/lem" aria-label="Open link">
-                  ↗
-                </a>
-              
-            </summary>
-            <div class="news-row__body">
-              <p>Fluvial incision, hillslope linear diffusion and basic tectonics/climate forcings. Note that the landscape is filled to avoid local minima and mass balance issues - that&#39;s why the first step can show massive plateaus appearing.</p>
-              
-                <a class="news-row__cta" href="/research-softwares/live-web-demo/lem">Run the demo ↗</a>
-              
-            </div>
-          </details>
-        
-          <details class="news-row">
-            <summary class="news-row__summary">
-              <span class="news-row__meta">
-                <span class="news-row__dot"></span>
-                <span class="news-row__date">25 Nov 2025</span>
-              </span>
-              <span class="news-row__text">
-                <strong>Hydrodynamics demo now live!</strong>
-                <span class="news-row__snippet">Check the difference between transient and stationary flow with different SWE solvers.</span>
-              </span>
-              
-                <a class="news-row__link" href="/research-softwares/live-web-demo/hydrodynamics" aria-label="Open link">
-                  ↗
-                </a>
-              
-            </summary>
-            <div class="news-row__body">
-              <p>Try both solver modes and pulse the inflow curtain to see how the basin responds. If it blows up, drop dt or toggle the shock smoother.</p>
-              
-                <a class="news-row__cta" href="/research-softwares/live-web-demo/hydrodynamics">Run the demo ↗</a>
-              
-            </div>
-          </details>
-        
-          <details class="news-row">
-            <summary class="news-row__summary">
-              <span class="news-row__meta">
-                <span class="news-row__dot"></span>
-                <span class="news-row__date">24 Nov 2025</span>
-              </span>
-              <span class="news-row__text">
-                <strong>New website design</strong>
-                <span class="news-row__snippet">Reworked everything—welcome!</span>
-              </span>
-              
-            </summary>
-            <div class="news-row__body">
-              <p>New nav, refreshed hero, tighter typography, and a consolidated Live Web Demo hub.</p>
-              
-            </div>
-          </details>
-        
-      </div>
-    </section>
+    
+      <section class="news-board">
+        <div class="news-header meta-line"><span>Latest update</span></div>
+        <details class="news-row">
+          <summary class="news-row__summary">
+            <span class="news-row__meta"><span class="news-row__dot"></span><span class="news-row__date">20 Feb 2026</span></span>
+            <span class="news-row__text"><strong>New blog post: Generalised Swath Profile Tutorial</strong><span class="news-row__snippet">A full notebook-style walkthrough of transverse and longitudinal swaths, river-following baselines, and line simplification.</span></span>
+            <span class="news-row__link" aria-hidden="true">↗</span>
+          </summary>
+          <div class="news-row__body"><p>Includes practical parameter choices (`half_width`, `binning_distance`, `n_points_regression`) and complete figures from the original notebook.</p><a class="news-row__cta" href="/blog/2026/generalised-swath-profile-tutorial/">Read the tutorial ↗</a></div>
+        </details>
+      </section>
+    
   
 
   
     <div class="card-grid">
       
-        
-        <a class="card" href="/my-research">
-          <div class="meta-line">
-            <span>Projects</span>
-            <span>Narrative</span>
-          </div>
-          <h3>My Research</h3>
-          <p>My past and ongoing research projects and directions.</p>
+        <a class="card" href="/about/">
+          <div class="meta-line"><span>Profile</span><span>Profile</span></div>
+          <h3>About &amp; Research</h3>
+          <p>Research themes, current projects, CV, and contact details.</p>
         </a>
       
-        
         <a class="card" href="/research-softwares">
-          <div class="meta-line">
-            <span>Open-Source</span>
-            <span>Docs</span>
-          </div>
-          <h3>Research Softwares</h3>
-          <p>Research softwares, libraries and consortium I lead or contribute to.</p>
-        </a>
-      
-        
-        <a class="card" href="/cv">
-          <div class="meta-line">
-            <span>CV</span>
-            <span>Resume</span>
-          </div>
-          <h3>CV</h3>
-          <p>Well, my CV. In French and English.</p>
-        </a>
-      
-        
-        <a class="card" href="/publications">
-          <div class="meta-line">
-            <span>list</span>
-            <span>Bibliography</span>
-          </div>
-          <h3>Publications</h3>
-          <p>Selected peer-reviewed works.</p>
-        </a>
-      
-        
-        <a class="card" href="/blog">
-          <div class="meta-line">
-            <span>Signals</span>
-            <span>Posts</span>
-          </div>
-          <h3>Blog</h3>
-          <p>Random posts, tuto or show-off.</p>
-        </a>
-      
-        
-        <a class="card card--live-demo" href="/research-softwares/live-web-demo">
-          <div class="meta-line">
-            <span>Flux Lab</span>
-            <span>Simulation</span>
-          </div>
-          <h3>Live Web Demo</h3>
-          <p>Launch the hydrodynamics browser demo (and future sandboxes) from a single hub.</p>
+          <div class="meta-line"><span>Open source</span><span>Tools</span></div>
+          <h3>Softwares &amp; Demos</h3>
+          <p>Tools I build or contribute to, with browser-based experiments to try.</p>
         </a>
       
     </div>
   
 
   <section>
-    <div class="meta-line">
-      <span>Latest Posts</span>
-      <span>2 entries</span>
-    </div>
+    <div class="meta-line"><span>Latest from the blog</span></div>
     <div class="list-stack">
       
         <article class="list-item">
-          <div class="meta-line">
-            <time datetime="2026-02-09 10:00:00 -0500 -0500">09 Feb 2026</time>
-            <span>2 min read</span>
-          </div>
+          <div class="meta-line"><time datetime="2026-02-09 10:00:00 -0500 -0500">09 Feb 2026</time><span>2 min read</span></div>
           <h3><a href="/blog/2026/taichi-lang-seminar/">Taichi Lang Seminar</a></h3>
           <p>I gave a seminar (in French) about Taichi Lang, a Python JIT for versatile GPU computing.</p>
-          
-  <div class="tags">
-      <a class="tag" href="/tags/taichi/">Taichi</a>
-      <a class="tag" href="/tags/seminar/">Seminar</a>
-      <a class="tag" href="/tags/hpc/">Hpc</a>
-      <a class="tag" href="/tags/scientific-computing/">Scientific-Computing</a>
-  </div>
-
-        </article>
-      
-        <article class="list-item">
-          <div class="meta-line">
-            <time datetime="2026-02-08 17:30:00 -0500 -0500">08 Feb 2026</time>
-            <span>13 min read</span>
-          </div>
-          <h3><a href="/blog/2026/generalised-swath-profile-tutorial/">Generalised Swath Profile Tutorial</a></h3>
-          <p>Notebook-style tutorial introducing transverse and longitudinal swath profiles in TopoToolbox, with river integration and practical parameter choices.</p>
-          
-  <div class="tags">
-      <a class="tag" href="/tags/tutorial/">Tutorial</a>
-      <a class="tag" href="/tags/topotoolbox/">Topotoolbox</a>
-      <a class="tag" href="/tags/swath-profile/">Swath-Profile</a>
-      <a class="tag" href="/tags/geomorphology/">Geomorphology</a>
-      <a class="tag" href="/tags/python/">Python</a>
-  </div>
-
         </article>
       
     </div>
@@ -346,11 +190,15 @@
 
 <div class="footer">
   <span>© 2026 Boris Gailleton</span>
+  <span><a href="/cv/en/">CV</a></span>
   <span class="rss-link"><a href="/index.xml">RSS feed</a></span>
 </div>
 
     </div>
     
+  
+  <script src="/js/terrain-hero.min.b66c0c2c4bf381c7cae526b8eb65f68a86ab66fcd0c10f1b75d8d043e5b75a57.js" integrity="sha256-tmwMLEvzgcfK5Sa462X2ioarZvzQwQ8bddjQQ&#43;W3Wlc=" defer></script>
+
     
 
 

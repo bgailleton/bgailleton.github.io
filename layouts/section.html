@@ -1,0 +1,59 @@
+{{ define "main" }}
+  <section class="hero">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}
+      <p>{{ . }}</p>
+    {{ else }}
+      {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+    {{ end }}
+  </section>
+
+  {{ if eq .Section "research-softwares" }}
+    {{ $pages := .Pages.ByWeight }}
+    {{ if gt (len $pages) 0 }}
+      <div class="software-grid">
+        {{ range $page := $pages }}
+          {{ $classes := slice "software-card" }}
+          {{ if and (in $page.RelPermalink "/live-web-demo") $page.IsSection }}
+            {{ $classes = $classes | append "software-card--live-demo" }}
+          {{ else if eq $page.File.ContentBaseName "hydrodynamics" }}
+            {{ $classes = $classes | append "software-card--hydro" }}
+          {{ end }}
+          <a class="{{ delimit $classes " " }}" href="{{ $page.RelPermalink }}">
+            <h2>{{ $page.LinkTitle }}</h2>
+            <p>{{ with $page.Params.summary }}{{ . }}{{ else }}{{ $page.Plain | truncate 140 }}{{ end }}</p>
+            {{ with $page.Params.tags }}
+              <div class="software-card__tags">{{ range . }}<span>{{ . }}</span>{{ end }}</div>
+            {{ end }}
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ else if eq .Section "my-research" }}
+    <div class="card-grid research-panels">
+      {{ range .Pages.ByWeight }}
+        <a class="card panel-card panel-card--link" href="{{ .RelPermalink }}">
+          <h3>{{ .LinkTitle }}</h3>
+          <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Plain | truncate 160 }}{{ end }}</p>
+        </a>
+      {{ end }}
+    </div>
+  {{ else if and (gt (len .Pages) 0) (ne .Section "cv") }}
+    <div class="list-stack">
+      {{ range .Pages }}
+        <article class="list-item">
+          <div class="meta-line"><time datetime="{{ .Lastmod }}">{{ .Lastmod | time.Format "02 Jan 2006" }}</time>{{ with .Params.role }}<span>{{ . }}</span>{{ end }}</div>
+          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+          <p>{{ with .Summary }}{{ . }}{{ else }}{{ .Plain | truncate 160 }}{{ end }}</p>
+          {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+        </article>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{ if .Content }}
+    <article class="{{ if eq .Section "publications" }}pub-content{{ else }}list-item{{ end }} prose">
+      {{ .Content }}
+    </article>
+  {{ end }}
+{{ end }}

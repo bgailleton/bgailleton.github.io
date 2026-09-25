@@ -1,7 +1,7 @@
 +++
-title = "Research Softwares"
-description = "Documentation-style pages for the tools, datasets, and CLIs that support the research program."
+title = "Software & Demos"
+description = "Open tools, libraries, and browser-based experiments supporting my research."
 tags = ["software", "docs"]
 +++
 
-Research softwares I contributed to or lead the development:
+Tools I lead or contribute to.

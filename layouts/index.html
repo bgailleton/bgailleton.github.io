@@ -1,0 +1,59 @@
+{{ define "main" }}
+  {{ $terrainHeight := resources.Get "images/hero-terrain-height.png" | resources.Fingerprint }}
+  <section class="hero hero--terrain">
+    <div class="hero__copy">
+      <h1>{{ site.Title }}</h1>
+      <p>{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.tagline }}{{ end }}</p>
+    </div>
+    <figure class="terrain-hero" aria-label="Illuminated three-dimensional terrain model">
+      <canvas data-terrain-hero data-height="{{ $terrainHeight.RelPermalink }}" aria-hidden="true"></canvas>
+      <figcaption>Terrain study · Kaikōura, New Zealand</figcaption>
+    </figure>
+  </section>
+
+  {{ with .Params.news }}
+    {{ range $item := first 1 . }}
+      <section class="news-board">
+        <div class="news-header meta-line"><span>Latest update</span></div>
+        <details class="news-row">
+          <summary class="news-row__summary">
+            <span class="news-row__meta"><span class="news-row__dot"></span><span class="news-row__date">{{ (time $item.date) | time.Format "02 Jan 2006" }}</span></span>
+            <span class="news-row__text"><strong>{{ $item.title }}</strong><span class="news-row__snippet">{{ $item.summary }}</span></span>
+            {{ with $item.link }}<span class="news-row__link" aria-hidden="true">↗</span>{{ end }}
+          </summary>
+          <div class="news-row__body">{{ with $item.note }}<p>{{ . }}</p>{{ end }}{{ with $item.link }}<a class="news-row__cta" href="{{ . }}">{{ or $item.cta "Open" }} ↗</a>{{ end }}</div>
+        </details>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  {{ with .Params.sections }}
+    <div class="card-grid">
+      {{ range . }}
+        <a class="card" href="{{ .url }}">
+          <div class="meta-line"><span>{{ .label }}</span>{{ with .tone }}<span>{{ . }}</span>{{ end }}</div>
+          <h3>{{ .title }}</h3>
+          <p>{{ .summary }}</p>
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  <section>
+    <div class="meta-line"><span>Latest from the blog</span></div>
+    <div class="list-stack">
+      {{ range first 1 (where site.RegularPages "Section" "blog") }}
+        <article class="list-item">
+          <div class="meta-line"><time datetime="{{ .Date }}">{{ .Date | time.Format "02 Jan 2006" }}</time><span>{{ .ReadingTime }} min read</span></div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Summary }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
+
+{{ define "scripts" }}
+  {{ $terrainScript := resources.Get "js/terrain-hero.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $terrainScript.RelPermalink }}" integrity="{{ $terrainScript.Data.Integrity }}" defer></script>
+{{ end }}

@@ -1,6 +1,6 @@
 +++
 title = "Home"
-description = "Researcher at the Université de Rennes, I am a geomorphologist and numerical modeller investigating the links between climate, tectonics and surface processes. I develop and apply topographic analysis and landscape evolution modelling methods that incorporate shallow water flow to large-scale, long-term landscape evolution, aiming to quantitatively unravel the climatic and tectonic conditions that shaped their genesis and to predict how these landscapes will respond to changes in climatic and tectonic forcing."
+description = "I am a geomorphologist and numerical modeller at the Université de Rennes. I study how climate, tectonics, and surface processes shape landscapes, and build open tools to investigate them across scales."
 
 
 [[news]]
@@ -40,48 +40,16 @@ note = "New nav, refreshed hero, tighter typography, and a consolidated Live Web
 variant = "glow"
 
 [[sections]]
-label = "Projects"
-title = "My Research"
-summary = "My past and ongoing research projects and directions."
-url = "/my-research"
-tone = "Narrative"
+label = "Profile"
+title = "About & Research"
+summary = "Research themes, current projects, CV, and contact details."
+url = "/about/"
+tone = "Profile"
 
 [[sections]]
-label = "Open-Source"
-title = "Research Softwares"
-summary = "Research softwares, libraries and consortium I lead or contribute to."
+label = "Open source"
+title = "Softwares & Demos"
+summary = "Tools I build or contribute to, with browser-based experiments to try."
 url = "/research-softwares"
-tone = "Docs"
-
-[[sections]]
-label = "CV"
-title = "CV"
-summary = "Well, my CV. In French and English."
-url = "/cv"
-tone = "Resume"
-
-[[sections]]
-label = "list"
-title = "Publications"
-summary = "Selected peer-reviewed works."
-url = "/publications"
-tone = "Bibliography"
-
-[[sections]]
-label = "Signals"
-title = "Blog"
-summary = "Random posts, tuto or show-off."
-url = "/blog"
-tone = "Posts"
-
-[[sections]]
-label = "Flux Lab"
-title = "Live Web Demo"
-summary = "Launch the hydrodynamics browser demo (and future sandboxes) from a single hub."
-url = "/research-softwares/live-web-demo"
-tone = "Simulation"
+tone = "Tools"
 +++
-
-Welcome to the lab notebook on the web. Every section is intentionally scoped: research pages read like concise briefs, software entries behave like living documentation, and the blog doubles as a wiki when ideas are still messy. Replace any placeholder text as soon as you have real updates—most blocks are ready for copy/paste from your working documents.
-
-To add more news items, duplicate a `[[news]]` block above and set `date`, `title`, `summary`, plus optional `link`, `cta`, and `variant` (`glow`, `glass`, or `wire` for contrasting treatments).

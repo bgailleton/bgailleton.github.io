@@ -1,5 +1,5 @@
 baseURL = 'https://bgailleton.github.io/'
-languageCode = 'en'
+locale = 'en'
 title = 'Boris Gailleton'
 theme = 'paperlab'
 enableRobotsTXT = true
@@ -24,6 +24,11 @@ min_version = "0.152.2"
   linkedin = 'https://www.linkedin.com/in/boris-gailleton-46bab8a3/'
   email = 'boris.gailleton@univ-rennes.fr'
 
+[params.cnesPoster]
+  enabled = true
+  label = 'CNES JC2 Poster'
+  url = '/cnes-jc2-poster/'
+
 [outputs]
 home = ['HTML', 'RSS']
 section = ['HTML', 'RSS']
@@ -47,30 +52,24 @@ section = ['HTML', 'RSS']
 
   [[menu.main]]
     identifier = 'my-research'
-    name = 'My Research'
+    name = 'About'
     pageRef = '/my-research'
     weight = 20
 
   [[menu.main]]
     identifier = 'research-softwares'
-    name = 'Research Softwares'
+    name = 'Softwares'
     pageRef = '/research-softwares'
     weight = 30
-
-  [[menu.main]]
-    identifier = 'cv'
-    name = 'CV'
-    pageRef = '/cv'
-    weight = 40
 
   [[menu.main]]
     identifier = 'publications'
     name = 'Publications'
     pageRef = '/publications'
-    weight = 50
+    weight = 40
 
   [[menu.main]]
     identifier = 'blog'
     name = 'Blog'
     pageRef = '/blog'
-    weight = 60
+    weight = 50
