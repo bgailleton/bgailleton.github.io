@@ -1,5 +1,42 @@
 /* Site-specific presentation rules. Demo controls remain in the theme stylesheet. */
 
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: 'JetBrains Mono', 'IBM Plex Mono', 'SFMono-Regular', Consolas, Menlo, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-sans);
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+
+.brand,
+.menu,
+.meta-line,
+.tagline,
+.poster-link,
+.tag,
+.software-card__tags,
+.terrain-hero figcaption,
+.news-row__date,
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-mono);
+}
+
 .nav {
   align-items: center;
   margin-bottom: 2rem;
@@ -41,20 +78,52 @@
   background: none;
 }
 
+.home-topography {
+  position: relative;
+  isolation: isolate;
+}
+
+.home-topography > :not(.contour-field) {
+  position: relative;
+  z-index: 1;
+}
+
+.contour-field {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.62;
+}
+
 .hero--terrain {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.8fr);
+  position: relative;
+  display: flex;
   align-items: center;
-  gap: 1.25rem;
-  min-height: 280px;
+  min-height: 430px;
+  padding: 2rem 0 2.5rem;
+  overflow: hidden;
+}
+
+.hero__copy {
+  position: relative;
+  z-index: 2;
+  width: min(54%, 540px);
 }
 
 .terrain-hero {
-  position: relative;
-  height: 260px;
+  position: absolute;
+  top: 0;
+  right: -3%;
+  bottom: 0;
+  width: 70%;
   margin: 0;
   overflow: hidden;
-  background: radial-gradient(ellipse at 60% 45%, rgba(54, 130, 165, 0.22), transparent 65%);
+  background: radial-gradient(ellipse at 60% 45%, rgba(54, 130, 165, 0.18), transparent 65%);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 23%, #000 95%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 23%, #000 95%, transparent);
 }
 
 .terrain-hero canvas {
@@ -65,7 +134,7 @@
 
 .terrain-hero figcaption {
   position: absolute;
-  right: 0;
+  right: 6%;
   bottom: 0.35rem;
   color: rgba(245, 245, 245, 0.45);
   font-size: 0.64rem;
@@ -75,11 +144,12 @@
 
 .hero h1 {
   margin-bottom: 0.6rem;
-  font-size: clamp(2rem, 6vw, 2.7rem);
+  font-size: clamp(2.8rem, 6vw, 4.6rem);
+  letter-spacing: -0.06em;
 }
 
 .hero p {
-  max-width: 68ch;
+  max-width: 46ch;
   text-align: left;
 }
 
@@ -254,10 +324,19 @@
   gap: 0.5rem 1.25rem;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
   .hero--terrain {
-    grid-template-columns: 1fr;
+    display: block;
     min-height: 0;
+    padding: 1.5rem 0 1.75rem;
+  }
+
+  .hero__copy {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.5rem, 11vw, 3.8rem);
   }
 
   .poster-link {
@@ -265,7 +344,13 @@
   }
 
   .terrain-hero {
-    height: 180px;
+    position: relative;
+    right: auto;
+    width: 100%;
+    height: clamp(235px, 58vw, 350px);
+    margin-top: 0.5rem;
+    -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent);
+    mask-image: linear-gradient(to bottom, #000 80%, transparent);
   }
 
   .hero {
@@ -278,6 +363,38 @@
 
   .news-row__snippet {
     display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .identity {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto auto;
+    column-gap: 0.5rem;
+    align-items: center;
+  }
+
+  .identity .brand {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .identity .tagline {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: none;
+  }
+
+  .identity .icon-list {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    gap: 0.3rem;
+  }
+
+  .identity .icon-link {
+    width: 24px;
+    height: 24px;
   }
 }
 

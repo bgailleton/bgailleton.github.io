@@ -1,17 +1,19 @@
 {{ define "main" }}
   {{ $terrainHeight := resources.Get "images/hero-terrain-height.png" | resources.Fingerprint }}
-  <section class="hero hero--terrain">
-    <div class="hero__copy">
-      <h1>{{ site.Title }}</h1>
-      <p>{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.tagline }}{{ end }}</p>
-    </div>
-    <figure class="terrain-hero" aria-label="Illuminated three-dimensional terrain model">
-      <canvas data-terrain-hero data-height="{{ $terrainHeight.RelPermalink }}" aria-hidden="true"></canvas>
-      <figcaption>Terrain study · Kaikōura, New Zealand</figcaption>
-    </figure>
-  </section>
+  <div class="home-topography">
+    <canvas class="contour-field" data-contour-field data-height="{{ $terrainHeight.RelPermalink }}" aria-hidden="true"></canvas>
+    <section class="hero hero--terrain">
+      <div class="hero__copy">
+        <h1>{{ site.Title }}</h1>
+        <p>{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.tagline }}{{ end }}</p>
+      </div>
+      <figure class="terrain-hero" aria-label="Illuminated three-dimensional terrain model">
+        <canvas data-terrain-hero data-height="{{ $terrainHeight.RelPermalink }}" aria-hidden="true"></canvas>
+        <figcaption>Terrain study · Kaikōura, New Zealand</figcaption>
+      </figure>
+    </section>
 
-  {{ with .Params.news }}
+    {{ with .Params.news }}
     {{ range $item := first 1 . }}
       <section class="news-board">
         <div class="news-header meta-line"><span>Latest update</span></div>
@@ -25,9 +27,9 @@
         </details>
       </section>
     {{ end }}
-  {{ end }}
+    {{ end }}
 
-  {{ with .Params.sections }}
+    {{ with .Params.sections }}
     <div class="card-grid">
       {{ range . }}
         <a class="card" href="{{ .url }}">
@@ -37,7 +39,8 @@
         </a>
       {{ end }}
     </div>
-  {{ end }}
+    {{ end }}
+  </div>
 
   <section>
     <div class="meta-line"><span>Latest from the blog</span></div>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Boris Gailleton</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>http://localhost:1318/tags/</link>
 		<description>Recent content in Tags on Boris Gailleton</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,306 +12,306 @@
 		
 			<lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1318/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Docs</title>
-				<link>http://localhost:1313/tags/docs/</link>
+				<link>http://localhost:1318/tags/docs/</link>
 				<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/docs/</guid>
+				<guid>http://localhost:1318/tags/docs/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Python</title>
-				<link>http://localhost:1313/tags/python/</link>
+				<link>http://localhost:1318/tags/python/</link>
 				<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/python/</guid>
+				<guid>http://localhost:1318/tags/python/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Quickstart</title>
-				<link>http://localhost:1313/tags/quickstart/</link>
+				<link>http://localhost:1318/tags/quickstart/</link>
 				<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/quickstart/</guid>
+				<guid>http://localhost:1318/tags/quickstart/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Software</title>
-				<link>http://localhost:1313/tags/software/</link>
+				<link>http://localhost:1318/tags/software/</link>
 				<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/software/</guid>
+				<guid>http://localhost:1318/tags/software/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Swath-Profile</title>
-				<link>http://localhost:1313/tags/swath-profile/</link>
+				<link>http://localhost:1318/tags/swath-profile/</link>
 				<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/swath-profile/</guid>
+				<guid>http://localhost:1318/tags/swath-profile/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Topotoolbox</title>
-				<link>http://localhost:1313/tags/topotoolbox/</link>
+				<link>http://localhost:1318/tags/topotoolbox/</link>
 				<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/topotoolbox/</guid>
+				<guid>http://localhost:1318/tags/topotoolbox/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Tutorial</title>
-				<link>http://localhost:1313/tags/tutorial/</link>
+				<link>http://localhost:1318/tags/tutorial/</link>
 				<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/tutorial/</guid>
+				<guid>http://localhost:1318/tags/tutorial/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Blog</title>
-				<link>http://localhost:1313/tags/blog/</link>
+				<link>http://localhost:1318/tags/blog/</link>
 				<pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
-				<guid>http://localhost:1313/tags/blog/</guid>
+				<guid>http://localhost:1318/tags/blog/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hpc</title>
-				<link>http://localhost:1313/tags/hpc/</link>
+				<link>http://localhost:1318/tags/hpc/</link>
 				<pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
-				<guid>http://localhost:1313/tags/hpc/</guid>
+				<guid>http://localhost:1318/tags/hpc/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Scientific-Computing</title>
-				<link>http://localhost:1313/tags/scientific-computing/</link>
+				<link>http://localhost:1318/tags/scientific-computing/</link>
 				<pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
-				<guid>http://localhost:1313/tags/scientific-computing/</guid>
+				<guid>http://localhost:1318/tags/scientific-computing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Seminar</title>
-				<link>http://localhost:1313/tags/seminar/</link>
+				<link>http://localhost:1318/tags/seminar/</link>
 				<pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
-				<guid>http://localhost:1313/tags/seminar/</guid>
+				<guid>http://localhost:1318/tags/seminar/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Taichi</title>
-				<link>http://localhost:1313/tags/taichi/</link>
+				<link>http://localhost:1318/tags/taichi/</link>
 				<pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
-				<guid>http://localhost:1313/tags/taichi/</guid>
+				<guid>http://localhost:1318/tags/taichi/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Geomorphology</title>
-				<link>http://localhost:1313/tags/geomorphology/</link>
+				<link>http://localhost:1318/tags/geomorphology/</link>
 				<pubDate>Sun, 08 Feb 2026 17:30:00 -0500</pubDate>
-				<guid>http://localhost:1313/tags/geomorphology/</guid>
+				<guid>http://localhost:1318/tags/geomorphology/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Cpu</title>
-				<link>http://localhost:1313/tags/cpu/</link>
+				<link>http://localhost:1318/tags/cpu/</link>
 				<pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/cpu/</guid>
+				<guid>http://localhost:1318/tags/cpu/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Flood</title>
-				<link>http://localhost:1313/tags/flood/</link>
+				<link>http://localhost:1318/tags/flood/</link>
 				<pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/flood/</guid>
+				<guid>http://localhost:1318/tags/flood/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Gpu</title>
-				<link>http://localhost:1313/tags/gpu/</link>
+				<link>http://localhost:1318/tags/gpu/</link>
 				<pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/gpu/</guid>
+				<guid>http://localhost:1318/tags/gpu/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>CO3D</title>
-				<link>http://localhost:1313/tags/co3d/</link>
+				<link>http://localhost:1318/tags/co3d/</link>
 				<pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/co3d/</guid>
+				<guid>http://localhost:1318/tags/co3d/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hydrology</title>
-				<link>http://localhost:1313/tags/hydrology/</link>
+				<link>http://localhost:1318/tags/hydrology/</link>
 				<pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/hydrology/</guid>
+				<guid>http://localhost:1318/tags/hydrology/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Overview</title>
-				<link>http://localhost:1313/tags/overview/</link>
+				<link>http://localhost:1318/tags/overview/</link>
 				<pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/overview/</guid>
+				<guid>http://localhost:1318/tags/overview/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Pléiades</title>
-				<link>http://localhost:1313/tags/pl%C3%A9iades/</link>
+				<link>http://localhost:1318/tags/pl%C3%A9iades/</link>
 				<pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/pl%C3%A9iades/</guid>
+				<guid>http://localhost:1318/tags/pl%C3%A9iades/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Research</title>
-				<link>http://localhost:1313/tags/research/</link>
+				<link>http://localhost:1318/tags/research/</link>
 				<pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/research/</guid>
+				<guid>http://localhost:1318/tags/research/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Field-Notes</title>
-				<link>http://localhost:1313/tags/field-notes/</link>
+				<link>http://localhost:1318/tags/field-notes/</link>
 				<pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/field-notes/</guid>
+				<guid>http://localhost:1318/tags/field-notes/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Tectonics</title>
-				<link>http://localhost:1313/tags/tectonics/</link>
+				<link>http://localhost:1318/tags/tectonics/</link>
 				<pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/tectonics/</guid>
+				<guid>http://localhost:1318/tags/tectonics/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Demo</title>
-				<link>http://localhost:1313/tags/demo/</link>
+				<link>http://localhost:1318/tags/demo/</link>
 				<pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/demo/</guid>
+				<guid>http://localhost:1318/tags/demo/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Lem</title>
-				<link>http://localhost:1313/tags/lem/</link>
+				<link>http://localhost:1318/tags/lem/</link>
 				<pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/lem/</guid>
+				<guid>http://localhost:1318/tags/lem/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Prototype</title>
-				<link>http://localhost:1313/tags/prototype/</link>
+				<link>http://localhost:1318/tags/prototype/</link>
 				<pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/prototype/</guid>
+				<guid>http://localhost:1318/tags/prototype/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Webgl</title>
-				<link>http://localhost:1313/tags/webgl/</link>
+				<link>http://localhost:1318/tags/webgl/</link>
 				<pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/webgl/</guid>
+				<guid>http://localhost:1318/tags/webgl/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Dem</title>
-				<link>http://localhost:1313/tags/dem/</link>
+				<link>http://localhost:1318/tags/dem/</link>
 				<pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/dem/</guid>
+				<guid>http://localhost:1318/tags/dem/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Landscape</title>
-				<link>http://localhost:1313/tags/landscape/</link>
+				<link>http://localhost:1318/tags/landscape/</link>
 				<pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/landscape/</guid>
+				<guid>http://localhost:1318/tags/landscape/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Model</title>
-				<link>http://localhost:1313/tags/model/</link>
+				<link>http://localhost:1318/tags/model/</link>
 				<pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/model/</guid>
+				<guid>http://localhost:1318/tags/model/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Modeling</title>
-				<link>http://localhost:1313/tags/modeling/</link>
+				<link>http://localhost:1318/tags/modeling/</link>
 				<pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/modeling/</guid>
+				<guid>http://localhost:1318/tags/modeling/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Morphometry</title>
-				<link>http://localhost:1313/tags/morphometry/</link>
+				<link>http://localhost:1318/tags/morphometry/</link>
 				<pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/morphometry/</guid>
+				<guid>http://localhost:1318/tags/morphometry/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Provenance</title>
-				<link>http://localhost:1313/tags/provenance/</link>
+				<link>http://localhost:1318/tags/provenance/</link>
 				<pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/provenance/</guid>
+				<guid>http://localhost:1318/tags/provenance/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Workflow</title>
-				<link>http://localhost:1313/tags/workflow/</link>
+				<link>http://localhost:1318/tags/workflow/</link>
 				<pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/workflow/</guid>
+				<guid>http://localhost:1318/tags/workflow/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hydrodynamics</title>
-				<link>http://localhost:1313/tags/hydrodynamics/</link>
+				<link>http://localhost:1318/tags/hydrodynamics/</link>
 				<pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/hydrodynamics/</guid>
+				<guid>http://localhost:1318/tags/hydrodynamics/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Morphodynamics</title>
-				<link>http://localhost:1313/tags/morphodynamics/</link>
+				<link>http://localhost:1318/tags/morphodynamics/</link>
 				<pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/morphodynamics/</guid>
+				<guid>http://localhost:1318/tags/morphodynamics/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Calibration</title>
-				<link>http://localhost:1313/tags/calibration/</link>
+				<link>http://localhost:1318/tags/calibration/</link>
 				<pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/calibration/</guid>
+				<guid>http://localhost:1318/tags/calibration/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Models</title>
-				<link>http://localhost:1313/tags/models/</link>
+				<link>http://localhost:1318/tags/models/</link>
 				<pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/models/</guid>
+				<guid>http://localhost:1318/tags/models/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Cv</title>
-				<link>http://localhost:1313/tags/cv/</link>
+				<link>http://localhost:1318/tags/cv/</link>
 				<pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/cv/</guid>
+				<guid>http://localhost:1318/tags/cv/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Blue</title>
-				<link>http://localhost:1313/tags/blue/</link>
+				<link>http://localhost:1318/tags/blue/</link>
 				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-				<guid>http://localhost:1313/tags/blue/</guid>
+				<guid>http://localhost:1318/tags/blue/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Green</title>
-				<link>http://localhost:1313/tags/green/</link>
+				<link>http://localhost:1318/tags/green/</link>
 				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-				<guid>http://localhost:1313/tags/green/</guid>
+				<guid>http://localhost:1318/tags/green/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Red</title>
-				<link>http://localhost:1313/tags/red/</link>
+				<link>http://localhost:1318/tags/red/</link>
 				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-				<guid>http://localhost:1313/tags/red/</guid>
+				<guid>http://localhost:1318/tags/red/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Publications</title>
-				<link>http://localhost:1313/tags/publications/</link>
+				<link>http://localhost:1318/tags/publications/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/publications/</guid>
+				<guid>http://localhost:1318/tags/publications/</guid>
 				<description></description>
 			</item>
 	</channel>
