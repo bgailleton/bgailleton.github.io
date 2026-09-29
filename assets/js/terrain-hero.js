@@ -71,8 +71,8 @@
     void main() {
       float radius = length(gl_PointCoord - vec2(0.5));
       float halo = 1.0 - smoothstep(0.15, 0.5, radius);
-      float core = 1.0 - smoothstep(0.02, 0.18, radius);
-      vec3 colour = mix(vec3(0.0, 0.72, 0.9), vec3(0.78, 1.0, 1.0), core);
+      float core = 1.0 - smoothstep(0.08, 0.38, radius);
+      vec3 colour = mix(vec3(0.04, 0.36, 0.76), vec3(0.32, 0.70, 0.98), core);
       gl_FragColor = vec4(colour, halo * vOpacity);
     }
   `;
@@ -284,7 +284,7 @@
     const normal = gl.getAttribLocation(program, 'aNormal');
     const mvpLocation = gl.getUniformLocation(program, 'uMvp');
     const lightLocation = gl.getUniformLocation(program, 'uLight');
-    const maxParticles = 120;
+    const maxParticles = 150;
     const trailLength = 24;
     const particles = [];
     const particleData = new Float32Array(maxParticles * trailLength * 5);
@@ -294,6 +294,7 @@
     const particleSize = gl.getAttribLocation(particleProgram, 'aSize');
     const particleMvp = gl.getUniformLocation(particleProgram, 'uMvp');
     const particlePixelRatio = gl.getUniformLocation(particleProgram, 'uPixelRatio');
+    const makeParticle = (x, z) => ({ x, z, dx: 0, dz: 0, level: sampleHeight(x, z), age: 0, escape: null, history: [] });
     const spawnParticle = () => {
       for (let attempt = 0; attempt < 24; attempt += 1) {
         const x = 18 + Math.random() * (cells - 37);
@@ -301,10 +302,26 @@
         const height = sampleHeight(x, z);
         const slope = Math.hypot(sampleHeight(x + 1, z) - sampleHeight(x - 1, z), sampleHeight(x, z + 1) - sampleHeight(x, z - 1));
         if (height > 0.55 && slope > 0.003) {
-          return { x, z, dx: 0, dz: 0, level: height, age: 0, escape: null, history: [] };
+          return makeParticle(x, z);
         }
       }
       return null;
+    };
+    // Source positions in the 256-cell DEM: the main river enters at the left,
+    // while two shorter channels enter from the top edge.
+    const riverEntries = [
+      { x: 10, z: 181, spreadX: 2, spreadZ: 3 },
+      { x: 68, z: 10, spreadX: 2, spreadZ: 1.5 },
+      { x: 211, z: 10, spreadX: 2, spreadZ: 1.5 },
+    ];
+    const riverEntryOrder = [0, 1, 0, 2];
+    let nextRiverEntry = 0;
+    const spawnRiverParticle = () => {
+      const entry = riverEntries[riverEntryOrder[nextRiverEntry]];
+      nextRiverEntry = (nextRiverEntry + 1) % riverEntryOrder.length;
+      const x = (entry.x + (Math.random() - 0.5) * 2 * entry.spreadX) * (cells - 1) / 255;
+      const z = (entry.z + (Math.random() - 0.5) * 2 * entry.spreadZ) * (cells - 1) / 255;
+      return makeParticle(x, z);
     };
     const updateParticles = (delta) => {
       for (let i = particles.length - 1; i >= 0; i -= 1) {
@@ -314,7 +331,7 @@
           particles.splice(i, 1);
           continue;
         }
-        for (let substep = 0; substep < 2; substep += 1) {
+        for (let substep = 0; substep < 3; substep += 1) {
           const spill = drainage.filledAt(particle.x, particle.z);
           if (particle.level < spill - 0.0001) {
             particle.level = Math.min(spill, particle.level + 0.45 * delta);
@@ -368,6 +385,11 @@
         const particle = spawnParticle();
         if (particle) { particle.age = Math.random() * 0.8; particles.push(particle); }
       }
+      for (let i = 0; i < 24; i += 1) {
+        const particle = spawnRiverParticle();
+        particle.age = Math.random() * 0.8;
+        particles.push(particle);
+      }
     }
     let nextSpawn = 0.15;
     const projection = new Float32Array(16), view = new Float32Array(16), mvp = new Float32Array(16);
@@ -396,7 +418,7 @@
           updateParticles(delta);
           nextSpawn -= delta;
           while (nextSpawn <= 0 && particles.length < maxParticles) {
-            const particle = spawnParticle();
+            const particle = Math.random() < 0.6 ? spawnRiverParticle() : spawnParticle();
             if (particle) particles.push(particle);
             nextSpawn += 0.025 + Math.random() * 0.045;
           }
@@ -411,14 +433,14 @@
               particleData[offset] = (point[0] / (cells - 1) - 0.5) * 2.25;
               particleData[offset + 1] = (point[1] - 0.48) * 1.05 + 0.015;
               particleData[offset + 2] = (point[2] / (cells - 1) - 0.5) * 2.25;
-              particleData[offset + 3] = fadeIn * Math.pow(tail, 1.25) * 0.48;
+              particleData[offset + 3] = fadeIn * Math.pow(tail, 1.25) * 0.75;
               particleData[offset + 4] = 1.0 + tail * 1.8;
               count += 1;
             }
           }
           if (count) {
             gl.depthMask(false);
-            gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
+            gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
             gl.useProgram(particleProgram);
             gl.bindBuffer(gl.ARRAY_BUFFER, particleBuffer);
             gl.bufferData(gl.ARRAY_BUFFER, particleData.subarray(0, count * 5), gl.DYNAMIC_DRAW);
