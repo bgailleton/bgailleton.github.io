@@ -132,6 +132,79 @@ samp {
   height: 100%;
 }
 
+.terrain-depth-scale {
+  position: absolute;
+  top: 0.75rem;
+  right: 6%;
+  z-index: 2;
+  width: min(250px, 42%);
+  padding: 0.65rem 0.75rem 0.48rem;
+  border: 1px solid rgba(165, 211, 235, 0.16);
+  border-radius: 5px;
+  background: rgba(7, 17, 25, 0.76);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.18);
+  color: #d8eaf6;
+  font-family: var(--font-mono);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.45s ease;
+}
+
+.terrain-depth-scale.is-visible {
+  opacity: 1;
+}
+
+.terrain-depth-scale__heading,
+.terrain-depth-scale__ticks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.terrain-depth-scale__heading {
+  margin-bottom: 0.5rem;
+  color: #b8d5e6;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+.terrain-depth-scale__unit {
+  color: #718b9c;
+  text-transform: lowercase;
+}
+
+.terrain-depth-scale__max {
+  color: #e6f4fc;
+  letter-spacing: 0.03em;
+}
+
+.terrain-depth-scale__track {
+  position: relative;
+  height: 0.55rem;
+  border: 1px solid rgba(230, 245, 255, 0.42);
+  border-radius: 2px;
+  box-shadow: 0 0 9px rgba(72, 141, 202, 0.18);
+}
+
+.terrain-depth-scale__marker {
+  position: absolute;
+  top: -0.27rem;
+  bottom: -0.27rem;
+  left: 0;
+  width: 2px;
+  background: #f2fcff;
+  box-shadow: 0 0 7px rgba(160, 226, 255, 0.8);
+  transform: translateX(-50%);
+}
+
+.terrain-depth-scale__ticks {
+  margin-top: 0.35rem;
+  color: #a9bdc9;
+  font-size: 0.64rem;
+  line-height: 1;
+}
+
 .terrain-hero figcaption {
   position: absolute;
   right: 6%;
@@ -351,6 +424,12 @@ samp {
     margin-top: 0.5rem;
     -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent);
     mask-image: linear-gradient(to bottom, #000 80%, transparent);
+  }
+
+  .terrain-depth-scale {
+    top: 0.25rem;
+    right: 5%;
+    width: min(220px, 62%);
   }
 
   .hero {

@@ -9,7 +9,19 @@
       </div>
       <figure class="terrain-hero" aria-label="Illuminated three-dimensional terrain model">
         <canvas data-terrain-hero data-height="{{ $terrainHeight.RelPermalink }}" aria-hidden="true"></canvas>
-        <figcaption>Terrain study · Kaikōura, New Zealand</figcaption>
+        <div class="terrain-depth-scale" data-depth-scale role="img" aria-label="Flow depth colour scale from zero to three metres">
+          <div class="terrain-depth-scale__heading" aria-hidden="true">
+            <span>FLOW DEPTH <span class="terrain-depth-scale__unit">m</span></span>
+            <span class="terrain-depth-scale__max" data-depth-maximum>MAX 0.0</span>
+          </div>
+          <div class="terrain-depth-scale__track" data-depth-track aria-hidden="true">
+            <span class="terrain-depth-scale__marker" data-depth-marker></span>
+          </div>
+          <div class="terrain-depth-scale__ticks" aria-hidden="true">
+            <span>0</span><span>1</span><span>2</span><span>3</span>
+          </div>
+        </div>
+        <figcaption>Terrain study with Floodos running live · Kaikōura, New Zealand</figcaption>
       </figure>
     </section>
 
