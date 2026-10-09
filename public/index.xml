@@ -158,7 +158,7 @@
 				<link>http://localhost:1313/cnes-jc2-poster/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/cnes-jc2-poster/</guid>
-				<description>A CNES-funded research project linking satellite-derived topography, hydrodynamic simulations, and flood-driven landscape change.</description>
+				<description>&lt;p class=&#34;download-action&#34;&gt;&#xA;  &lt;a class=&#34;download-button&#34; href=&#34;http://localhost:1313/files/cnes-jc2-poster.pdf&#34; download&gt;&#xA;    &lt;svg width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;1.8&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5&#34;/&gt;&lt;/svg&gt;&#xA;    &lt;span&gt;Download poster&lt;/span&gt;&#xA;    &lt;span class=&#34;download-button__detail&#34;&gt;PDF · 4 MB&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;cnes-block cnes-block--intro&#34;&gt;&#xA;  &lt;p&gt;Anticipating &lt;strong&gt;where floods erode and deposit sediment&lt;/strong&gt; is essential for assessing hazards and understanding landscape evolution.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

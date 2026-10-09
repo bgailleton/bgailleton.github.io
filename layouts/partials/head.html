@@ -10,6 +10,10 @@
 {{ $ergonomics := resources.Get "css/ergonomics.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 <link rel="stylesheet" href="{{ $ergonomics.RelPermalink }}" integrity="{{ $ergonomics.Data.Integrity }}">
+{{ if eq .Layout "cnes-poster" }}
+  {{ $posterStyle := resources.Get "css/cnes-poster.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $posterStyle.RelPermalink }}" integrity="{{ $posterStyle.Data.Integrity }}">
+{{ end }}
 
 {{ with .OutputFormats.Get "RSS" }}
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">

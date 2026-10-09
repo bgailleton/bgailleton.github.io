@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <article class="cnes-page prose">
+    <header class="cnes-heading">
+      <p class="cnes-eyebrow">{{ .Title }}</p>
+      <h1>{{ .Params.subtitle }}</h1>
+    </header>
+    {{ .Content }}
+  </article>
+{{ end }}

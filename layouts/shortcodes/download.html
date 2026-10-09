@@ -1,0 +1,7 @@
+<p class="download-action">
+  <a class="download-button" href="{{ .Get "src" | relURL }}" download>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>
+    <span>{{ .Get "label" }}</span>
+    {{ with .Get "detail" }}<span class="download-button__detail">{{ . }}</span>{{ end }}
+  </a>
+</p>

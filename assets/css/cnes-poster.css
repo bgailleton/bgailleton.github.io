@@ -1,0 +1,214 @@
+.cnes-page {
+  --poster-cyan: #8de7ee;
+  --poster-warm: #f3b891;
+  padding: 1rem 0 2rem;
+  line-height: 1.75;
+}
+
+.cnes-heading {
+  position: relative;
+  padding: 0.5rem 0 1rem;
+  background: radial-gradient(ellipse at 15% 30%, #63d5e50c, transparent 65%);
+}
+
+.cnes-page .cnes-eyebrow {
+  margin: 0 0 1rem;
+  color: var(--poster-cyan);
+  font: 0.75rem var(--font-mono);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.cnes-heading h1 {
+  max-width: 24ch;
+  margin: 0;
+  font-size: clamp(2rem, 4.4vw, 3.5rem);
+  line-height: 1.12;
+  color: #eaf4f7;
+  text-wrap: balance;
+}
+
+.cnes-page .download-action {
+  margin: 1rem 0 2.5rem;
+}
+
+.cnes-page .cnes-block--intro p {
+  max-width: 76ch;
+  padding-left: 1.25rem;
+  border-left: 2px solid #a8c1cd40;
+  margin: 0 0 1.4rem;
+  font-size: 1.08rem;
+  color: #c5d3dc;
+}
+
+.cnes-block--intro p:first-child {
+  font-size: 1.2rem;
+  border-color: #bddae0;
+}
+
+.cnes-block--intro p:nth-child(2) {
+  border-color: var(--poster-warm);
+}
+
+.cnes-block--intro p:nth-child(2) strong {
+  color: var(--poster-warm);
+}
+
+.cnes-page .cnes-block--intro p:last-child {
+  max-width: none;
+  padding: 1.35rem 1.5rem;
+  border-color: var(--poster-cyan);
+  background: linear-gradient(100deg, #67d7e313, transparent);
+  border-radius: 0 12px 12px 0;
+}
+
+.cnes-page strong {
+  color: #e7f1f5;
+  font-weight: 650;
+}
+
+.cnes-block--intro p:last-child strong,
+.cnes-block--next strong {
+  color: var(--poster-cyan);
+}
+
+.cnes-page .poster-video {
+  margin: 2.5rem 0 3.5rem;
+  border-color: #94d9e536;
+  box-shadow: 0 18px 60px #0005;
+}
+
+.cnes-block {
+  margin: 2.5rem 0;
+}
+
+.cnes-page h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 0 0 1.4rem;
+  font-size: 1.45rem;
+  color: #e5eff4;
+}
+
+.cnes-page h2::before {
+  content: "";
+  width: 1.5rem;
+  height: 2px;
+  background: var(--poster-cyan);
+  box-shadow: 0 0 12px #8de7ee40;
+}
+
+.cnes-page .cnes-block--methods ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cnes-block--methods li {
+  padding: 1.4rem;
+  border: 1px solid #8dbdc826;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #8dbdc80b, transparent);
+  color: #becdd6;
+}
+
+.cnes-block--methods li > strong:first-child {
+  display: block;
+  margin-bottom: 0.8rem;
+  color: var(--poster-cyan);
+  font-size: 1.05rem;
+}
+
+.cnes-page a:not(.download-button) {
+  display: inline;
+  padding: 0;
+  color: #a8d8e8;
+  background: none;
+  border-color: #a8d8e840;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.cnes-page a:not(.download-button):hover {
+  color: #e6fbff;
+  border-color: #e6fbff;
+}
+
+.cnes-page a::before,
+.cnes-page a::after {
+  content: none;
+}
+
+.cnes-page .cnes-block--code {
+  padding: 0.2rem 0 0.2rem 1.25rem;
+  border-left: 2px solid #96ccb37a;
+  font-size: 0.94rem;
+  color: #adbec8;
+}
+
+.cnes-block--code p > strong:first-child {
+  color: #b5dfcb;
+}
+
+.cnes-page .cnes-block--next {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 2rem;
+  border: 1px solid #8de7ee30;
+  border-radius: 16px;
+  background: linear-gradient(120deg, #143b4445, #0f1b251f);
+}
+
+.cnes-block--next::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -60% -20% -60% 35%;
+  background: repeating-radial-gradient(ellipse at 70% 45%, transparent 0 24px, #8de7ee0c 25px 26px, transparent 27px 48px);
+  transform: rotate(-18deg);
+  animation: cnes-orbit 24s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+.cnes-page .cnes-block--next p {
+  margin-bottom: 0;
+}
+
+.cnes-block--data {
+  padding-top: 2rem;
+  border-top: 1px solid var(--outline);
+  font-size: 0.94rem;
+  color: #acbdc7;
+}
+
+@keyframes cnes-orbit {
+  to { transform: translate(20px, 12px) rotate(-10deg); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cnes-heading,
+  .cnes-block--intro {
+    animation: cnes-arrive 650ms ease-out both;
+  }
+  .cnes-block--intro { animation-delay: 100ms; }
+  @keyframes cnes-arrive {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cnes-block--next::before { animation: none; }
+}
+
+@media (max-width: 680px) {
+  .cnes-page .cnes-block--methods ul { grid-template-columns: 1fr; }
+  .cnes-page .cnes-block--next { padding: 1.35rem; }
+  .cnes-page .cnes-block--intro p { font-size: 1rem; }
+  .cnes-page .cnes-block--intro p:first-child { font-size: 1.1rem; }
+}

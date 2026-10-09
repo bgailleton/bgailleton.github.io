@@ -1,0 +1,4 @@
+<video class="poster-video" controls playsinline preload="none" width="1280" height="720" poster="{{ .Get "poster" | relURL }}" aria-label="{{ .Get "label" }}">
+  <source src="{{ .Get "src" | relURL }}" type="video/mp4">
+  Your browser does not support embedded video. <a href="{{ .Get "src" | relURL }}">Watch the video</a>.
+</video>
