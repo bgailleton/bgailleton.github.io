@@ -24,11 +24,6 @@ min_version = "0.152.2"
   linkedin = 'https://www.linkedin.com/in/boris-gailleton-46bab8a3/'
   email = 'boris.gailleton@univ-rennes.fr'
 
-[params.cnesPoster]
-  enabled = true
-  label = 'CNES JC2 Poster'
-  url = '/cnes-jc2-poster/'
-
 [outputs]
 home = ['HTML', 'RSS']
 section = ['HTML', 'RSS']

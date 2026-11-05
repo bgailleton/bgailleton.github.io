@@ -8,8 +8,3 @@
 <nav class="menu" aria-label="Main navigation">
   {{ partial "menu.html" (dict "menu" site.Menus.main "page" .) }}
 </nav>
-{{ with site.Params.cnesPoster }}
-  {{ if .enabled }}
-    <a class="poster-link" href="{{ .url }}">{{ .label }}</a>
-  {{ end }}
-{{ end }}

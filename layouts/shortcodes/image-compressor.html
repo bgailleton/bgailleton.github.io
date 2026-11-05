@@ -1,0 +1,82 @@
+{{ $style := resources.Get "css/image-compressor.css" | resources.Minify | resources.Fingerprint }}
+{{ $script := resources.Get "js/image-compressor.js" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+
+<section class="image-compressor" data-image-compressor aria-label="JPG compressor">
+  <form class="image-compressor__form">
+    <h2>Compress to JPG</h2>
+    <label class="image-compressor__file">
+      <span>Choose one or more images</span>
+      <input type="file" accept="image/*,.heic,.heif,.avif,.tif,.tiff" data-image-input multiple required aria-describedby="image-formats">
+    </label>
+    <p class="image-compressor__hint" id="image-formats">Supports formats your browser can open, such as JPG, PNG, WebP, GIF, BMP, AVIF, and SVG. HEIC, TIFF, and RAW support depends on your browser. Transparent areas become white; animations become a still image.</p>
+
+    <div class="image-compressor__settings">
+      <label>
+        <span>Maximum size per image</span>
+        <input type="number" min="0.01" step="any" value="500" data-max-size required inputmode="decimal">
+      </label>
+      <label>
+        <span>Unit</span>
+        <select data-size-unit>
+          <option value="1000">KB</option>
+          <option value="1000000">MB</option>
+        </select>
+      </label>
+    </div>
+    <fieldset class="image-compressor__constraints">
+      <legend>Dimensions</legend>
+      <div class="image-compressor__pair">
+        <label>
+          <span>Maximum width (px)</span>
+          <input type="number" min="1" step="1" placeholder="Original width" data-max-width inputmode="numeric">
+        </label>
+        <label>
+          <span>Maximum height (px)</span>
+          <input type="number" min="1" step="1" placeholder="Original height" data-max-height inputmode="numeric">
+        </label>
+      </div>
+      <p class="image-compressor__hint">Leave blank to keep the original dimensions. Aspect ratio is preserved; images are never enlarged.</p>
+      <label class="image-compressor__checkbox">
+        <input type="checkbox" data-allow-resize checked>
+        <span>Allow further resizing to meet the file size limit</span>
+      </label>
+    </fieldset>
+    <fieldset class="image-compressor__constraints">
+      <legend>JPG quality</legend>
+      <div class="image-compressor__pair">
+        <label>
+          <span>Minimum quality (%)</span>
+          <input type="number" min="1" max="100" step="1" value="10" data-min-quality required inputmode="numeric">
+        </label>
+        <label>
+          <span>Maximum quality (%)</span>
+          <input type="number" min="1" max="100" step="1" value="95" data-max-quality required inputmode="numeric">
+        </label>
+      </div>
+      <p class="image-compressor__hint">Uses the highest quality within this range that fits. Set both values equal for a fixed quality. Higher minimum quality may require smaller dimensions.</p>
+    </fieldset>
+    <p class="image-compressor__hint">If your constraints cannot all be met, increase the file size limit, lower the minimum quality, or allow resizing. Very large images are limited to 8,192 px per side and 24 megapixels. 1 KB = 1,000 bytes.</p>
+    <button type="submit" data-compress disabled>Compress to JPG</button>
+    <p class="image-compressor__hint">For a batch, the same settings apply to every image. Download the successful JPGs together as a ZIP; any files that cannot be processed are listed below.</p>
+  </form>
+
+  <p class="image-compressor__status" data-status role="status" aria-live="polite" aria-atomic="true">Choose an image to get started.</p>
+  <div data-batch hidden>
+    <ol class="image-compressor__batch-list" data-batch-list aria-label="Batch files"></ol>
+    <a class="image-compressor__download" data-zip-download download="compressed-images.zip" hidden>Download ZIP</a>
+  </div>
+  <div class="image-compressor__previews">
+    <figure data-original hidden>
+      <figcaption><strong>Original</strong><span data-original-info></span></figcaption>
+      <img data-original-preview alt="Original image preview">
+    </figure>
+    <figure data-result hidden>
+      <figcaption><strong>JPG result</strong><span data-result-info></span></figcaption>
+      <img data-result-preview alt="Compressed JPG preview">
+      <a class="image-compressor__download" data-download download>Download JPG</a>
+    </figure>
+  </div>
+  <noscript>Enable JavaScript to process images locally in your browser.</noscript>
+</section>

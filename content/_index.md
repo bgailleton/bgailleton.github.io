@@ -4,6 +4,14 @@ description = "I am a geomorphologist and numerical modeller at the Université 
 
 
 [[news]]
+date = "2026-10-22"
+title = "CNES JC2: poster and reflections"
+summary = "Presenting my poster at CNES JC2 was a very nice experience!"
+link = "/blog/2026/cnes-jc2-poster/"
+cta = "Read the post and view the poster"
+note = "I enjoyed sharing my work on anticipating flood-induced morphological damage from high-resolution topography. The post includes the poster, a simulation video, and research details."
+
+[[news]]
 date = "2026-02-20"
 title = "New blog post: Generalised Swath Profile Tutorial"
 summary = "A full notebook-style walkthrough of transverse and longitudinal swaths, river-following baselines, and line simplification."

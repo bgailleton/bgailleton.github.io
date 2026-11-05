@@ -1,6 +1,11 @@
 {{ define "main" }}
   <article class="cnes-page prose">
     <header class="cnes-heading">
+      <div class="meta-line">
+        <a href="{{ "blog/" | relURL }}">Blog</a>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>
+        <span>{{ .ReadingTime }} min read</span>
+      </div>
       <p class="cnes-eyebrow">{{ .Title }}</p>
       <h1>{{ .Params.subtitle }}</h1>
     </header>

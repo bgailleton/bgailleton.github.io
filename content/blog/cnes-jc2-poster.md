@@ -1,11 +1,17 @@
 +++
 title = "CNES JC2 Poster"
 subtitle = "Anticipating flood-induced morphological damage from high-resolution topography"
-url = "/cnes-jc2-poster/"
-aliases = ["/cnes-jc2-poster"]
+date = 2026-10-22
+slug = "cnes-jc2-poster"
+aliases = ["/cnes-jc2-poster/"]
+summary = "Presenting my poster at CNES JC2 was a very nice experience. Here are the poster, simulation video, and research details."
+tags = ["conference", "floods", "topography"]
+draft = false
 math = false
 layout = "cnes-poster"
 +++
+
+Presenting my poster at CNES JC2 was a very nice experience! I enjoyed sharing my work on anticipating flood-induced morphological damage from high-resolution topography. You can find the poster, a simulation video, and more details below.
 
 {{< download src="/files/cnes-jc2-poster.pdf" label="Download poster" detail="PDF · 4 MB" >}}
 
