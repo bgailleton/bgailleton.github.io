@@ -1,0 +1,69 @@
+{{ define "main" }}
+  {{ $terrainHeight := resources.Get "images/hero-terrain-height.png" | resources.Fingerprint }}
+  <div class="home-topography">
+    <canvas class="contour-field" data-contour-field data-height="{{ $terrainHeight.RelPermalink }}" aria-hidden="true"></canvas>
+    <section class="hero hero--terrain">
+      <div class="hero__copy">
+        <h1>{{ site.Title }}</h1>
+        <p>{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.tagline }}{{ end }}</p>
+      </div>
+      <figure class="terrain-hero" aria-label="Illuminated three-dimensional terrain model">
+        <canvas data-terrain-hero data-height="{{ $terrainHeight.RelPermalink }}" aria-hidden="true"></canvas>
+        <div class="terrain-depth-scale" data-depth-scale role="img" aria-label="Flow depth colour scale from zero to three metres">
+          <div class="terrain-depth-scale__heading" aria-hidden="true">
+            <span>FLOW DEPTH <span class="terrain-depth-scale__unit">m</span></span>
+            <span class="terrain-depth-scale__max" data-depth-maximum>MAX 0.0</span>
+          </div>
+          <div class="terrain-depth-scale__track" data-depth-track aria-hidden="true">
+            <span class="terrain-depth-scale__marker" data-depth-marker></span>
+          </div>
+          <div class="terrain-depth-scale__ticks" aria-hidden="true">
+            <span>0</span><span>1</span><span>2</span><span>3</span>
+          </div>
+        </div>
+        <figcaption>Terrain study with Floodos running live · Kaikōura, New Zealand</figcaption>
+      </figure>
+    </section>
+
+    {{ range $item := first 1 (sort hugo.Data.news.items "date" "desc") }}
+      <section class="news-board">
+        <div class="news-header meta-line"><span>Latest update</span></div>
+        <details class="news-row">
+          <summary class="news-row__summary">
+            <span class="news-row__meta"><span class="news-row__dot"></span><span class="news-row__date">{{ (time $item.date) | time.Format "02 Jan 2006" }}</span></span>
+            <span class="news-row__text"><strong>{{ $item.title }}</strong><span class="news-row__snippet">{{ $item.summary }}</span></span>
+            {{ with $item.link }}<span class="news-row__link" aria-hidden="true">↗</span>{{ end }}
+          </summary>
+          <div class="news-row__body">{{ with $item.note }}<p>{{ . }}</p>{{ end }}{{ with $item.link }}<a class="news-row__cta" href="{{ . }}">{{ or $item.cta "Open" }} ↗</a>{{ end }}</div>
+        </details>
+      </section>
+    {{ end }}
+
+    {{ with .Params.sections }}
+    <div class="card-grid">
+      {{ range . }}
+        {{ partial "card.html" (dict
+          "class" "card"
+          "href" .url
+          "title" .title
+          "summary" .summary
+          "meta" (slice .label .tone)
+        ) }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <section>
+    <div class="meta-line"><span>Latest from the blog</span></div>
+    <div class="list-stack">
+      {{ range first 1 (where site.RegularPages "Section" "blog") }}
+        <article class="list-item">
+          <div class="meta-line">{{ partial "date.html" (dict "date" .Date) }}<span>{{ .ReadingTime }} min read</span></div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Summary }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

@@ -1,0 +1,18 @@
+{{- /*
+  Returns the names of the folders in assets/features/ this page uses.
+  A feature is active when a shortcode has the same name, or when the page
+  lists it in its `features` front matter. Any "*-demo" also pulls in demo-panel.
+*/ -}}
+{{- $page := . -}}
+{{- $declared := $page.Params.features | default slice -}}
+{{- $active := slice -}}
+{{- range resources.Match "features/*/*" -}}
+  {{- $name := path.Base (path.Dir .Name) -}}
+  {{- if or ($page.HasShortcode $name) (in $declared $name) -}}
+    {{- $active = $active | append $name -}}
+    {{- if strings.HasSuffix $name "-demo" -}}
+      {{- $active = $active | append "demo-panel" -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return uniq $active -}}

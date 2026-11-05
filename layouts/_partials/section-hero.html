@@ -1,0 +1,8 @@
+<section class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.description }}
+    <p>{{ . }}</p>
+  {{ else }}
+    {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+  {{ end }}
+</section>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ or site.Language.LanguageCode `en` }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
   <head>
     {{ partial "head.html" . }}
   </head>
@@ -15,7 +15,6 @@
 
       {{ partial "footer.html" . }}
     </div>
-    {{ block "scripts" . }}{{ end }}
-    {{ partial "demo-scripts.html" . }}
+    {{ partial "feature-scripts.html" . }}
   </body>
 </html>

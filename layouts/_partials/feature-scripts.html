@@ -1,0 +1,7 @@
+{{- range $name := partial "features.html" . }}
+  {{- with resources.Get (printf "features/%s/main.js" $name) }}
+    {{- $options := dict "targetPath" (printf "js/%s.js" $name) "format" "esm" "minify" true }}
+    {{- $js := . | js.Build $options | resources.Fingerprint }}
+    <script type="module" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+  {{- end }}
+{{- end }}

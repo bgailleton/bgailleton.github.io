@@ -4,7 +4,7 @@ date = 2026-02-08T17:30:00-05:00
 summary = "Notebook-style tutorial introducing transverse and longitudinal swath profiles in TopoToolbox, with river integration and practical parameter choices."
 tags = ["tutorial", "topotoolbox", "swath-profile", "geomorphology", "python"]
 draft = false
-notebook = true
+features = ["notebook"]
 +++
 
 ## Generalised swath profile

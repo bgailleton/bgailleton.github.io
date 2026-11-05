@@ -1,0 +1,15 @@
+{{- /*
+  Params: title, class, and optionally href, summary, meta (list of labels), tags.
+  Renders a link when href is set, a plain article otherwise.
+*/ -}}
+{{- define "_partials/card-body.html" -}}
+  {{- with .meta }}<div class="meta-line">{{ range . }}{{ with . }}<span>{{ . }}</span>{{ end }}{{ end }}</div>{{ end }}
+  <h2>{{ .title }}</h2>
+  {{- with .summary }}<p>{{ . }}</p>{{ end }}
+  {{- with .tags }}<div class="software-card__tags">{{ range . }}<span>{{ . }}</span>{{ end }}</div>{{ end }}
+{{- end -}}
+{{- if .href -}}
+  <a class="{{ .class }}" href="{{ .href }}">{{ partial "card-body.html" . }}</a>
+{{- else -}}
+  <article class="{{ .class }}">{{ partial "card-body.html" . }}</article>
+{{- end -}}

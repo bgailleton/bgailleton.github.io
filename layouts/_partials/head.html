@@ -1,0 +1,20 @@
+{{ $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ or .Params.description site.Params.description }}">
+<meta name="theme-color" content="{{ site.Params.background }}">
+{{ hugo.Generator }}
+
+{{ $core := slice (resources.Get "css/base.css") (resources.Get "css/components.css") }}
+{{ $style := $core | resources.Concat "css/site.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ partial "feature-styles.html" . }}
+
+{{ with .OutputFormats.Get "RSS" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">
+{{ end }}
+
+{{ if .Param "math" }}
+  {{ partial "math.html" . }}
+{{ end }}

@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ partial "section-hero.html" . }}
+
+  {{ with .Pages.ByWeight }}
+    <div class="software-grid">
+      {{ range . }}
+        {{ $class := "software-card" }}
+        {{ with .Params.cardStyle }}{{ $class = printf "software-card software-card--%s" . }}{{ end }}
+        {{ partial "card.html" (dict
+          "class" $class
+          "href" .RelPermalink
+          "title" .LinkTitle
+          "summary" (.Params.summary | default (.Plain | truncate 140))
+          "tags" .Params.tags
+        ) }}
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{ with .Content }}
+    <article class="list-item prose">{{ . }}</article>
+  {{ end }}
+{{ end }}

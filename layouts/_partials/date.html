@@ -1,0 +1,4 @@
+{{- /* Params: date, and optionally format (default "02 Jan 2006"). */ -}}
+{{- with .date -}}
+  <time datetime="{{ . | time.Format "2006-01-02" }}">{{ . | time.Format ($.format | default "02 Jan 2006") }}</time>
+{{- end -}}

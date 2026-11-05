@@ -1,0 +1,14 @@
+{{- /* Params: tone ("positive" by default, or "negative"), title, eyebrow, icon. */ -}}
+{{- $negative := eq (.Get "tone") "negative" -}}
+<section class="polarity-list polarity-list--{{ cond $negative "negative" "positive" }}">
+  <header class="polarity-list__header">
+    <span class="polarity-list__icon" aria-hidden="true">{{ .Get "icon" | default (cond $negative "!" "+") }}</span>
+    <div class="polarity-list__titles">
+      <p class="polarity-list__eyebrow">{{ .Get "eyebrow" | default (cond $negative "Pressure Points" "Bright Spots") }}</p>
+      <h3 class="polarity-list__title">{{ .Get "title" | default (cond $negative "Weaknesses" "Strengths") }}</h3>
+    </div>
+  </header>
+  <div class="polarity-list__body">
+    {{ .Page.RenderString (dict "display" "block") .Inner }}
+  </div>
+</section>

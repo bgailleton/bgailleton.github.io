@@ -1,4 +1,5 @@
 +++
+features = ["cnes-poster"]
 title = "CNES JC2 Poster"
 subtitle = "Anticipating flood-induced morphological damage from high-resolution topography"
 date = 2026-10-22
@@ -34,7 +35,7 @@ Our new method computes **400 km of the Waiau Toa / Clarence river valley in les
 {{< /cnes-block >}}
 
 {{< cnes-block kind="code" >}}
-**Code availability.** The code will be released as open source once stable. The current implementation builds on [pyfastflow](/research-softwares/pyfastflow/), [pytopotoolbox](/research-softwares/topotoolbox/) and [LSDTopoTools](/research-softwares/lsdtopotools/), combining GPU flow processing inspired by [FastFlow (Jain et al., 2024)](https://www-sop.inria.fr/reves/Basilic/2024/JKGFC24/ "FastFlow: GPU Acceleration of Flow and Depression Routing for Landscape Simulation — Inria GraphDeco") with [GraphFlood methods (Gailleton et al., 2024)](https://doi.org/10.5194/esurf-12-1295-2024) to accelerate convergence to a stationary solution in a hybrid local inertial solver.
+**Code availability.** The code will be released as open source once stable. The current implementation builds on [pyfastflow](/software/pyfastflow/), [pytopotoolbox](/software/topotoolbox/) and [LSDTopoTools](/software/lsdtopotools/), combining GPU flow processing inspired by [FastFlow (Jain et al., 2024)](https://www-sop.inria.fr/reves/Basilic/2024/JKGFC24/ "FastFlow: GPU Acceleration of Flow and Depression Routing for Landscape Simulation — Inria GraphDeco") with [GraphFlood methods (Gailleton et al., 2024)](https://doi.org/10.5194/esurf-12-1295-2024) to accelerate convergence to a stationary solution in a hybrid local inertial solver.
 {{< /cnes-block >}}
 
 {{< cnes-block kind="next" >}}

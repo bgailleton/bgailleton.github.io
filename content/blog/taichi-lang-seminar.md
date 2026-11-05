@@ -54,26 +54,26 @@ res = A.to_numpy()
 ```
 
 {{< polarity-pair >}}
-{{< strengths >}}
+{{< polarity >}}
 - Portable
 - Much more flexible than PyTorch / TensorFlow / JAX / CuPy (kernel-based vs vector-only)
 - Python-based (with limitations)
 - Extensive math library
 - Very flexible data structures
 - Advanced sparse data management
-{{< /strengths >}}
+{{< /polarity >}}
 
-{{< weaknesses >}}
+{{< polarity tone="negative" >}}
 - Heavy for large-scale projects
 - Implicit memory management (deallocation can be tricky; constant handling can be obscure)
 - Reductions are hard to optimize (no explicit control over shared memory)
 - Not as fine-grained as CUDA (e.g. persistent kernels are not possible)
-{{< /weaknesses >}}
+{{< /polarity >}}
 {{< /polarity-pair >}}
 
 ## pyfastflow
 
-Taichi Lang is the main engine behind pyfastflow, my GPU toolbox for flow processing. More information is available [here](https://bgailleton.github.io/research-softwares/pyfastflow/).
+Taichi Lang is the main engine behind pyfastflow, my GPU toolbox for flow processing. More information is available [here](https://bgailleton.github.io/software/pyfastflow/).
 
 To use Taichi as a full-fledged framework, I implemented a pool system to handle allocation and deallocation:
 

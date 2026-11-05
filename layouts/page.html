@@ -1,21 +1,12 @@
 {{ define "main" }}
-  {{ $isNotebook := or .Params.notebook .Params.jupyter }}
+  {{ $isNotebook := in .Params.features "notebook" }}
   <article class="list-item prose{{ if $isNotebook }} notebook-post{{ end }}">
-    {{ $showDate := ne .Section "my-research" }}
-    {{ if or $showDate .ReadingTime }}
-      <div class="meta-line">
-        {{ if $showDate }}
-          {{ if .PublishDate }}
-            <time datetime="{{ .PublishDate }}">{{ .PublishDate | time.Format "2 January 2006" }}</time>
-          {{ else }}
-            <time datetime="{{ .Date }}">{{ .Date | time.Format "2 January 2006" }}</time>
-          {{ end }}
-        {{ end }}
-        {{ if .ReadingTime }}
-          <span>{{ .ReadingTime }} min read</span>
-        {{ end }}
-      </div>
-    {{ end }}
+    <div class="meta-line">
+      {{ if not .Params.hideDate }}
+        {{ partial "date.html" (dict "date" .PublishDate "format" "2 January 2006") }}
+      {{ end }}
+      <span>{{ .ReadingTime }} min read</span>
+    </div>
 
     <h1>{{ .Title }}</h1>
     {{ with .Params.subtitle }}
@@ -25,27 +16,6 @@
     <div class="prose{{ if $isNotebook }} notebook-prose{{ end }}">
       {{ .Content }}
     </div>
-
-    {{ if and .Params.panels (not .Params.disableAutoPanels) }}
-      {{ with .Params.panels }}
-        <div class="card-grid research-panels">
-          {{ range . }}
-            {{ $link := .link }}
-            {{ if $link }}
-              <a class="card panel-card panel-card--link" href="{{ $link }}">
-              <h3>{{ .title }}</h3>
-              {{ with .summary }}<p>{{ . }}</p>{{ end }}
-            </a>
-          {{ else }}
-            <article class="card panel-card">
-              <h3>{{ .title }}</h3>
-              {{ with .summary }}<p>{{ . }}</p>{{ end }}
-            </article>
-            {{ end }}
-          {{ end }}
-        </div>
-      {{ end }}
-    {{ end }}
 
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </article>

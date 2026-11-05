@@ -3,7 +3,7 @@
     <header class="cnes-heading">
       <div class="meta-line">
         <a href="{{ "blog/" | relURL }}">Blog</a>
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>
+        {{ partial "date.html" (dict "date" .Date "format" "2 January 2006") }}
         <span>{{ .ReadingTime }} min read</span>
       </div>
       <p class="cnes-eyebrow">{{ .Title }}</p>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ partial "section-hero.html" . }}
+
+  <div class="card-grid research-panels">
+    {{ range .Pages.ByWeight }}
+      {{ partial "card.html" (dict
+        "class" "card panel-card panel-card--link"
+        "href" .RelPermalink
+        "title" .LinkTitle
+        "summary" (.Params.summary | default (.Plain | truncate 160))
+      ) }}
+    {{ end }}
+  </div>
+
+  {{ with .Content }}
+    <article class="list-item prose">{{ . }}</article>
+  {{ end }}
+{{ end }}
